@@ -12,7 +12,18 @@
 	"license": "ISC",
 	"packageManager": "pnpm@10.17.1",
 	"devDependencies": {
+		"@types/jsdom": "^27.0.0",
 		"@types/node": "^24.5.2",
-		"typescript": "^5.9.2"
+		"glob": "^11.0.3",
+		"jsdom": "^27.0.0",
+		"rehype-parse": "^9.0.1",
+		"rehype-remark": "^10.0.1",
+		"remark-stringify": "^11.0.0",
+		"tsx": "^4.20.6",
+		"typescript": "^5.9.2",
+		"unified": "^11.0.5"
+	},
+	"dependencies": {
+		"remark-gfm": "^4.0.1"
 	}
 }
