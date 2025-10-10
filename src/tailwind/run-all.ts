@@ -10,8 +10,13 @@
 
 import { spawn } from 'child_process';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
-const SCRIPTS_DIR = path.resolve(process.cwd(), 'src/tailwind');
+// Get the directory where this script is located
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const SCRIPTS_DIR = __dirname;
+const PROJECT_ROOT = path.resolve(__dirname, '../..');
 
 function runScript(scriptName: string): Promise<void> {
   return new Promise((resolve, reject) => {
@@ -23,6 +28,7 @@ function runScript(scriptName: string): Promise<void> {
     const childProcess = spawn('node', [scriptPath], {
       stdio: 'inherit',
       shell: true,
+      cwd: PROJECT_ROOT, // Run scripts from project root
     });
 
     childProcess.on('close', (code) => {

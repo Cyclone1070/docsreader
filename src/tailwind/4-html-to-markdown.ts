@@ -7,15 +7,20 @@
 import fs from 'fs/promises';
 import { glob } from 'glob';
 import path from 'path';
+import { fileURLToPath } from 'url';
 import rehypeParse from 'rehype-parse';
 import rehypeRemark from 'rehype-remark';
 import remarkGfm from 'remark-gfm';
 import remarkStringify from 'remark-stringify';
 import { unified } from 'unified';
 
-const TAILWIND_DIR = path.resolve(process.cwd(), 'docs/tailwindcss.com');
+// Get the directory where this script is located
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const PROJECT_ROOT = path.resolve(__dirname, '../..');
+const TAILWIND_DIR = path.resolve(PROJECT_ROOT, 'docs/tailwindcss.com');
 const CLEAN_HTML_DIR = path.join(TAILWIND_DIR, 'cleanHtml');
-const OUTPUT_DIR = path.resolve(process.cwd(), 'src/tailwind/markdown');
+const OUTPUT_DIR = path.resolve(PROJECT_ROOT, 'src/tailwind/markdown');
 
 interface ConversionStats {
   filesProcessed: number;

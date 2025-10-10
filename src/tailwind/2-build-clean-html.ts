@@ -7,8 +7,13 @@
 import { spawn } from "child_process";
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from "url";
 
-const TAILWIND_DIR = path.resolve(process.cwd(), "docs/tailwindcss.com");
+// Get the directory where this script is located
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const PROJECT_ROOT = path.resolve(__dirname, "../..");
+const TAILWIND_DIR = path.resolve(PROJECT_ROOT, "docs/tailwindcss.com");
 const OUTPUT_DIR = path.join(TAILWIND_DIR, "cleanHtml");
 
 async function patchNextConfig(): Promise<void> {

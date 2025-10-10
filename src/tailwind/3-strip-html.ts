@@ -9,8 +9,13 @@ import fs from "fs/promises";
 import { glob } from "glob";
 import { JSDOM } from "jsdom";
 import path from "path";
+import { fileURLToPath } from "url";
 
-const TAILWIND_DIR = path.resolve(process.cwd(), "docs/tailwindcss.com");
+// Get the directory where this script is located
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const PROJECT_ROOT = path.resolve(__dirname, "../..");
+const TAILWIND_DIR = path.resolve(PROJECT_ROOT, "docs/tailwindcss.com");
 const CLEAN_HTML_DIR = path.join(TAILWIND_DIR, "cleanHtml");
 
 interface StripStats {
