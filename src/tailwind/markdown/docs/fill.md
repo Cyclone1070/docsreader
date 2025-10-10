@@ -277,8 +277,6 @@ Use the `fill-current` utility to set the fill color to the current text color:
 
 Hover over the button to see the fill color change
 
-Check for updates
-
 ```
 <button class="bg-white text-indigo-600 hover:bg-indigo-600 hover:text-white ...">  <svg class="size-5 fill-current ...">    <!-- ... -->  </svg>  Check for updates</button>
 ```

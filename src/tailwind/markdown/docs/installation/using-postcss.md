@@ -2,8 +2,6 @@
 
 Installing Tailwind CSS as a PostCSS plugin is the most seamless way to integrate it with frameworks like Next.js and Angular.
 
-01
-
 #### Install Tailwind CSS
 
 Install `tailwindcss`, `@tailwindcss/postcss`, and `postcss` via npm.
@@ -13,8 +11,6 @@ Terminal
 ```
 npm install tailwindcss @tailwindcss/postcss postcss
 ```
-
-02
 
 #### Add Tailwind to your PostCSS configuration
 
@@ -26,8 +22,6 @@ postcss.config.mjs
 export default {  plugins: {    "@tailwindcss/postcss": {},  }}
 ```
 
-03
-
 #### Import Tailwind CSS
 
 Add an `@import` to your CSS file that imports Tailwind CSS.
@@ -38,8 +32,6 @@ CSS
 @import "tailwindcss";
 ```
 
-04
-
 #### Start your build process
 
 Run your build process with `npm run dev` or whatever command is configured in your `package.json` file.
@@ -49,8 +41,6 @@ Terminal
 ```
 npm run dev
 ```
-
-05
 
 #### Start using Tailwind in your HTML
 

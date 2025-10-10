@@ -46,10 +46,6 @@ Well we've got a new future now — `dvh`, `lvh`, and `svh` are designed to acco
 
 Scroll up and down in the viewport to hide/show the browser UI
 
-tailwindcss.com
-
-h-dvh
-
 ```
 <div class="h-dvh">  <!-- ... --></div>
 ```
@@ -80,10 +76,6 @@ The [`:has()` pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:ha
 
 Here's an example where the parent gets a colored ring if the radio button inside of it is checked:
 
-Payment method
-
-Google PayApple PayCredit Card
-
 ```
 <label class="has-[:checked]:bg-indigo-50 has-[:checked]:text-indigo-900 has-[:checked]:ring-indigo-500 ...">  <svg fill="currentColor">    <!-- ... -->  </svg>  Google Pay  <input type="radio" class="accent-indigo-500 ..." /></label>
 ```
@@ -107,28 +99,6 @@ This one is pretty bleeding edge but as of literally today it's now supported in
 Here's one people have wanted for literally ever — a way to style children from the parent using utility classes.
 
 We've added a new `*` variant that targets direct children, letting you do stuff like this:
-
-## [Categories](#categories)
-
-Sales
-
-Marketing
-
-SEO
-
-Analytics
-
-Design
-
-Strategy
-
-Security
-
-Growth
-
-Mobile
-
-UX/UI
 
 ```
 <div>  <h2>Categories:<h2>  <ul class="*:rounded-full *:border *:border-sky-100 *:bg-sky-50 *:px-2 *:py-0.5 dark:text-sky-300 dark:*:border-sky-500/15 dark:*:bg-sky-500/10 ...">    <li>Sales</li>    <li>Marketing</li>    <li>SEO</li>    <!-- ... -->  </ul></div>
@@ -160,10 +130,6 @@ You're sick of typing `h-5 w-5` every time you need to size an avatar, you know 
 
 In Tailwind CSS v3.4 we've finally added a new `size-*` utility that sets width and height at the same time:
 
-![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-HTML
-
 ```
 <div>  <img class="h-10 w-10" ...>  <img class="h-12 w-12" ...>  <img class="h-14 w-14" ...>  <img class="size-10" ...>  <img class="size-12" ...>  <img class="size-14" ...></div>
 ```
@@ -178,19 +144,11 @@ After using it for a few weeks though I can say decisively that even with the lo
 
 How much time have you spent fiddling with `max-width` or inserting responsive line breaks to try and make those little section headings wrap nicely on your landing pages? Well now you can spend zero time on it, because the browser can do it for you with `text-wrap: balance`:
 
-### [Beloved Manhattan soup stand closes](#beloved-manhattan-soup-stand-closes)
-
-New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.
-
 ```
 <article>  <h3 class="text-balance ...">Beloved Manhattan soup stand closes<h3>  <p>New Yorkers are facing the winter chill...</p></article>
 ```
 
 We've also added `text-pretty` which tries to avoid orphaned words at the end of paragraphs using `text-wrap: pretty`:
-
-### [Beloved Manhattan soup stand closes](#beloved-manhattan-soup-stand-closes)
-
-New Yorkers are facing the winter chill with less warmth this year as the city's most revered soup stand unexpectedly shutters, following a series of events that have left the community puzzled.
 
 ```
 <article class="text-pretty ...">  <h3>Beloved Manhattan soup stand closes<h3>  <p>New Yorkers are facing the winter chill...</p></article>

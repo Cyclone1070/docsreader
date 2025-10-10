@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in a Gatsby project.
 
-01
-
 #### Create your project
 
 Start by creating a new Gatsby project if you don’t have one set up already. The most common approach is to use [Gatsby CLI](https://www.gatsbyjs.com/docs/reference/gatsby-cli/#how-to-use-gatsby-cli).
@@ -15,8 +13,6 @@ Terminal
 ```
 gatsby new my-projectcd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install @tailwindcss/postcss tailwindcss postcss gatsby-plugin-postcss
 ```
 
-03
-
 #### Enable the Gatsby PostCSS plugin
 
 In your `gatsby-config.js` file, enable `gatsby-plugin-postcss`. See [the plugin's documentation](https://www.gatsbyjs.com/plugins/gatsby-plugin-postcss/) for more information.
@@ -39,8 +33,6 @@ gatsby-config.js
 ```
 module.exports = {  plugins: [    'gatsby-plugin-postcss',    // ...  ],}
 ```
-
-04
 
 #### Configure PostCSS Plugins
 
@@ -52,8 +44,6 @@ postcss.config.js
 module.exports = {  plugins: {    "@tailwindcss/postcss": {},  },};
 ```
 
-05
-
 #### Import Tailwind CSS
 
 Create a `./src/styles/global.css` file and add an `@import` for Tailwind CSS.
@@ -63,8 +53,6 @@ global.css
 ```
 @import "tailwindcss";
 ```
-
-06
 
 #### Import the CSS file
 
@@ -76,8 +64,6 @@ gatsby-browser.js
 import './src/styles/global.css';
 ```
 
-07
-
 #### Start your build process
 
 Run your build process with `gatsby develop`.
@@ -87,8 +73,6 @@ Terminal
 ```
 gatsby develop
 ```
-
-08
 
 #### Start using Tailwind in your project
 

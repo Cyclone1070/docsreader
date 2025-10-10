@@ -15,10 +15,6 @@ Utilities for controlling how an SVG mask is interpreted.
 
 Use the `mask-type-alpha` and `mask-type-luminance` utilities to control the type of an SVG mask:
 
-mask-type-alpha
-
-mask-type-luminance
-
 ```
 <svg>  <mask id="blob1" class="mask-type-alpha fill-gray-700/70">    <path d="..."></path>  </mask>  <image href="/img/mountains.jpg" height="100%" width="100%" mask="url(#blob1)" /></svg><svg>  <mask id="blob2" class="mask-type-luminance fill-gray-700/70">    <path d="..."></path>  </mask>  <image href="/img/mountains.jpg" height="100%" width="100%" mask="url(#blob2)" /></svg>
 ```

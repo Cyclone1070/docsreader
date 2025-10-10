@@ -19,18 +19,6 @@ Use utilities like `duration-150` and `duration-700` to set the transition durat
 
 Hover each button to see the expected behavior
 
-duration-150
-
-Button A
-
-duration-300
-
-Button B
-
-duration-700
-
-Button C
-
 ```
 <button class="transition duration-150 ease-in-out ...">Button A</button><button class="transition duration-300 ease-in-out ...">Button B</button><button class="transition duration-700 ease-in-out ...">Button C</button>
 ```

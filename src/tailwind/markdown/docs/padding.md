@@ -51,8 +51,6 @@ Show more
 
 Use `p-<number>` utilities like `p-4` and `p-8` to control the padding on all sides of an element:
 
-p-8
-
 ```
 <div class="p-8 ...">p-8</div>
 ```
@@ -60,14 +58,6 @@ p-8
 ### [Adding padding to one side](#adding-padding-to-one-side)
 
 Use `pt-<number>`, `pr-<number>`, `pb-<number>`, and `pl-<number>` utilities like `pt-6` and `pr-4` to control the padding on one side of an element:
-
-pt-6
-
-pr-4
-
-pb-8
-
-pl-2
 
 ```
 <div class="pt-6 ...">pt-6</div><div class="pr-4 ...">pr-4</div><div class="pb-8 ...">pb-8</div><div class="pl-2 ...">pl-2</div>
@@ -77,8 +67,6 @@ pl-2
 
 Use `px-<number>` utilities like `px-4` and `px-8` to control the horizontal padding of an element:
 
-px-8
-
 ```
 <div class="px-8 ...">px-8</div>
 ```
@@ -87,8 +75,6 @@ px-8
 
 Use `py-<number>` utilities like `py-4` and `py-8` to control the vertical padding of an element:
 
-py-8
-
 ```
 <div class="py-8 ...">py-8</div>
 ```
@@ -96,18 +82,6 @@ py-8
 ### [Using logical properties](#using-logical-properties)
 
 Use `ps-<number>` or `pe-<number>` utilities like `ps-4` and `pe-8` to set the `padding-inline-start` and `padding-inline-end` logical properties, which map to either the left or right side based on the text direction:
-
-Left-to-right
-
-ps-8
-
-pe-8
-
-Right-to-left
-
-ps-8
-
-pe-8
 
 ```
 <div>  <div dir="ltr">    <div class="ps-8 ...">ps-8</div>    <div class="pe-8 ...">pe-8</div>  </div>  <div dir="rtl">    <div class="ps-8 ...">ps-8</div>    <div class="pe-8 ...">pe-8</div>  </div></div>

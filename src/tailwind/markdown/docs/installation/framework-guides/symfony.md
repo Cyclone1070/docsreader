@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in a Symfony project.
 
-01
-
 #### Create your project
 
 Start by creating a new Symfony project if you don’t have one set up already. The most common approach is to use [the Symfony Installer](https://symfony.com/download).
@@ -15,8 +13,6 @@ Terminal
 ```
 symfony new --webapp my-projectcd my-project
 ```
-
-02
 
 #### Install Webpack Encore
 
@@ -28,8 +24,6 @@ Terminal
 composer remove symfony/ux-turbo symfony/asset-mapper symfony/stimulus-bundlecomposer require symfony/webpack-encore-bundle symfony/ux-turbo symfony/stimulus-bundle
 ```
 
-03
-
 #### Install Tailwind CSS
 
 Using npm, install `@tailwindcss/postcss` and its peer dependencies, as well as `postcss-loader`.
@@ -39,8 +33,6 @@ Terminal
 ```
 npm install tailwindcss @tailwindcss/postcss postcss postcss-loader
 ```
-
-04
 
 #### Enable PostCSS support
 
@@ -52,8 +44,6 @@ webpack.config.js
 Encore  .enablePostCssLoader();
 ```
 
-05
-
 #### Configure PostCSS Plugins
 
 Create a `postcss.config.mjs` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
@@ -63,8 +53,6 @@ postcss.config.mjs
 ```
 export default {  plugins: {    "@tailwindcss/postcss": {},  },};
 ```
-
-06
 
 #### Import Tailwind CSS
 
@@ -76,8 +64,6 @@ app.css
 @import "tailwindcss";@source not "../../public";
 ```
 
-07
-
 #### Start your build process
 
 Run your build process with `npm run watch`.
@@ -87,8 +73,6 @@ Terminal
 ```
 npm run watch
 ```
-
-08
 
 #### Start using Tailwind in your project
 

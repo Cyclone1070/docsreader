@@ -28,26 +28,6 @@ Utilities for controlling the font size of an element.
 
 Use utilities like `text-sm` and `text-lg` to set the font size of an element:
 
-text-sm
-
-The quick brown fox jumps over the lazy dog.
-
-text-base
-
-The quick brown fox jumps over the lazy dog.
-
-text-lg
-
-The quick brown fox jumps over the lazy dog.
-
-text-xl
-
-The quick brown fox jumps over the lazy dog.
-
-text-2xl
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="text-sm ...">The quick brown fox ...</p><p class="text-base ...">The quick brown fox ...</p><p class="text-lg ...">The quick brown fox ...</p><p class="text-xl ...">The quick brown fox ...</p><p class="text-2xl ...">The quick brown fox ...</p>
 ```
@@ -55,18 +35,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Setting the line-height](#setting-the-line-height)
 
 Use utilities like `text-sm/6` and `text-lg/7` to set the font size and line-height of an element at the same time:
-
-text-sm/6
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
-text-sm/7
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
-text-sm/8
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
 
 ```
 <p class="text-sm/6 ...">So I started to walk into the water...</p><p class="text-sm/7 ...">So I started to walk into the water...</p><p class="text-sm/8 ...">So I started to walk into the water...</p>

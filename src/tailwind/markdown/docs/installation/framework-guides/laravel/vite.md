@@ -7,8 +7,6 @@ Setting up Tailwind CSS in a Laravel project.
 - ## [Using Vite](/docs/installation/framework-guides/laravel/vite)
 - ## [Using Laravel Mix](/docs/installation/framework-guides/laravel/mix)
 
-01
-
 #### Create your project
 
 Start by creating a new Laravel project if you don’t have one set up already. The most common approach is to use [the Laravel installer](https://laravel.com/docs#creating-an-application).
@@ -18,8 +16,6 @@ Terminal
 ```
 laravel new my-projectcd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -31,8 +27,6 @@ Terminal
 npm install tailwindcss @tailwindcss/vite
 ```
 
-03
-
 #### Configure Vite Plugin
 
 Add the `@tailwindcss/vite` plugin to your Vite configuration.
@@ -42,8 +36,6 @@ vite.config.ts
 ```
 import { defineConfig } from 'vite'import tailwindcss from '@tailwindcss/vite'export default defineConfig({  plugins: [    tailwindcss(),    // …  ],})
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -55,8 +47,6 @@ app.css
 @import 'tailwindcss';@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';@source '../../storage/framework/views/*.php';@source '../**/*.blade.php';@source '../**/*.js';
 ```
 
-05
-
 #### Start your build process
 
 Run your build process with `npm run dev`.
@@ -66,8 +56,6 @@ Terminal
 ```
 npm run dev
 ```
-
-06
 
 #### Start using Tailwind in your project
 

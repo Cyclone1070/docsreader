@@ -20,8 +20,6 @@ Utilities for animating elements with CSS animations.
 
 Use the `animate-spin` utility to add a linear spin animation to elements like loading indicators:
 
-Processing…
-
 ```
 <button type="button" class="bg-indigo-500 ..." disabled>  <svg class="mr-3 size-5 animate-spin ..." viewBox="0 0 24 24">    <!-- ... -->  </svg>  Processing…</button>
 ```
@@ -29,8 +27,6 @@ Processing…
 ### [Adding a ping animation](#adding-a-ping-animation)
 
 Use the `animate-ping` utility to make an element scale and fade like a radar ping or ripple of water—useful for things like notification badges:
-
-Transactions
 
 ```
 <span class="relative flex size-3">  <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>  <span class="relative inline-flex size-3 rounded-full bg-sky-500"></span></span>

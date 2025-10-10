@@ -61,14 +61,6 @@ Show more
 
 Use `border` or `border-<number>` utilities like `border-2` and `border-4` to set the border width for all sides of an element:
 
-border
-
-border-2
-
-border-4
-
-border-8
-
 ```
 <div class="border border-indigo-600 ..."></div><div class="border-2 border-indigo-600 ..."></div><div class="border-4 border-indigo-600 ..."></div><div class="border-8 border-indigo-600 ..."></div>
 ```
@@ -76,14 +68,6 @@ border-8
 ### [Individual sides](#individual-sides)
 
 Use utilities like `border-r` and `border-t-4` to set the border width for one side of an element:
-
-border-t-4
-
-border-r-4
-
-border-b-4
-
-border-l-4
 
 ```
 <div class="border-t-4 border-indigo-500 ..."></div><div class="border-r-4 border-indigo-500 ..."></div><div class="border-b-4 border-indigo-500 ..."></div><div class="border-l-4 border-indigo-500 ..."></div>
@@ -93,10 +77,6 @@ border-l-4
 
 Use utilities like `border-x` and `border-y-4` to set the border width on two sides of an element at the same time:
 
-border-x-4
-
-border-y-4
-
 ```
 <div class="border-x-4 border-indigo-500 ..."></div><div class="border-y-4 border-indigo-500 ..."></div>
 ```
@@ -104,10 +84,6 @@ border-y-4
 ### [Using logical properties](#using-logical-properties)
 
 Use utilities like `border-s` and `border-e-4` to set the `border-inline-start-width` and `border-inline-end-width` [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts), which map to either the left or right border based on the text direction:
-
-Left-to-right
-
-Right-to-left
 
 ```
 <div dir="ltr">  <div class="border-s-4 ..."></div></div><div dir="rtl">  <div class="border-s-4 ..."></div></div>
@@ -117,12 +93,6 @@ Right-to-left
 
 Use utilities like `divide-x` and `divide-y-4` to add borders between child elements:
 
-01
-
-02
-
-03
-
 ```
 <div class="grid grid-cols-3 divide-x-4">  <div>01</div>  <div>02</div>  <div>03</div></div>
 ```
@@ -130,12 +100,6 @@ Use utilities like `divide-x` and `divide-y-4` to add borders between child elem
 #### [Reversing children order](#reversing-children-order)
 
 If your elements are in reverse order (using say `flex-row-reverse` or `flex-col-reverse`), use the `divide-x-reverse` or `divide-y-reverse` utilities to ensure the border is added to the correct side of each element:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex flex-col-reverse divide-y-4 divide-y-reverse divide-gray-200">  <div>01</div>  <div>02</div>  <div>03</div></div>

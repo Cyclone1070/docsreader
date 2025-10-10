@@ -48,20 +48,6 @@ Use `max-w-<number>` utilities like `max-w-24` and `max-w-64` to set an element 
 
 Resize the example to see the expected behavior
 
-max-w-96
-
-max-w-80
-
-max-w-64
-
-max-w-48
-
-max-w-40
-
-max-w-32
-
-max-w-24
-
 ```
 <div class="w-full max-w-96 ...">max-w-96</div><div class="w-full max-w-80 ...">max-w-80</div><div class="w-full max-w-64 ...">max-w-64</div><div class="w-full max-w-48 ...">max-w-48</div><div class="w-full max-w-40 ...">max-w-40</div><div class="w-full max-w-32 ...">max-w-32</div><div class="w-full max-w-24 ...">max-w-24</div>
 ```
@@ -72,14 +58,6 @@ Use `max-w-full` or `max-w-<fraction>` utilities like `max-w-1/2` and `max-w-2/5
 
 Resize the example to see the expected behavior
 
-max-w-9/10
-
-max-w-3/4
-
-max-w-1/2
-
-max-w-1/3
-
 ```
 <div class="w-full max-w-9/10 ...">max-w-9/10</div><div class="w-full max-w-3/4 ...">max-w-3/4</div><div class="w-full max-w-1/2 ...">max-w-1/2</div><div class="w-full max-w-1/3 ...">max-w-1/3</div>
 ```
@@ -89,12 +67,6 @@ max-w-1/3
 Use utilities like `max-w-sm` and `max-w-xl` to set an element to a fixed maximum width based on the container scale:
 
 Resize the example to see the expected behavior
-
-![](https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=facearea\&facepad=4\&w=256\&h=256\&q=80)
-
-Andrew Alfred
-
-Assistant to the Traveling Secretary
 
 ```
 <div class="max-w-md ...">  <!-- ... --></div>

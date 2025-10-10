@@ -74,6 +74,31 @@ async function stripHtmlFile(filePath: string): Promise<void> {
 			noscript.remove();
 		});
 
+		// Remove <figure> tags (contain visual previews we don't need)
+		const figures = document.querySelectorAll("figure");
+		figures.forEach((figure) => {
+			// Find the code block within the figure
+			const codeBlock = figure.querySelector("pre");
+			if (codeBlock && figure.parentNode) {
+				// Replace the entire figure with just the code block
+				figure.parentNode.replaceChild(codeBlock, figure);
+			} else {
+				// No code block found, remove entire figure (it's just a preview)
+				figure.remove();
+			}
+		});
+
+		// Remove step number badges (divs containing only numbers like "01", "02", etc.)
+		const allDivs = Array.from(document.querySelectorAll("div"));
+		allDivs.forEach((div) => {
+			const text = div.textContent?.trim() || "";
+			// Remove divs that contain ONLY a 2-digit number (step badges)
+			// but not if they have child elements (to avoid removing content containers)
+			if (/^\d{2}$/.test(text) && div.children.length === 0) {
+				div.remove();
+			}
+		});
+
 		// Strip attributes from all elements
 		if (document.body) {
 			stripElement(document.body);

@@ -56,30 +56,6 @@ Check out the [Sidebar layout documentation](https://catalyst.tailwindui.com/doc
 
 When we were working on the application layouts we realized we didn't have any great content to demo them with, so we cooked up a `DescriptionList` component to fill in that big empty space.
 
-- Customer
-
-  Michael Foster
-
-- Event
-
-  Bear Hug: Live in Concert
-
-- Amount
-
-  $150.00 USD
-
-- Amount after exchange rate
-
-  US$150.00 → CA$199.79
-
-- Fee
-
-  $4.79 USD
-
-- Net
-
-  $1,955.00
-
 ```
 import { DescriptionDetails, DescriptionList, DescriptionTerm } from "@/components/description-list";function Example() {  return (    <DescriptionList>      <DescriptionTerm>Customer</DescriptionTerm>      <DescriptionDetails>Michael Foster</DescriptionDetails>      <DescriptionTerm>Event</DescriptionTerm>      <DescriptionDetails>Bear Hug: Live in Concert</DescriptionDetails>      {/* ... */}    </DescriptionList>  );}
 ```
@@ -94,10 +70,6 @@ Check out the [Description list](https://catalyst.tailwindui.com/docs/descriptio
 
 More components we needed to make the demo look good! We've added `Heading` and `Subheading` components you can use to quickly and consistently title things in your UI.
 
-# Heading
-
-## [Subheading](#subheading)
-
 ```
 import { Heading, Subheading } from "@/components/heading";function Example() {  return (    <div>      <Heading>Heading</Heading>      <Subheading>Subheading</Subheading>    </div>  );}
 ```
@@ -111,8 +83,6 @@ See the [Heading](https://catalyst.tailwindui.com/docs/heading) documentation fo
 ## [Dividers](#dividers)
 
 Saved the best for last — Catalyst now includes a gray line you can put in between things.
-
-***
 
 ```
 import { Divider } from "@/components/divider";function Example() {  return <Divider />;}

@@ -62,27 +62,11 @@ We've been threatening to add text shadows for at least the last six years and t
 
 We've added five text shadows to the default theme, from `text-shadow-2xs` to `text-shadow-lg`. They are particularly useful for making headings stand out against a busy background:
 
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="text-shadow-2xs ...">The quick brown fox...</p><p class="text-shadow-xs ...">The quick brown fox...</p><p class="text-shadow-sm ...">The quick brown fox...</p><p class="text-shadow-md ...">The quick brown fox...</p><p class="text-shadow-lg ...">The quick brown fox...</p>
 ```
 
 You can change the color of the shadow using the `text-shadow-<color>` utilities. For instance, you can create a sort of embossed effect by using a small white shadow on dark text:
-
-Book a demo
-
-Book a demo
-
-See pricing
 
 ```
 <button class="text-sky-950 text-shadow-2xs text-shadow-sky-300 ...">Book a demo</button><button class="text-gray-950 dark:text-white dark:text-shadow-2xs ...">See pricing</button>
@@ -91,12 +75,6 @@ See pricing
 If you just want to adjust the opacity of a text shadow without changing the color, you can slap an opacity modifier directly on text shadow size utilities like `text-shadow-lg`.
 
 For example, `text-shadow-lg/50` is the same as setting `text-shadow-lg` and `text-shadow-black/50` at the same time:
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="text-shadow-lg ...">The quick brown fox...</p><p class="text-shadow-lg/20 ...">The quick brown fox...</p><p class="text-shadow-lg/30 ...">The quick brown fox...</p>
@@ -110,14 +88,6 @@ Check out the [`text-shadow`](/docs/text-shadow) docs for more details.
 
 One of the coolest features of modern CSS is the ability to use images and gradients as masks - basically using the opacity of an image to hide certain parts of an element:
 
-![](/_next/static/media/keyboard-light.4a0a59a0.png)![](/_next/static/media/keyboard-dark.d0689e65.png)
-
-Speed
-
-Built for power users
-
-Work faster than ever with our keyboard shortcuts
-
 ```
 <div class="mx-auto flex items-center p-16 max-sm:p-8">  <img    src="/img/keyboard.png"    class="mask-radial-from-transparent mask-radial-from-15% mask-radial-to-black mask-radial-to-55% mask-radial-at-right ..."  />  <div class="font-medium">    <p class="font-mono text-xs text-blue-500 uppercase dark:text-blue-400">Speed</p>    <p class="mt-2 text-base text-gray-700 dark:text-gray-300">Built for power users</p>    <p class="mt-1 text-sm leading-relaxed text-balance text-gray-500">      Work faster than ever with our keyboard shortcuts    </p>  </div></div>
 ```
@@ -125,14 +95,6 @@ Work faster than ever with our keyboard shortcuts
 Because you can use any `background-image` as a mask, the logical thing to do was to copy the `bg-*` utilities so they share the same API. The problem with that approach is you often want to combine multiple masks together and the `bg-*` utilities are not composable.
 
 So instead, we created a new set of utilities to work with `mask-image` that are composable and purpose-built for the masking use case. For example, you can use utilities like `mask-b-from-<value>` and `mask-t-to-<value>` to add a linear gradient mask to a single side of an element:
-
-mask-t-from-50%
-
-mask-r-from-30%
-
-mask-l-from-50% mask-l-to-90%
-
-mask-b-from-20% mask-b-to-80%
 
 ```
 <div class="mask-t-from-50% bg-[url(/img/mountains.jpg)] ..."></div><div class="mask-r-from-30% bg-[url(/img/mountains.jpg)] ..."></div><div class="mask-l-from-50% mask-l-to-90% bg-[url(/img/mountains.jpg)] ..."></div><div class="mask-b-from-20% mask-b-to-80% bg-[url(/img/mountains.jpg)] ..."></div>
@@ -179,8 +141,6 @@ To learn everything you need to know about browser compatibility in Tailwind CSS
 
 The new `overflow-wrap` utilities let you control how text wraps within an element. The `wrap-break-word` utility is especially useful for long words or URLs that might otherwise break your layout:
 
-The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
-
 ```
 <p class="wrap-break-word">The longest word in any of the major...</p>
 ```
@@ -188,22 +148,6 @@ The longest word in any of the major English language dictionaries is pneumonoul
 The one case where this doesn't quite behave like you'd expect is inside a flex container and that's where you probably want to use the new `wrap-anywhere` utility instead.
 
 It's similar to `wrap-break-word`, but it allows mid-word line breaks when calculating the intrinsic size of the element, replacing the need to set `min-width: 0` on the child element:
-
-wrap-break-word
-
-![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-Jay Riemenschneider
-
-jason.riemenschneider\@vandelayindustries.com
-
-wrap-anywhere
-
-![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-Jay Riemenschneider
-
-jason.riemenschneider\@vandelayindustries.com
 
 ```
 <div class="flex max-w-sm">  <img class="size-16 rounded-full" src="/img/profile.jpg" />  <div class="wrap-break-word">    <p class="font-medium">Jay Riemenschneider</p>    <p>jason.riemenschneider@vandelayindustries.com</p>  </div></div><div class="flex max-w-sm">  <img class="size-16 rounded-full" src="/img/profile.jpg" />  <div class="wrap-anywhere">    <p class="font-medium">Jay Riemenschneider</p>    <p>jason.riemenschneider@vandelayindustries.com</p>  </div></div>
@@ -218,12 +162,6 @@ There's not much more to it than that, but here's the [`overflow-wrap`](/docs/ov
 While we were building out `text-shadow` support we thought we might as well add another feature we never got around to implementing: colored drop shadows.
 
 Now you can use utilities like `drop-shadow-indigo-500` and `drop-shadow-cyan-500/50` to change the color of a drop shadow:
-
-drop-shadow-cyan-500/50
-
-drop-shadow-sky-500/50
-
-drop-shadow-indigo-500/50
 
 ```
 <svg class="fill-cyan-500 drop-shadow-xl drop-shadow-cyan-500/50 ...">...</svg><svg class="fill-blue-500 drop-shadow-xl drop-shadow-blue-500/50 ...">...</svg><svg class="fill-indigo-500 drop-shadow-xl drop-shadow-indigo-500/50 ...">...</svg>
@@ -241,12 +179,6 @@ Use `pointer-fine` to target precise pointing devices like mouses and trackpads,
 
 Try emulating a touch device in your developer tools to see the changes
 
-RAM
-
-[See performance specs](#)
-
-4 GB8 GB16 GB32 GB64 GB128 GB
-
 ```
 <fieldset aria-label="Choose a memory option">  <div class="flex items-center justify-between">    <div>RAM</div>    <a href="#"> See performance specs </a>  </div>  <div class="mt-4 grid grid-cols-6 gap-2 pointer-coarse:mt-6 pointer-coarse:grid-cols-3 pointer-coarse:gap-4">    <label class="p-2 pointer-coarse:p-4 ...">      <input type="radio" name="memory-option" value="4 GB" className="sr-only" />      <span>4 GB</span>    </label>    <!-- ... -->  </div></fieldset>
 ```
@@ -262,22 +194,6 @@ The `any-pointer-*` variants work the same way but instead of just checking the 
 When working with flex or grid layouts, sometimes you need to align something to the baseline of the last line of text rather than the end of the container.
 
 The new `items-baseline-last` utility does just that:
-
-![](https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg\&w=128\&q=80)
-
-Spencer Sharp
-
-Working on the future of astronaut recruitment at Space Recruit.
-
-[spacerecruit.com](#)
-
-![](https://images.unsplash.com/photo-1590895340509-793cb98788c9?q=80\&w=256\&h=256&\&auto=format\&fit=crop\&ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-Alex Reed
-
-A multidisciplinary designer.
-
-[alex-reed.com](#)
 
 ```
 <div class="grid grid-cols-[1fr_auto] items-baseline-last">  <div>    <img src="img/spencer-sharp.jpg" />    <h4>Spencer Sharp</h4>    <p>Working on the future of astronaut recruitment at Space Recruit.</p>  </div>  <p>spacerecruit.com</p></div>
@@ -295,38 +211,8 @@ The new `safe` alignment utilities will change the alignment to `start` when the
 
 Resize the container to see the alignment behavior
 
-justify-center
-
-- Sales
-- Marketing
-- SEO
-- Analytics
-- Design
-- Strategy
-- Growth
-- UX/UI
-
-justify-center-safe
-
-- Sales
-- Marketing
-- SEO
-- Analytics
-- Design
-- Strategy
-- Growth
-- UX/UI
-
-justify-center
-
 ```
 <ul class="flex justify-center gap-2 ...">  <li>Sales</li>  <li>Marketing</li>  <li>SEO</li>  <!-- ... --></ul>
-```
-
-justify-center-safe
-
-```
-<ul class="flex justify-center-safe gap-2 ...">  <li>Sales</li>  <li>Marketing</li>  <li>SEO</li>  <!-- ... --></ul>
 ```
 
 These utilities work with both flexbox and grid layouts, and are available for all alignment properties.
@@ -402,10 +288,6 @@ For more details, check out the [detecting classes in source files](/docs/detect
 While you could always add styles to the children of a `<details>` element, it's been impossible to style the content container itself.
 
 The new `details-content` variant targets the content container which is useful for positioning the content container relative to the `<summary>` element:
-
-Why do they call it Ovaltine?
-
-The mug is round. The jar is round. They should call it Roundtine.
 
 ```
 <details class="rounded-lg border border-transparent p-6 details-content:mt-3 details-content:-ml-0.5" open>  <summary class="text-sm leading-6 font-semibold text-gray-900 select-none dark:text-white">    Why do they call it Ovaltine?  </summary>  <div class="border-gray-200 bg-gray-50 py-3 pl-3 dark:border-white/10 dark:bg-gray-800/50 ...">    <p>The mug is round. The jar is round. They should call it Roundtine.</p>  </div></details>

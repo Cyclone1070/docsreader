@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in a Nuxt project.
 
-01
-
 #### Create your project
 
 Start by creating a new Nuxt project if you don’t have one set up already. The most common approach is to use [Create Nuxt](https://nuxt.com/docs/4.x/getting-started/installation#new-project).
@@ -15,8 +13,6 @@ Terminal
 ```
 npm create nuxt my-projectcd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install tailwindcss @tailwindcss/vite
 ```
 
-03
-
 #### Configure Vite Plugin
 
 Add the `@tailwindcss/vite` plugin to your Nuxt configuration as a Vite plugin.
@@ -39,8 +33,6 @@ nuxt.config.ts
 ```
 import tailwindcss from "@tailwindcss/vite";export default defineNuxtConfig({  compatibilityDate: "2025-07-15",  devtools: { enabled: true },  vite: {    plugins: [      tailwindcss(),    ],  },});
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -52,8 +44,6 @@ main.css
 @import "tailwindcss";
 ```
 
-05
-
 #### Add the CSS file globally
 
 Add your newly-created `./app/assets/css/main.css` to the `css` array in your `nuxt.config.ts` file.
@@ -64,8 +54,6 @@ nuxt.config.ts
 import tailwindcss from "@tailwindcss/vite";export default defineNuxtConfig({  compatibilityDate: "2025-07-15",  devtools: { enabled: true },  css: ['~/assets/css/main.css'],  vite: {    plugins: [      tailwindcss(),    ],  },});
 ```
 
-06
-
 #### Start your build process
 
 Run your build process with `npm run dev`.
@@ -75,8 +63,6 @@ Terminal
 ```
 npm run dev
 ```
-
-07
 
 #### Start using Tailwind in your project
 

@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in an Astro project.
 
-01
-
 #### Create your project
 
 Start by creating a new Astro project if you don't have one set up already. The most common approach is to use [create astro](https://docs.astro.build/en/install-and-setup/#install-from-the-cli-wizard).
@@ -15,8 +13,6 @@ Terminal
 ```
 npm create astro@latest my-projectcd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install tailwindcss @tailwindcss/vite
 ```
 
-03
-
 #### Configure Vite Plugin
 
 Add the `@tailwindcss/vite` plugin to your Vite plugins in your Astro config file.
@@ -39,8 +33,6 @@ astro.config.mjs
 ```
 // @ts-checkimport { defineConfig } from "astro/config";import tailwindcss from "@tailwindcss/vite";// https://astro.build/configexport default defineConfig({  vite: {    plugins: [tailwindcss()],  },});
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -52,8 +44,6 @@ global.css
 @import "tailwindcss";
 ```
 
-05
-
 #### Start your build process
 
 Run your build process with `npm run dev`.
@@ -63,8 +53,6 @@ Terminal
 ```
 npm run dev
 ```
-
-06
 
 #### Start using Tailwind in your project
 

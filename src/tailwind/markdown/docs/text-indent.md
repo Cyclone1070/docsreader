@@ -19,8 +19,6 @@ Utilities for controlling the amount of empty space shown before text in a block
 
 Use `indent-<number>` utilities like `indent-2` and `indent-8` to set the amount of empty space (indentation) that's shown before text in a block:
 
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
 ```
 <p class="indent-8">So I started to walk into the water...</p>
 ```
@@ -28,8 +26,6 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 ### [Using negative values](#using-negative-values)
 
 To use a negative text indent value, prefix the class name with a dash to convert it to a negative value:
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
 
 ```
 <p class="-indent-8">So I started to walk into the water...</p>

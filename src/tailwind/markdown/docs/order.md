@@ -20,12 +20,6 @@ Utilities for controlling the order of flex and grid items.
 
 Use `order-<number>` utilities like `order-1` and `order-3` to render flex and grid items in a different order than they appear in the document:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex justify-between ...">  <div class="order-3 ...">01</div>  <div class="order-1 ...">02</div>  <div class="order-2 ...">03</div></div>
 ```
@@ -33,12 +27,6 @@ Use `order-<number>` utilities like `order-1` and `order-3` to render flex and g
 ### [Ordering items first or last](#ordering-items-first-or-last)
 
 Use the `order-first` and `order-last` utilities to render flex and grid items first or last:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex justify-between ...">  <div class="order-last ...">01</div>  <div class="...">02</div>  <div class="order-first ...">03</div></div>

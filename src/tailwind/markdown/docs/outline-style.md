@@ -19,22 +19,6 @@ Utilities for controlling the style of an element's outline.
 
 Use utilities like `outline-solid` and `outline-dashed` to set the style of an element's outline:
 
-outline-solid
-
-Button A
-
-outline-dashed
-
-Button B
-
-outline-dotted
-
-Button C
-
-outline-double
-
-Button D
-
 ```
 <button class="outline-2 outline-offset-2 outline-solid ...">Button A</button><button class="outline-2 outline-offset-2 outline-dashed ...">Button B</button><button class="outline-2 outline-offset-2 outline-dotted ...">Button C</button><button class="outline-3 outline-offset-2 outline-double ...">Button D</button>
 ```
@@ -54,8 +38,6 @@ It is highly recommended to apply your own focus styling for accessibility when 
 ### [Removing outlines](#removing-outlines)
 
 Use the `outline-none` utility to completely remove the default browser outline on focused elements:
-
-Post
 
 ```
 <div class="focus-within:outline-2 focus-within:outline-indigo-600 ...">  <textarea class="outline-none ..." placeholder="Leave a comment..." />  <button class="..." type="button">Post</button></div>

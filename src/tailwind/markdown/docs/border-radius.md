@@ -195,14 +195,6 @@ Show more
 
 Use utilities like `rounded-sm` and `rounded-md` to apply different border radius sizes to an element:
 
-rounded-sm
-
-rounded-md
-
-rounded-lg
-
-rounded-xl
-
 ```
 <div class="rounded-sm ..."></div><div class="rounded-md ..."></div><div class="rounded-lg ..."></div><div class="rounded-xl ..."></div>
 ```
@@ -210,14 +202,6 @@ rounded-xl
 ### [Rounding sides separately](#rounding-sides-separately)
 
 Use utilities like `rounded-t-md` and `rounded-r-lg` to only round one side of an element:
-
-rounded-t-lg
-
-rounded-r-lg
-
-rounded-b-lg
-
-rounded-l-lg
 
 ```
 <div class="rounded-t-lg ..."></div><div class="rounded-r-lg ..."></div><div class="rounded-b-lg ..."></div><div class="rounded-l-lg ..."></div>
@@ -227,14 +211,6 @@ rounded-l-lg
 
 Use utilities like `rounded-tr-md` and `rounded-tl-lg` utilities to only round one corner of an element:
 
-rounded-tl-lg
-
-rounded-tr-lg
-
-rounded-br-lg
-
-rounded-bl-lg
-
 ```
 <div class="rounded-tl-lg ..."></div><div class="rounded-tr-lg ..."></div><div class="rounded-br-lg ..."></div><div class="rounded-bl-lg ..."></div>
 ```
@@ -242,10 +218,6 @@ rounded-bl-lg
 ### [Using logical properties](#using-logical-properties)
 
 Use utilities like `rounded-s-md` and `rounded-se-xl` to set the border radius using [logical properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Basic_concepts), which map to the appropriate corners based on the text direction:
-
-Left-to-right
-
-Right-to-left
 
 ```
 <div dir="ltr">  <div class="rounded-s-lg ..."></div></div><div dir="rtl">  <div class="rounded-s-lg ..."></div></div>
@@ -268,10 +240,6 @@ For more control, you can also use the [LTR and RTL modifiers](/docs/hover-focus
 
 Use the `rounded-full` utility to create pill buttons:
 
-rounded-full
-
-Save Changes
-
 ```
 <button class="rounded-full ...">Save Changes</button>
 ```
@@ -279,10 +247,6 @@ Save Changes
 ### [Removing the border radius](#removing-the-border-radius)
 
 Use the `rounded-none` utility to remove an existing border radius from an element:
-
-rounded-none
-
-Save Changes
 
 ```
 <button class="rounded-none ...">Save Changes</button>

@@ -19,8 +19,6 @@ Utilities for controlling the alignment of text.
 
 Use the `text-left` utility to left align the text of an element:
 
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
 ```
 <p class="text-left">So I started to walk into the water...</p>
 ```
@@ -28,8 +26,6 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 ### [Right aligning text](#right-aligning-text)
 
 Use the `text-right` utility to right align the text of an element:
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
 
 ```
 <p class="text-right">So I started to walk into the water...</p>
@@ -39,8 +35,6 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 
 Use the `text-center` utility to center the text of an element:
 
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
 ```
 <p class="text-center">So I started to walk into the water...</p>
 ```
@@ -48,8 +42,6 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 ### [Justifying text](#justifying-text)
 
 Use the `text-justify` utility to justify the text of an element:
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
 
 ```
 <p class="text-justify">So I started to walk into the water...</p>

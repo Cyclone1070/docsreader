@@ -71,18 +71,6 @@ People have been asking us for colored shadows for years, but supporting it in a
 
 After about five false starts, we finally figured out an approach we liked, and now Tailwind CSS v3.0 includes colored shadows:
 
-shadow-cyan-500/50
-
-Subscribe
-
-shadow-blue-500/50
-
-Subscribe
-
-shadow-indigo-500/50
-
-Subscribe
-
 ```
 <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...">Subscribe</button><button class="bg-blue-500 shadow-lg shadow-blue-500/50 ...">Subscribe</button><button class="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">Subscribe</button>
 ```
@@ -97,20 +85,6 @@ We've added a comprehensive set of utilities for the CSS Scroll Snap module, giv
 
 Scroll in the grid of images to see the expected behavior
 
-snap point
-
-![](https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=320\&h=160\&q=80)
-
-![](https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=320\&h=160\&q=80)
-
-![](https://images.unsplash.com/photo-1622890806166-111d7f6c7c97?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=320\&h=160\&q=80)
-
-![](https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=320\&h=160\&q=80)
-
-![](https://images.unsplash.com/photo-1575424909138-46b05e5919ec?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=320\&h=160\&q=80)
-
-![](https://images.unsplash.com/photo-1559333086-b0a56225a93c?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=320\&h=160\&q=80)
-
 ```
 <div class="snap-x ...">  <div class="snap-center ...">    <img src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?auto=format&fit=crop&w=320&h=160&q=80" />  </div>  <div class="snap-center ...">    <img src="https://images.unsplash.com/photo-1540206351-d6465b3ac5c1?auto=format&fit=crop&w=320&h=160&q=80" />  </div>  <div class="snap-center ...">    <img src="https://images.unsplash.com/photo-1622890806166-111d7f6c7c97?auto=format&fit=crop&w=320&h=160&q=80" />  </div>  <div class="snap-center ...">    <img src="https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?auto=format&fit=crop&w=320&h=160&q=80" />  </div>  <div class="snap-center ...">    <img src="https://images.unsplash.com/photo-1575424909138-46b05e5919ec?auto=format&fit=crop&w=320&h=160&q=80" />  </div>  <div class="snap-center ...">    <img src="https://images.unsplash.com/photo-1559333086-b0a56225a93c?auto=format&fit=crop&w=320&h=160&q=80" />  </div></div>
 ```
@@ -123,20 +97,6 @@ Start with the new [Scroll Margin](https://v3.tailwindcss.com/docs/scroll-margin
 
 We've added support for [columns](https://developer.mozilla.org/en-US/docs/Web/CSS/columns) — the newspaper layout kind. These are actually super useful, and are great for things like footer navigation layouts too.
 
-Expedita quo ea quod laborum ullam ipsum enim. Deleniti commodi et. Nam id laborum placeat natus eum. Aliquid aut aut soluta nesciunt culpa magni. Velit possimus autem et aut repudiandae culpa rerum. Qui blanditiis ut qui quia expedita necessitatibus sed. Autem sed ut saepe doloremque aut placeat voluptas ipsum.
-
-Eligendi error nisi recusandae velit numquam nihil aperiam enim. Eum et molestias. Id qui cum veritatis id ea quidem ea rerum saepe. Iste itaque fugiat sequi. Voluptatem quae minus. Maxime ullam ea praesentium recusandae vero est quas. Quia minima fugiat aut laborum impedit facere autem sit qui. Et eos et ullam necessitatibus. Ut voluptatem saepe natus itaque maiores sit repellat aut natus assumenda.
-
-Blanditiis ipsa officia dolores exercitationem nemo beatae voluptatem eos rerum velit asperiores. Non quisquam accusantium officia nisi eius necessitatibus.
-
-Quaerat quia ad voluptatem laudantium natus. Aut ipsa et numquam delectus aliquam. Recusandae libero consequatur dolorum. Animi culpa rerum molestiae ut non et molestias aliquid aut nemo. Sint dolorem dolorem. Iure dolorum amet ea sit perferendis.
-
-Et illum ut officia nisi commodi. Quia et mollitia possimus modi. Delectus aliquid quam eos consectetur.
-
-Accusantium et et qui non sed modi. Corrupti deserunt culpa eos vitae neque aperiam. Repellat tenetur fugit.
-
-Deleniti distinctio ad corrupti nisi. Mollitia qui est natus cumque. Officia dolor qui perferendis necessitatibus saepe excepturi asperiores quos voluptas. Est suscipit facere nihil expedita suscipit quibusdam. Quod cupiditate vero distinctio. Sed est soluta nostrum magnam et saepe blanditiis aut. Vero dolores repellendus et libero minima explicabo provident. Culpa aut dolorem est.
-
 ```
 <div class="columns-1 sm:columns-3 ...">  <p>...</p>  <!-- ... --></div>
 ```
@@ -148,12 +108,6 @@ Learn more in the [columns](https://v3.tailwindcss.com/docs/columns) documentati
 ## [Native form control styling](#native-form-control-styling)
 
 We've added support for the new accent-color property, as well as a modifier for styling file input buttons to make it easier than ever to put your own touch on native form controls:
-
-![Current profile photo](https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=1361\&q=80)
-
-Choose profile photo
-
-Yes, send me all your stupid updates
 
 ```
 <form>  <div class="flex items-center space-x-6">    <div class="shrink-0">      <img        class="h-16 w-16 rounded-full object-cover"        src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1361&q=80"        alt="Current profile photo"      />    </div>    <label class="block">      <span class="sr-only">Choose profile photo</span>      <input        type="file"        class="block w-full text-sm text-slate-500 file:mr-4 file:rounded-full file:border-0 file:bg-violet-50 file:py-2 file:text-sm file:font-semibold file:text-violet-700 hover:file:bg-violet-100"      />    </label>  </div>  <label class="mt-6 flex items-center justify-center space-x-2 text-sm font-medium text-slate-600">    <input type="checkbox" class="accent-violet-500" checked />    <span>Yes, send me all your stupid updates</span>  </label></form>
@@ -190,8 +144,6 @@ Learn more in the [aspect ratio](https://v3.tailwindcss.com/docs/aspect-ratio) d
 ## [Fancy underline styles](#fancy-underline-styles)
 
 Now you can change underline colors, thickness, and more:
-
-I’m Derek, an astro-engineer based in Tatooine. I like to build X-Wings at [My Company, Inc](#). Outside of work, I like to [watch pod-racing](#) and have [light-saber](#) fights.
 
 ```
 <p>  I’m Derek, an astro-engineer based in Tatooine. I like to build X-Wings at  <a href="#" class="underline decoration-sky-500 decoration-2"> My Company, Inc </a>. Outside of work, I like to{" "}  <a href="#" class="underline decoration-pink-500 decoration-dotted decoration-2"> watch pod-racing </a> and have  <a href="#" class="underline decoration-indigo-500 decoration-wavy decoration-2"> light-saber </a>{" "} fights.</p>

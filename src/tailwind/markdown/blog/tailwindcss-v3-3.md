@@ -100,22 +100,6 @@ We've made it possible to style multi-directional websites using our [LTR and RT
 
 Using new utilities like `ms-3` and `me-3`, you can style the *start* and *end* of an element so that your styles automatically adapt in RTL, instead of writing code like `ltr:ml-3 rtl:mr-3`:
 
-Left-to-right
-
-![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-Tom Cook
-
-Director of Operations
-
-Right-to-left
-
-![](https://images.unsplash.com/photo-1563833717765-00462801314e?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-تامر كرم
-
-الرئيس التنفيذي
-
 ```
 <div class="group flex items-center">  <img class="h-12 w-12 shrink-0 rounded-full" src="..." alt="" />  <div class="ltr:ml-3 rtl:mr-3">    <div class="ms-3">      <p        class="text-sm font-medium text-slate-700 group-hover:text-slate-900"        dark-class="text-sm font-medium text-slate-300 group-hover:text-white"      >        ...      </p>      <p        class="text-sm font-medium text-slate-500 group-hover:text-slate-700"        dark-class="text-sm font-medium text-slate-500 group-hover:text-slate-300"      >        ...      </p>    </div>  </div></div>
 ```
@@ -155,14 +139,6 @@ These should save you a ton of code if you regularly build sites that need to su
 
 We've added new utilities like `from-5%`, `via-35%`, and `to-85%` that let you adjust the actual position of each color stop in your gradients:
 
-10%
-
-30%
-
-90%
-
-}
-
 ```
 <div class="bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-30% to-pink-500 to-90% ...">  <!-- ... --></div>
 ```
@@ -180,14 +156,6 @@ For more details, check out the [gradient color stops documentation](https://v3.
 ## [Line-clamp out of the box](#line-clamp-out-of-the-box)
 
 We released our [official line-clamp plugin](/blog/multi-line-truncation-with-tailwindcss-line-clamp) just over two years ago and even though it uses a bunch of weird deprecated `-webkit-*` stuff, it works in every browser and it's going to work forever, so we decided to just bake it into the framework itself.
-
-Mar 10, 2020
-
-## [Boost your conversion rate](#boost-your-conversion-rate)
-
-Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat mollit incididunt deserunt sunt. Ut ut sunt laborum ex occaecat eu tempor labore enim adipisicing minim ad. Est in quis eu dolore occaecat excepteur fugiat dolore nisi aliqua fugiat enim ut cillum. Labore enim duis nostrud eu. Est ut eiusmod consequat irure quis deserunt ex. Enim laboris dolor magna pariatur. Dolor et ad sint voluptate sunt elit mollit officia ad enim sit consectetur enim.
-
-![](https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)Lindsay Walton
 
 ```
 <article>  <div>    <time datetime="2020-03-16" class="block text-sm/6 text-gray-600">Mar 10, 2020</time>    <h2 class="mt-2 text-lg font-semibold text-gray-900">Boost your conversion rate</h2>    >    <p class="mt-4 line-clamp-3 text-sm/6 text-gray-600">      Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat mollit incididunt deserunt sunt. Ut ut      sunt laborum ex occaecat eu tempor labore enim adipisicing minim ad. Est in quis eu dolore occaecat excepteur      fugiat dolore nisi aliqua fugiat enim ut cillum. Labore enim duis nostrud eu. Est ut eiusmod consequat irure quis      deserunt ex. Enim laboris dolor magna pariatur. Dolor et ad sint voluptate sunt elit mollit officia ad enim sit      consectetur enim.    </p>  </div>  <div class="mt-4 flex gap-x-2.5 text-sm leading-6 font-semibold text-gray-900">    <img src="..." class="h-6 w-6 flex-none rounded-full bg-gray-50" />    Lindsay Walton  </div></article>
@@ -263,10 +231,6 @@ In the example above we're using a recent release of [Inter](https://github.com/
 
 Ever wanted to use a picture of a carrot as your list item marker? Well now you can, with the new `list-image-*` utilities.
 
-- 5 cups chopped Porcini mushrooms
-- 1/2 cup of olive oil
-- 3lb of celery
-
 ```
 <ul class="list-image-[url(/carrot.png)] ...">  <li>5 cups chopped Porcini mushrooms</li>  <!-- ... --></ul>
 ```
@@ -283,8 +247,6 @@ Ever heard of the `&shy;` HTML entity? Me neither until we added support for the
 
 Using `hyphens-manual` and a carefully placed `&shy;`, you can tell the browser where to insert a hyphen when it needs to break a word across multiple lines:
 
-Officially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeug­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
-
 ```
 <p class="hyphens-manual ...">... Kraftfahrzeug&shy;haftpflichtversicherung is a ...</p>
 ```
@@ -298,12 +260,6 @@ Check out the [hyphens documentation](https://v3.tailwindcss.com/docs/hyphens) t
 ## [New `caption-side` utilities](#new-caption-side-utilities)
 
 Another new one for me — the `<caption>` element! We've got new `caption-*` utilities you can use on table captions to control whether they appear at the top or bottom of the table they're attached to.
-
-| Wrestler                  | Signature Move(s)                   |
-| ------------------------- | ----------------------------------- |
-| "Stone Cold" Steve Austin | Stone Cold Stunner, Lou Thesz Press |
-| Bret "The Hitman" Hart    | The Sharpshooter                    |
-| Razor Ramon               | Razor's Edge, Fallaway Slam         |
 
 ```
 <table>  <caption class="caption-bottom">    Table 3.1: Professional wrestlers and their signature moves.  </caption>  <thead>    <tr>      <th>Wrestler</th>      <th>Signature Move(s)</th>    </tr>  </thead>  <tbody>    <tr>      <td>"Stone Cold" Steve Austin</td>      <td>Stone Cold Stunner, Lou Thesz Press</td>    </tr>    <tr>      <td>Bret "The Hitman" Hart</td>      <td>The Sharpshooter</td>    </tr>    <tr>      <td>Razor Ramon</td>      <td>Razor's Edge, Fallaway Slam</td>    </tr>  </tbody></table>

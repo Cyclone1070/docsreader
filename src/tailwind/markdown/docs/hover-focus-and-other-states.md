@@ -10,8 +10,6 @@ For example, to apply the `bg-sky-700` class on hover, use the `hover:bg-sky-700
 
 Hover over this button to see the background color change
 
-Save changes
-
 ```
 <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
 ```
@@ -62,8 +60,6 @@ Style elements on hover, focus, and active using the `hover`, `focus`, and `acti
 
 Try interacting with this button to see the hover, focus, and active states
 
-Save changes
-
 ```
 <button class="bg-violet-500 hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700 ...">  Save changes</button>
 ```
@@ -76,43 +72,11 @@ See the [pseudo-class reference](#pseudo-class-reference) for a complete list of
 
 Style an element when it is the first-child or last-child using the `first` and `last` variants:
 
-- ![](https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Kristen Ramos
-
-  kristen.ramos\@example.com
-
-- ![](https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Floyd Miles
-
-  floyd.miles\@example.com
-
-- ![](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Courtney Henry
-
-  courtney.henry\@example.com
-
-- ![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Ted Fox
-
-  ted.fox\@example.com
-
 ```
 <ul role="list">  {#each people as person}    <!-- Remove top/bottom padding when first/last child -->    <li class="flex py-4 first:pt-0 last:pb-0">      <img class="h-10 w-10 rounded-full" src={person.imageUrl} alt="" />      <div class="ml-3 overflow-hidden">        <p class="text-sm font-medium text-gray-900 dark:text-white">{person.name}</p>        <p class="truncate text-sm text-gray-500 dark:text-gray-400">{person.email}</p>      </div>    </li>  {/each}</ul>
 ```
 
 You can also style an element when it's an odd or even child using the `odd` and `even` variants:
-
-| Name            | Title                        | Email                        |
-| --------------- | ---------------------------- | ---------------------------- |
-| Jane Cooper     | Regional Paradigm Technician | jane.cooper\@example.com     |
-| Cody Fisher     | Product Directives Officer   | cody.fisher\@example.com     |
-| Leonard Krasner | Senior Designer              | leonard.krasner\@example.com |
-| Emily Selman    | VP, Hardware Engineering     | emily.selman\@example.com    |
-| Anna Roberts    | Chief Strategy Officer       | anna.roberts\@example.com    |
 
 ```
 <table>  <!-- ... -->  <tbody>    {#each people as person}      <!-- Use different background colors for odd and even rows -->      <tr class="odd:bg-white even:bg-gray-50 dark:odd:bg-gray-900/50 dark:even:bg-gray-950">        <td>{person.name}</td>        <td>{person.title}</td>        <td>{person.email}</td>      </tr>    {/each}  </tbody></table>
@@ -136,14 +100,6 @@ Style form elements in different states using variants like `required`, `invalid
 
 Try making the email address valid to see the styles change
 
-Username
-
-Email
-
-Password
-
-Save changes
-
 ```
 <input  type="text"  value="tbone"  disabled  class="invalid:border-pink-500 invalid:text-pink-600 focus:border-sky-500 focus:outline focus:outline-sky-500 focus:invalid:border-pink-500 focus:invalid:outline-pink-500 disabled:border-gray-200 disabled:bg-gray-50 disabled:text-gray-500 disabled:shadow-none dark:disabled:border-gray-700 dark:disabled:bg-gray-800/20 ..."/>
 ```
@@ -158,10 +114,6 @@ See the [pseudo-class reference](#pseudo-class-reference) for a complete list of
 
 Use the `has-*` variant to style an element based on the state or content of its descendants:
 
-Payment method
-
-Google PayApple PayCredit Card
-
 ```
 <label  class="has-checked:bg-indigo-50 has-checked:text-indigo-900 has-checked:ring-indigo-200 dark:has-checked:bg-indigo-950 dark:has-checked:text-indigo-200 dark:has-checked:ring-indigo-900 ...">  <svg fill="currentColor">    <!-- ... -->  </svg>  Google Pay  <input type="radio" class="checked:border-indigo-500 ..." /></label>
 ```
@@ -172,32 +124,6 @@ You can use `has-*` with a pseudo-class, like `has-[:focus]`, to style an elemen
 
 If you need to style an element based on the descendants of a parent element, you can mark the parent with the `group` class and use the `group-has-*` variant to style the target element:
 
-![](https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg\&w=128\&q=80)
-
-Spencer Sharp
-
-Product Designer at [planeteria.tech](#)
-
-![](https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80\&w=256\&h=256\&auto=format\&fit=crop\&ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-Casey Jordan
-
-Just happy to be here.
-
-![](https://images.unsplash.com/photo-1590895340509-793cb98788c9?q=80\&w=256\&h=256&\&auto=format\&fit=crop\&ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-Alex Reed
-
-A multidisciplinary designer, working at the intersection of art and technology.\
-\
-[alex-reed.com](#)
-
-![](https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80\&w=256\&h=256\&auto=format\&fit=crop\&ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-Taylor Bailey
-
-Pushing pixels. Slinging divs.
-
 ```
 <div class="group ...">  <img src="..." />  <h4>Spencer Sharp</h4>  <svg class="hidden group-has-[a]:block ..."><!-- ... --></svg>  <p>Product Designer at <a href="...">planeteria.tech</a></p></div>
 ```
@@ -205,14 +131,6 @@ Pushing pixels. Slinging divs.
 #### [Styling based on the descendants of a peer](#styling-based-on-the-descendants-of-a-peer)
 
 If you need to style an element based on the descendants of a sibling element, you can mark the sibling with the `peer` class and use the `peer-has-*` variant to style the target element:
-
-Today
-
-Create a to do list
-
-Check off first item
-
-Investigate race condition
 
 ```
 <div>  <label class="peer ...">    <input type="checkbox" name="todo[1]" checked />    Create a to do list  </label>  <svg class="peer-has-checked:hidden ..."><!-- ... --></svg></div>
@@ -225,8 +143,6 @@ Use the `not-` variant to style an element when a condition is not true.
 It's particularly powerful when combined with other pseudo-class variants, for example combining `not-focus:` with `hover:` to only apply hover styles when an element is not focused:
 
 Try focusing on the button and then hovering over it
-
-Save changes
 
 ```
 <button class="bg-indigo-600 hover:not-focus:bg-indigo-700">  <!-- ... --></button>
@@ -244,10 +160,6 @@ When you need to style an element based on the state of some *parent* element, m
 
 Hover over the card to see both text elements change color
 
-[New project](#)
-
-[Create a new project from a variety of starting templates.](#)
-
 ```
 <a href="#" class="group ...">  <div>    <svg class="stroke-sky-500 group-hover:stroke-white ..." fill="none" viewBox="0 0 24 24">      <!-- ... -->    </svg>    <h3 class="text-gray-900 group-hover:text-white ...">New project</h3>  </div>  <p class="text-gray-500 group-hover:text-white ...">Create a new project from a variety of starting templates.</p></a>
 ```
@@ -257,30 +169,6 @@ This pattern works with every pseudo-class variant, for example `group-focus`, `
 #### [Differentiating nested groups](#differentiating-nested-groups)
 
 When nesting groups, you can style something based on the state of a *specific* parent group by giving that parent a unique group name using a `group/{name}` class, and including that name in variants using classes like `group-hover/{name}`:
-
-- ![](https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  [Leslie Abbott](#)
-
-  Co-Founder / CEO
-
-  [Call](#)
-
-- ![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  [Hector Adams](#)
-
-  VP, Marketing
-
-  [Call](#)
-
-- ![](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  [Blake Alexander](#)
-
-  Account Coordinator
-
-  [Call](#)
 
 ```
 <ul role="list">  {#each people as person}    <li class="group/item ...">      <!-- ... -->      <a class="group/edit invisible group-hover/item:visible ..." href="tel:{person.phone}">        <span class="group-hover/edit:text-gray-700 ...">Call</span>        <svg class="group-hover/edit:translate-x-0.5 group-hover/edit:text-gray-500 ..."><!-- ... --></svg>      </a>    </li>  {/each}</ul>
@@ -326,10 +214,6 @@ When you need to style an element based on the state of a *sibling* element, mar
 
 Try making the email address valid to see the warning disappear
 
-Email
-
-Please provide a valid email address.
-
 ```
 <form>  <label class="block">    <span class="...">Email</span>    <input type="email" class="peer ..." />    <p class="invisible peer-invalid:visible ...">Please provide a valid email address.</p>  </label></form>
 ```
@@ -349,14 +233,6 @@ Won't work, only previous siblings can be marked as peers
 #### [Differentiating peers](#differentiating-peers)
 
 When using multiple peers, you can style something on the state of a *specific* peer by giving that peer a unique name using a `peer/{name}` class, and including that name in variants using classes like `peer-checked/{name}`:
-
-Published status
-
-DraftPublished
-
-Drafts are only visible to administrators.
-
-Your post will be publicly visible on your site.
 
 ```
 <fieldset>  <legend>Published status</legend>  <input id="draft" class="peer/draft" type="radio" name="status" checked />  <label for="draft" class="peer-checked/draft:text-sky-500">Draft</label>  <input id="published" class="peer/published" type="radio" name="status" />  <label for="published" class="peer-checked/published:text-sky-500">Published</label>  <div class="hidden peer-checked/draft:block">Drafts are only visible to administrators.</div>  <div class="hidden peer-checked/published:block">Your post will be publicly visible on your site.</div></fieldset>
@@ -392,15 +268,11 @@ Generated CSS
 
 Style the `::before` and `::after` pseudo-elements using the `before` and `after` variants:
 
-Email
-
 ```
 <label>  <span class="text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*'] ...">Email</span>  <input type="email" name="email" class="..." placeholder="you@example.com" /></label>
 ```
 
 When using these variants, Tailwind will automatically add `content: ''` by default so you don't have to specify it unless you want a different value:
-
-> When you look annoyed all the time, people think that you're busy.
 
 ```
 <blockquote class="text-center text-2xl font-semibold text-gray-900 italic dark:text-white">  When you look  <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">    <span class="relative text-white dark:text-gray-950">annoyed</span>  </span>  all the time, people think that you're busy.</blockquote>
@@ -420,8 +292,6 @@ Save `before` and `after` for situations where it's important that the content o
 
 Style the placeholder text of any input or textarea using the `placeholder` variant:
 
-Search
-
 ```
 <input  class="placeholder:text-gray-500 placeholder:italic ..."  placeholder="Search for anything..."  type="text"  name="search"/>
 ```
@@ -430,10 +300,6 @@ Search
 
 Style the button in file inputs using the `file` variant:
 
-![Current profile photo](https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=1361\&q=80)
-
-Choose profile photo
-
 ```
 <input  type="file"  class="file:mr-4 file:rounded-full file:border-0 file:bg-violet-50 file:px-4 file:py-2 file:text-sm file:font-semibold file:text-violet-700 hover:file:bg-violet-100 dark:file:bg-violet-600 dark:file:text-violet-100 dark:hover:file:bg-violet-500 ..."/>
 ```
@@ -441,12 +307,6 @@ Choose profile photo
 ### [::marker](#marker)
 
 Style the counters or bullets in lists using the `marker` variant:
-
-## [Ingredients](#ingredients)
-
-- 5 cups chopped Porcini mushrooms
-- 1/2 cup of olive oil
-- 3lb of celery
 
 ```
 <ul role="list" class="list-disc marker:text-sky-400 ...">  <li>5 cups chopped Porcini mushrooms</li>  <li>1/2 cup of olive oil</li>  <li>3lb of celery</li></ul>
@@ -459,8 +319,6 @@ We've designed the `marker` variant to be inheritable, so although you can use i
 Style the active text selection using the `selection` variant:
 
 Try selecting some of this text with your mouse
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
 
 ```
 <div class="selection:bg-fuchsia-300 selection:text-fuchsia-900">  <p>    So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my    way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all    living things but I tell you Jerry at that moment, I <em>was</em> a marine biologist.  </p></div>
@@ -477,10 +335,6 @@ This makes it easy to set the selection color to match your brand across your en
 ### [::first-line and ::first-letter](#first-line-and-first-letter)
 
 Style the first line in a block of content using the `first-line` variant, and the first letter using the `first-letter` variant:
-
-Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"? Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.
-
-Sure, go ahead, laugh if you want to. I've seen your type before: Flashy, making the scene, flaunting convention. Yeah, I know what you're thinking. What's this guy making such a big stink about old library books? Well, let me give you a hint, junior.
 
 ```
 <div class="text-gray-700">  <p    class="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase"  >    Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"?  </p>  <p class="mt-6">Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.</p></div>
@@ -522,18 +376,6 @@ The `prefers-color-scheme` media query tells you whether the user prefers a ligh
 
 Use utilities with no variant to target light mode, and use the `dark` variant to provide overrides for dark mode:
 
-Light mode
-
-Writes upside-down
-
-The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
-
-Dark mode
-
-Writes upside-down
-
-The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
-
 ```
 <div class="bg-white dark:bg-gray-900 ...">  <!-- ... -->  <h3 class="text-gray-900 dark:text-white ...">Writes upside-down</h3>  <p class="text-gray-500 dark:text-gray-400 ...">    The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.  </p></div>
 ```
@@ -547,8 +389,6 @@ The `prefers-reduced-motion` media query tells you if the user has requested tha
 Use the `motion-reduce` variant to conditionally add styles when the user has requested reduced motion:
 
 Try emulating \`prefers-reduced-motion: reduce\` in your developer tools to hide the spinner
-
-Processing...
 
 ```
 <button type="button" class="bg-indigo-500 ..." disabled>  <svg class="animate-spin motion-reduce:hidden ..." viewBox="0 0 24 24"><!-- ... --></svg>  Processing...</button>
@@ -568,10 +408,6 @@ Use the `contrast-more` variant to conditionally add styles when the user has re
 
 Try emulating \`prefers-contrast: more\` in your developer tools to see the changes
 
-Social Security Number
-
-We need this to steal your identity.
-
 ```
 <label class="block">  <span class="block text-sm font-medium text-gray-700">Social Security Number</span>  <input    class="border-gray-200 placeholder-gray-400 contrast-more:border-gray-400 contrast-more:placeholder-gray-500 ..."  />  <p class="text-gray-600 opacity-10 contrast-more:opacity-100 ...">We need this to steal your identity.</p></label>
 ```
@@ -585,16 +421,6 @@ The `forced-colors` media query indicates if the user is using a forced colors m
 Use the `forced-colors` variant to conditionally add styles when the user has enabled a forced color mode:
 
 Try emulating \`forced-colors: active\` in your developer tools to see the changes
-
-Choose a theme:
-
-Cyan
-
-Blue
-
-Indigo
-
-Purple
 
 ```
 <label>  <input type="radio" class="appearance-none forced-colors:appearance-auto" />  <p class="hidden forced-colors:block">Cyan</p>  <div class="bg-cyan-200 forced-colors:hidden ..."></div>  <div class="bg-cyan-500 forced-colors:hidden ..."></div></label>
@@ -623,12 +449,6 @@ The `pointer` media query tells you whether the user has a primary pointing devi
 Use the `pointer-fine` variant to target an accurate pointing device, like a mouse or trackpad, or the `pointer-coarse` variant to target a less accurate pointing device, like a touchscreen, which can be useful for providing larger click targets on touch devices:
 
 Try emulating a touch device in your developer tools to see the changes
-
-RAM
-
-[See performance specs](#)
-
-4 GB8 GB16 GB32 GB64 GB128 GB
 
 ```
 <fieldset aria-label="Choose a memory option">  <div class="flex items-center justify-between">    <div>RAM</div>    <a href="#"> See performance specs </a>  </div>  <div class="mt-4 grid grid-cols-6 gap-2 pointer-coarse:mt-6 pointer-coarse:grid-cols-3 pointer-coarse:gap-4">    <label class="p-2 pointer-coarse:p-4 ...">      <input type="radio" name="memory-option" value="4 GB" className="sr-only" />      <span>4 GB</span>    </label>    <!-- ... -->  </div></fieldset>
@@ -738,16 +558,6 @@ You can customize which `aria-*` variants are available by creating a new varian
 
 If you need to use a one-off `aria` variant that doesn’t make sense to include in your project, or for more complex ARIA attributes that take specific values, use square brackets to generate a property on the fly using any arbitrary value:
 
-| Invoice # | Client                      | Amount     |
-| --------- | --------------------------- | ---------- |
-| #100      | Pendant Publishing          | $2,000.00  |
-| #101      | Kruger Industrial Smoothing | $545.00    |
-| #102      | J. Peterman                 | $10,000.25 |
-
-HTML
-
-Generated CSS
-
 ```
 <table>  <thead>    <tr>      <th        aria-sort="ascending"        class="aria-[sort=ascending]:bg-[url('/img/down-arrow.svg')] aria-[sort=descending]:bg-[url('/img/up-arrow.svg')]"      >        Invoice #      </th>      <!-- ... -->    </tr>  </thead>  <!-- ... --></table>
 ```
@@ -796,22 +606,6 @@ You can then use these custom `data-*` variants in your project:
 
 Use the `rtl` and `ltr` variants to conditionally add styles in right-to-left and left-to-right modes respectively when building multi-directional layouts:
 
-Left-to-right
-
-![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-Tom Cook
-
-Director of Operations
-
-Right-to-left
-
-![](https://images.unsplash.com/photo-1563833717765-00462801314e?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-تامر كرم
-
-الرئيس التنفيذي
-
 ```
 <div class="group flex items-center">  <img class="h-12 w-12 shrink-0 rounded-full" src="..." alt="" />  <div class="ltr:ml-3 rtl:mr-3">    <p class="text-gray-700 group-hover:text-gray-900 ...">...</p>    <p class="text-gray-500 group-hover:text-gray-700 ...">...</p>  </div></div>
 ```
@@ -823,10 +617,6 @@ Remember, these variants are only useful if you are building a site that needs t
 Use the `open` variant to conditionally add styles when a `<details>` or `<dialog>` element is in an open state:
 
 Try toggling the disclosure to see the styles change
-
-Why do they call it Ovaltine?
-
-The mug is round. The jar is round. They should call it Roundtine.
 
 ```
 <details class="border border-transparent open:border-black/10 open:bg-gray-100 ..." open>  <summary class="text-sm leading-6 font-semibold text-gray-900 select-none">Why do they call it Ovaltine?</summary>  <div class="mt-3 text-sm leading-6 text-gray-600">    <p>The mug is round. The jar is round. They should call it Roundtine.</p>  </div></details>
@@ -842,20 +632,6 @@ This variant also targets the `:popover-open` pseudo-class for popovers:
 
 The `inert` variant lets you style elements marked with the `inert` attribute:
 
-Notification preferences
-
-Custom
-
-Comments
-
-Get notified when someones posts a comment on a post.
-
-Mentions
-
-Get notified when someones mentions you.
-
-Everything
-
 ```
 <form>  <legend>Notification preferences</legend>  <fieldset>    <input type="radio" />    <label> Custom </label>    <fieldset inert class="inert:opacity-50">      <!-- ... -->    </fieldset>    <input type="radio" />    <label> Everything </label>  </fieldset></form>
 ```
@@ -867,28 +643,6 @@ This is useful for adding visual cues that make it clear that sections of conten
 ### [Styling direct children](#styling-direct-children)
 
 While it's generally preferable to put utility classes directly on child elements, you can use the `*` variant in situations where you need to style direct children that you don’t have control over:
-
-## [Categories](#categories)
-
-Sales
-
-Marketing
-
-SEO
-
-Analytics
-
-Design
-
-Strategy
-
-Security
-
-Growth
-
-Mobile
-
-UX/UI
 
 ```
 <div>  <h2>Categories<h2>  <ul class="*:rounded-full *:border *:border-sky-100 *:bg-sky-50 *:px-2 *:py-0.5 dark:text-sky-300 dark:*:border-sky-500/15 dark:*:bg-sky-500/10 ...">    <li>Sales</li>    <li>Marketing</li>    <li>SEO</li>    <!-- ... -->  </ul></div>
@@ -905,24 +659,6 @@ Won't work, children can't override styles given to them by the parent.
 ### [Styling all descendants](#styling-all-descendants)
 
 Like `*`, the `**` variant can be used to style children of an element. The main difference is that `**` will apply styles to *all* descendants, not just the direct children. This is especially useful when you combine it with another variant for narrowing the thing you're selecting:
-
-- ![](https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  [Leslie Abbott](#)
-
-  Co-Founder / CEO
-
-- ![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  [Hector Adams](#)
-
-  VP, Marketing
-
-- ![](https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  [Blake Alexander](#)
-
-  Account Coordinator
 
 ```
 <ul class="**:data-avatar:size-12 **:data-avatar:rounded-full ...">  {#each items as item}    <li>      <img src={item.src} data-avatar />      <p>{item.name}</p>    </li>  {/each}</ul>

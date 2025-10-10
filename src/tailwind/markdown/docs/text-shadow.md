@@ -271,16 +271,6 @@ Show more
 
 Use utilities like `text-shadow-sm` and `shadow-lg` to apply different sized text shadows to a text element:
 
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="text-shadow-2xs ...">The quick brown fox...</p><p class="text-shadow-xs ...">The quick brown fox...</p><p class="text-shadow-sm ...">The quick brown fox...</p><p class="text-shadow-md ...">The quick brown fox...</p><p class="text-shadow-lg ...">The quick brown fox...</p>
 ```
@@ -288,12 +278,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Changing the opacity](#changing-the-opacity)
 
 Use the opacity modifier to adjust the opacity of the text shadow:
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="text-shadow-lg ...">The quick brown fox...</p><p class="text-shadow-lg/20 ...">The quick brown fox...</p><p class="text-shadow-lg/30 ...">The quick brown fox...</p>
@@ -304,12 +288,6 @@ The default text shadow opacities are quite low (20% or less), so increasing the
 ### [Setting the shadow color](#setting-the-shadow-color)
 
 Use utilities like `text-shadow-indigo-500` and `text-shadow-cyan-500/50` to change the color of a text shadow:
-
-Book a demo
-
-Book a demo
-
-See pricing
 
 ```
 <button class="text-sky-950 text-shadow-2xs text-shadow-sky-300 ...">Book a demo</button><button class="text-gray-950 dark:text-white dark:text-shadow-2xs ...">See pricing</button>

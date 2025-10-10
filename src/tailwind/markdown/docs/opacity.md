@@ -16,22 +16,6 @@ Utilities for controlling the opacity of an element.
 
 Use `opacity-<number>` utilities like `opacity-25` and `opacity-100` to set the opacity of an element:
 
-opacity-100
-
-Button A
-
-opacity-75
-
-Button B
-
-opacity-50
-
-Button C
-
-opacity-25
-
-Button D
-
 ```
 <button class="bg-indigo-500 opacity-100 ..."></button><button class="bg-indigo-500 opacity-75 ..."></button><button class="bg-indigo-500 opacity-50 ..."></button><button class="bg-indigo-500 opacity-25 ..."></button>
 ```

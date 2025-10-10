@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in an Angular project.
 
-01
-
 #### Create your project
 
 Start by creating a new Angular project if you don’t have one set up already. The most common approach is to use [Angular CLI](https://angular.dev/tools/cli/setup-local).
@@ -15,8 +13,6 @@ Terminal
 ```
 ng new my-project --style csscd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install tailwindcss @tailwindcss/postcss postcss --force
 ```
 
-03
-
 #### Configure PostCSS Plugins
 
 Create a `.postcssrc.json` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
@@ -39,8 +33,6 @@ Create a `.postcssrc.json` file in the root of your project and add the `@tailwi
 ```
 {  "plugins": {    "@tailwindcss/postcss": {}  }}
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -52,8 +44,6 @@ styles.css
 @import "tailwindcss";
 ```
 
-05
-
 #### Start your build process
 
 Run your build process with `ng serve`.
@@ -63,8 +53,6 @@ Terminal
 ```
 ng serve
 ```
-
-06
 
 #### Start using Tailwind in your project
 

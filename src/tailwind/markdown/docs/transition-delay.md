@@ -18,18 +18,6 @@ Use utilities like `delay-150` and `delay-700` to set the transition delay of an
 
 Hover each button to see the expected behavior
 
-delay-150
-
-Button A
-
-delay-300
-
-Button B
-
-delay-700
-
-Button C
-
 ```
 <button class="transition delay-150 duration-300 ease-in-out ...">Button A</button><button class="transition delay-300 duration-300 ease-in-out ...">Button B</button><button class="transition delay-700 duration-300 ease-in-out ...">Button C</button>
 ```

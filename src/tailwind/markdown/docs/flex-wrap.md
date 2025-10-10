@@ -16,12 +16,6 @@ Utilities for controlling how flex items wrap.
 
 Use `flex-nowrap` to prevent flex items from wrapping, causing inflexible items to overflow the container if necessary:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex flex-nowrap">  <div>01</div>  <div>02</div>  <div>03</div></div>
 ```
@@ -30,12 +24,6 @@ Use `flex-nowrap` to prevent flex items from wrapping, causing inflexible items 
 
 Use `flex-wrap` to allow flex items to wrap:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex flex-wrap">  <div>01</div>  <div>02</div>  <div>03</div></div>
 ```
@@ -43,12 +31,6 @@ Use `flex-wrap` to allow flex items to wrap:
 ### [Wrap reversed](#wrap-reversed)
 
 Use `flex-wrap-reverse` to wrap flex items in the reverse direction:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex flex-wrap-reverse">  <div>01</div>  <div>02</div>  <div>03</div></div>

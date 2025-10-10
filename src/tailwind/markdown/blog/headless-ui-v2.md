@@ -63,10 +63,6 @@ Check out the [anchor positioning documentation](https://headlessui.com/react/me
 
 We've added a new headless `Checkbox` component to complement our existing `RadioGroup` component, making it easy to build totally custom checkbox controls:
 
-Enable beta features
-
-This will give you early access to any awesome new features we're developing.
-
 ```
 import { Checkbox, Description, Field, Label } from "@headlessui/react";import { CheckmarkIcon } from "./icons/checkmark";import clsx from "clsx";function Example() {  return (    <Field>      <Checkbox        defaultChecked        className={clsx(          "size-4 rounded border bg-white dark:bg-white/5",          "data-[checked]:border-transparent data-[checked]:bg-blue-500",          "focus:outline-none data-[focus]:outline-2 data-[focus]:outline-offset-2 data-[focus]:outline-blue-500",        )}      >        <CheckmarkIcon className="stroke-white opacity-0 group-data-[checked]:opacity-100" />      </Checkbox>      <div>        <Label>Enable beta features</Label>        <Description>This will give you early access to any awesome new features we're developing.</Description>      </div>    </Field>  );}
 ```
@@ -97,18 +93,6 @@ The new `Field` and `Fieldset` components also cascade disabled states like the 
 
 Select a country to see the region field become enabled
 
-Shipping details
-
-Street address
-
-Country
-
-We currently only ship to North America.
-
-Region
-
-Submit
-
 ```
 import { Button, Description, Field, Fieldset, Input, Label, Legend, Select } from "@headlessui/react";import { regions } from "./countries";export function Example() {  const [country, setCountry] = useState(null);  return (    <form action="/shipping">      <Fieldset>        <Legend>Shipping details</Legend>        <Field>          <Label>Street address</Label>          <Input name="address" />        </Field>        <Field>          <Label>Country</Label>          <Description>We currently only ship to North America.</Description>          <Select name="country" value={country} onChange={(event) => setCountry(event.target.value)}>            <option></option>            <option>Canada</option>            <option>Mexico</option>            <option>United States</option>          </Select>        </Field>        <Field disabled={!country}>          <Label className="data-[disabled]:opacity-40">State/province</Label>          <Select name="region" className="data-[disabled]:opacity-50">            <option></option>            {country && regions[country].map((region) => <option>{region}</option>)}          </Select>        </Field>        <Button>Submit</Button>      </Fieldset>    </form>  );}
 ```
@@ -131,30 +115,8 @@ Using hooks from the awesome [React Aria](https://react-spectrum.adobe.com/react
 
 Click, hover, focus, and drag the button to see the data attributes applied
 
-Submit
-
 ```
 <!-- Rendered `Button` --><button class="bg-indigo-600 data-[active]:bg-indigo-700 data-[focus]:outline data-[hover]:bg-indigo-500 ...">  Submit</button>
-```
-
-```
-<!-- Rendered `Button` --><button data-hover class="bg-indigo-600 data-[active]:bg-indigo-700 data-[focus]:outline data-[hover]:bg-indigo-500 ...">  Submit</button>
-```
-
-```
-<!-- Rendered `Button` --><button data-focus class="bg-indigo-600 data-[active]:bg-indigo-700 data-[focus]:outline data-[hover]:bg-indigo-500 ...">  Submit</button>
-```
-
-```
-<!-- Rendered `Button` --><button data-active class="bg-indigo-600 data-[active]:bg-indigo-700 data-[focus]:outline data-[hover]:bg-indigo-500 ...">  Submit</button>
-```
-
-```
-<!-- Rendered `Button` --><button data-focus data-hover class="bg-indigo-600 data-[active]:bg-indigo-700 data-[focus]:outline data-[hover]:bg-indigo-500 ...">  Submit</button>
-```
-
-```
-<!-- Rendered `Button` --><button data-active data-hover class="bg-indigo-600 data-[active]:bg-indigo-700 data-[focus]:outline data-[hover]:bg-indigo-500 ...">  Submit</button>
 ```
 
 To learn more about why applying these styles using JavaScript is important, I highly recommend reading through Devon Govett's excellent blog series on this topic:
@@ -174,8 +136,6 @@ We've integrated [TanStack Virtual](https://tanstack.com/virtual/latest) into He
 Use the new `virtual` prop to pass in all of your items, and use the `ComboboxOptions` render prop to provide the template for an individual option:
 
 Open the combobox and scroll through the 1,000 options
-
-Select user
 
 ```
 import { Combobox, ComboboxButton, ComboboxInput, ComboboxOption, ComboboxOptions } from "@headlessui/react";import { ChevronDownIcon } from "@heroicons/react/20/solid";import { useState } from "react";const people = [  { id: 1, name: "Rossie Abernathy" },  { id: 2, name: "Juana Abshire" },  { id: 3, name: "Leonel Abshire" },  { id: 4, name: "Llewellyn Abshire" },  { id: 5, name: "Ramon Abshire" },  // ...up to 1000 people];function Example() {  const [query, setQuery] = useState("");  const [selected, setSelected] = useState(people[0]);  const filteredPeople =    query === ""      ? people      : people.filter((person) => {          return person.name.toLowerCase().includes(query.toLowerCase());        });  return (    <Combobox      value={selected}      virtual={{ options: filteredPeople }}      onChange={(value) => setSelected(value)}      onClose={() => setQuery("")}    >      <div>        <ComboboxInput displayValue={(person) => person?.name} onChange={(event) => setQuery(event.target.value)} />        <ComboboxButton>          <ChevronDownIcon />        </ComboboxButton>      </div>      <ComboboxOptions>        {({ option: person }) => (          <ComboboxOption key={person.id} value={person}>            {person.name}          </ComboboxOption>        )}      </ComboboxOptions>    </Combobox>  );}

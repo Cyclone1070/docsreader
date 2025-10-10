@@ -264,18 +264,6 @@ Show more
 
 Use utilities like `outline-rose-500` and `outline-lime-100` to control the color of an element's outline:
 
-outline-blue-500
-
-Button A
-
-outline-cyan-500
-
-Button B
-
-outline-pink-500
-
-Button C
-
 ```
 <button class="outline-2 outline-offset-2 outline-blue-500 ...">Button A</button><button class="outline-2 outline-offset-2 outline-cyan-500 ...">Button B</button><button class="outline-2 outline-offset-2 outline-pink-500 ...">Button C</button>
 ```
@@ -283,18 +271,6 @@ Button C
 ### [Changing the opacity](#changing-the-opacity)
 
 Use the color opacity modifier to control the opacity of an element's outline color:
-
-outline-blue-500/100
-
-Button A
-
-outline-blue-500/75
-
-Button B
-
-outline-blue-500/50
-
-Button C
 
 ```
 <button class="outline-2 outline-blue-500/100 ...">Button A</button><button class="outline-2 outline-blue-500/75 ...">Button B</button><button class="outline-2 outline-blue-500/50 ...">Button C</button>

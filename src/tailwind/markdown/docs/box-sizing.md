@@ -17,10 +17,6 @@ Use the `box-border` utility to set an element's `box-sizing` to `border-box`, t
 
 This means a 100px × 100px element with a 2px border and 4px of padding on all sides will be rendered as 100px × 100px, with an internal content area of 88px × 88px:
 
-128px
-
-128px
-
 ```
 <div class="box-border size-32 border-4 p-4 ...">  <!-- ... --></div>
 ```
@@ -32,10 +28,6 @@ Tailwind makes this the default for all elements in our [preflight base styles](
 Use the `box-content` utility to set an element's `box-sizing` to `content-box`, telling the browser to add borders and padding on top of the element's specified width or height.
 
 This means a 100px × 100px element with a 2px border and 4px of padding on all sides will actually be rendered as 112px × 112px, with an internal content area of 100px × 100px:
-
-128px
-
-128px
 
 ```
 <div class="box-content size-32 border-4 p-4 ...">  <!-- ... --></div>

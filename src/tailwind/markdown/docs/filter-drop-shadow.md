@@ -272,12 +272,6 @@ Show more
 
 Use utilities like `drop-shadow-sm` and `drop-shadow-xl` to add a drop shadow to an element:
 
-drop-shadow-md
-
-drop-shadow-lg
-
-drop-shadow-xl
-
 ```
 <svg class="drop-shadow-md ...">  <!-- ... --></svg><svg class="drop-shadow-lg ...">  <!-- ... --></svg><svg class="drop-shadow-xl ...">  <!-- ... --></svg>
 ```
@@ -288,12 +282,6 @@ This is useful for applying shadows to irregular shapes, like text and SVG eleme
 
 Use the opacity modifier to adjust the opacity of the drop shadow:
 
-drop-shadow-xl
-
-drop-shadow-xl/25
-
-drop-shadow-xl/50
-
 ```
 <svg class="fill-white drop-shadow-xl ...">...</svg><svg class="fill-white drop-shadow-xl/25 ...">...</svg><svg class="fill-white drop-shadow-xl/50 ...">...</svg>
 ```
@@ -303,10 +291,6 @@ The default drop shadow opacities are quite low (15% or less), so increasing the
 ### [Setting the shadow color](#setting-the-shadow-color)
 
 Use utilities like `drop-shadow-indigo-500` and `drop-shadow-cyan-500/50` to change the color of a drop shadow:
-
-drop-shadow-cyan-500/50
-
-drop-shadow-indigo-500/50
 
 ```
 <svg class="fill-cyan-500 drop-shadow-lg drop-shadow-cyan-500/50 ...">...</svg><svg class="fill-indigo-500 drop-shadow-lg drop-shadow-indigo-500/50 ...">...</svg>

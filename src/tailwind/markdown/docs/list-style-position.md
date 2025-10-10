@@ -15,18 +15,6 @@ Utilities for controlling the position of bullets and numbers in lists.
 
 Use utilities like `list-inside` and `list-outside` to control the position of the markers and text indentation in a list:
 
-list-inside
-
-- 5 cups chopped Porcini mushrooms
-- 1/2 cup of olive oil
-- 3lb of celery
-
-list-outside
-
-- 5 cups chopped Porcini mushrooms
-- 1/2 cup of olive oil
-- 3lb of celery
-
 ```
 <ul class="list-inside">  <li>5 cups chopped Porcini mushrooms</li>  <!-- ... --></ul><ul class="list-outside">  <li>5 cups chopped Porcini mushrooms</li>  <!-- ... --></ul>
 ```

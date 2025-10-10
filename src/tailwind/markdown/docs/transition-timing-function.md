@@ -22,18 +22,6 @@ Use utilities like `ease-in` and `ease-out` to control the easing curve of an el
 
 Hover each button to see the expected behavior
 
-ease-in
-
-Button A
-
-ease-out
-
-Button B
-
-ease-in-out
-
-Button C
-
 ```
 <button class="duration-300 ease-in ...">Button A</button><button class="duration-300 ease-out ...">Button B</button><button class="duration-300 ease-in-out ...">Button C</button>
 ```

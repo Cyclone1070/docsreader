@@ -21,18 +21,6 @@ Utilities for controlling the tracking, or letter spacing, of an element.
 
 Use utilities like `tracking-tight` and `tracking-wide` to set the letter spacing of an element:
 
-tracking-tight
-
-The quick brown fox jumps over the lazy dog.
-
-tracking-normal
-
-The quick brown fox jumps over the lazy dog.
-
-tracking-wide
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="tracking-tight ...">The quick brown fox ...</p><p class="tracking-normal ...">The quick brown fox ...</p><p class="tracking-wide ...">The quick brown fox ...</p>
 ```

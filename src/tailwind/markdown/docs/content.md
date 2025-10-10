@@ -16,8 +16,6 @@ Utilities for controlling the content of the before and after pseudo-elements.
 
 Use the `content-[<value>]` syntax, along with the `before` and `after` variants, to set the contents of the `::before` and `::after` pseudo-elements:
 
-Higher resolution means more than just a better-quality image. With a Retina 6K display, [Pro Display XDR](https://www.apple.com/pro-display-xdr/) gives you nearly 40 percent more screen real estate than a 5K display.
-
 ```
 <p>Higher resolution means more than just a better-quality image. With aRetina 6K display, <a class="text-blue-600 after:content-['_↗']" href="...">Pro Display XDR</a> gives you nearly 40 percent more screen real estate thana 5K display.</p>
 ```

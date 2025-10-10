@@ -22,8 +22,6 @@ Utilities for controlling the variant of numbers.
 
 Use the `ordinal` utility to enable special glyphs for the ordinal markers in fonts that support them:
 
-1st
-
 ```
 <p class="ordinal ...">1st</p>
 ```
@@ -31,8 +29,6 @@ Use the `ordinal` utility to enable special glyphs for the ordinal markers in fo
 ### [Using slashed zeroes](#using-slashed-zeroes)
 
 Use the `slashed-zero` utility to force a zero with a slash in fonts that support them:
-
-0
 
 ```
 <p class="slashed-zero ...">0</p>
@@ -42,8 +38,6 @@ Use the `slashed-zero` utility to force a zero with a slash in fonts that suppor
 
 Use the `lining-nums` utility to use numeric glyphs that are aligned by their baseline in fonts that support them:
 
-1234567890
-
 ```
 <p class="lining-nums ...">1234567890</p>
 ```
@@ -51,8 +45,6 @@ Use the `lining-nums` utility to use numeric glyphs that are aligned by their ba
 ### [Using oldstyle figures](#using-oldstyle-figures)
 
 Use the `oldstyle-nums` utility to use numeric glyphs where some numbers have descenders in fonts that support them:
-
-1234567890
 
 ```
 <p class="oldstyle-nums ...">1234567890</p>
@@ -62,10 +54,6 @@ Use the `oldstyle-nums` utility to use numeric glyphs where some numbers have de
 
 Use the `proportional-nums` utility to use numeric glyphs that have proportional widths in fonts that support them:
 
-12121
-
-90909
-
 ```
 <p class="proportional-nums ...">12121</p><p class="proportional-nums ...">90909</p>
 ```
@@ -73,10 +61,6 @@ Use the `proportional-nums` utility to use numeric glyphs that have proportional
 ### [Using tabular figures](#using-tabular-figures)
 
 Use the `tabular-nums` utility to use numeric glyphs that have uniform/tabular widths in fonts that support them:
-
-12121
-
-90909
 
 ```
 <p class="tabular-nums ...">12121</p><p class="tabular-nums ...">90909</p>
@@ -86,8 +70,6 @@ Use the `tabular-nums` utility to use numeric glyphs that have uniform/tabular w
 
 Use the `diagonal-fractions` utility to replace numbers separated by a slash with common diagonal fractions in fonts that support them:
 
-1/2 3/4 5/6
-
 ```
 <p class="diagonal-fractions ...">1/2 3/4 5/6</p>
 ```
@@ -96,8 +78,6 @@ Use the `diagonal-fractions` utility to replace numbers separated by a slash wit
 
 Use the `stacked-fractions` utility to replace numbers separated by a slash with common stacked fractions in fonts that support them:
 
-1/2 3/4 5/6
-
 ```
 <p class="stacked-fractions ...">1/2 3/4 5/6</p>
 ```
@@ -105,18 +85,6 @@ Use the `stacked-fractions` utility to replace numbers separated by a slash with
 ### [Stacking multiple utilities](#stacking-multiple-utilities)
 
 The `font-variant-numeric` utilities are composable so you can enable multiple variants by combining them:
-
-- Subtotal
-
-  $100.00
-
-- Tax
-
-  $14.50
-
-- Total
-
-  $114.50
 
 ```
 <dl class="...">  <dt class="...">Subtotal</dt>  <dd class="text-right slashed-zero tabular-nums ...">$100.00</dd>  <dt class="...">Tax</dt>  <dd class="text-right slashed-zero tabular-nums ...">$14.50</dd>  <dt class="...">Total</dt>  <dd class="text-right slashed-zero tabular-nums ...">$114.50</dd></dl>

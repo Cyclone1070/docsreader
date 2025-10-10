@@ -8,10 +8,6 @@ Building complex components from a constrained set of primitive utilities.
 
 You style things with Tailwind by combining many single-purpose presentational classes *(utility classes)* directly in your markup:
 
-ChitChat
-
-You have a new message!
-
 ```
 <div class="mx-auto flex max-w-sm items-center gap-x-4 rounded-xl bg-white p-6 shadow-lg outline outline-black/5 dark:bg-slate-800 dark:shadow-none dark:-outline-offset-1 dark:outline-white/10">  <img class="size-12 shrink-0" src="/img/logo.svg" alt="ChitChat Logo" />  <div>    <div class="text-xl font-medium text-black dark:text-white">ChitChat</div>    <p class="text-gray-500 dark:text-gray-400">You have a new message!</p>  </div></div>
 ```
@@ -47,14 +43,6 @@ But using utility classes has many important advantages over inline styles, for 
 
 This component is fully responsive and includes a button with hover and active styles, and is built entirely with utility classes:
 
-![Woman's Face](/_next/static/media/erin-lindford.90b9d461.jpg)
-
-Erin Lindford
-
-Product Engineer
-
-Message
-
 ```
 <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">  <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="/img/erin-lindford.jpg" alt="" />  <div class="space-y-2 text-center sm:text-left">    <div class="space-y-0.5">      <p class="text-lg font-semibold text-black">Erin Lindford</p>      <p class="font-medium text-gray-500">Product Engineer</p>    </div>    <button class="border-purple-200 text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700 ...">      Message    </button>  </div></div>
 ```
@@ -66,8 +54,6 @@ Message
 To style an element on states like hover or focus, prefix any utility with the state you want to target, for example `hover:bg-sky-700`:
 
 Hover over this button to see the background color change
-
-Save changes
 
 ```
 <button class="bg-sky-500 hover:bg-sky-700 ...">Save changes</button>
@@ -107,18 +93,6 @@ Just like hover and focus states, you can style elements at different breakpoint
 
 Resize this example to see the layout change
 
-01
-
-02
-
-03
-
-04
-
-05
-
-06
-
 ```
 <div class="grid grid-cols-2 sm:grid-cols-3">  <!-- ... --></div>
 ```
@@ -136,18 +110,6 @@ Learn more in the [responsive design](/docs/responsive-design) documentation.
 ### [Targeting dark mode](#targeting-dark-mode)
 
 Styling an element in dark mode is just a matter of adding the `dark:` prefix to any utility you want to apply when dark mode is active:
-
-Light mode
-
-Writes upside-down
-
-The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
-
-Dark mode
-
-Writes upside-down
-
-The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
 
 ```
 <div class="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">  <div>    <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-2 shadow-lg">      <svg        class="h-6 w-6 text-white"        fill="none"        viewBox="0 0 24 24"        stroke="currentColor"        aria-hidden="true"      >        <!-- ... -->      </svg>    </span>  </div>  <h3 class="text-gray-900 dark:text-white mt-5 text-base font-medium tracking-tight ">Writes upside-down</h3>  <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm ">    The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.  </p></div>
@@ -321,14 +283,6 @@ When you build entire projects with just utility classes, you'll inevitably find
 
 For example, here the utility classes for each avatar image are repeated five separate times:
 
-#### Contributors
-
-204
-
-![](https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2.25\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-[- 198 others](#)
-
 ```
 <div>  <div class="flex items-center space-x-2 text-base">    <h4 class="font-semibold text-slate-900">Contributors</h4>    <span class="bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700 ...">204</span>  </div>  <div class="mt-3 flex -space-x-2 overflow-hidden">    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=256&h=256&q=80" alt="" />    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />  </div>  <div class="mt-3 text-sm font-medium">    <a href="#" class="text-blue-500">+ 198 others</a>  </div></div>
 ```
@@ -341,14 +295,6 @@ A lot of the time a design element that shows up more than once in the rendered 
 
 For example, the duplicate avatars at the beginning of this guide would almost certainly be rendered in a loop in a real project:
 
-#### Contributors
-
-204
-
-![](https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2.25\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)![](https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-[- 198 others](#)
-
 ```
 <div>  <div class="flex items-center space-x-2 text-base">    <h4 class="font-semibold text-slate-900">Contributors</h4>    <span class="bg-slate-100 px-2 py-1 text-xs font-semibold text-slate-700 ...">204</span>  </div>  <div class="mt-3 flex -space-x-2 overflow-hidden">    {#each contributors as user}      <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white" src={user.avatarUrl} alt={user.handle} />    {/each}  </div>  <div class="mt-3 text-sm font-medium">    <a href="#" class="text-blue-500">+ 198 others</a>  </div></div>
 ```
@@ -359,8 +305,6 @@ When elements are rendered in a loop like this, the actual class list is only wr
 
 When duplication is localized to a group of elements in a single file, the easiest way to deal with it is to use [multi-cursor editing](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor) to quickly select and edit the class list for each element at once:
 
-[Home](#/dashboard)[Team](#/team)[Projects](#/projects)[Reports](#/reports)
-
 ```
 <nav class="flex justify-center space-x-4">  <a href="/dashboard" class="font-medium rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">    Home  </a>  <a href="/team" class="font-medium rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">    Team  </a>  <a href="/projects" class="font-medium rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">    Projects  </a>  <a href="/reports" class="font-medium rounded-lg px-3 py-2 text-gray-700 hover:bg-gray-100 hover:text-gray-900">    Reports  </a></nav>
 ```
@@ -370,14 +314,6 @@ You'd be surprised at how often this ends up being the best solution. If you can
 ### [Using components](#using-components)
 
 If you need to reuse some styles across multiple files, the best strategy is to create a *component* if you're using a front-end framework like React, Svelte, or Vue, or a *template partial* if you're using a templating language like Blade, ERB, Twig, or Nunjucks.
-
-![Beach](https://images.unsplash.com/photo-1452784444945-3f422708fe5e?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=crop\&w=512\&q=80)
-
-Private Villa
-
-[Relaxing All-Inclusive Resort in Cancun](#)
-
-$299 USD per night
 
 ```
 export function VacationCard({ img, imgAlt, eyebrow, title, pricing, url }) {  return (    <div>      <img className="rounded-lg" src={img} alt={imgAlt} />      <div className="mt-4">        <div className="text-xs font-bold text-sky-500">{eyebrow}</div>        <div className="mt-1 font-bold text-gray-700">          <a href={url} className="hover:underline">            {title}          </a>        </div>        <div className="mt-2 text-sm text-gray-600">{pricing}</div>      </div>    </div>  );}
@@ -393,18 +329,8 @@ While it's highly recommended that you create proper template partials for more 
 
 Here's what a `btn-primary` class might look like, using [theme variables](/docs/theme#with-custom-css) to keep the design consistent:
 
-Save changes
-
-HTML
-
 ```
 <button class="btn-primary">Save changes</button>
-```
-
-CSS
-
-```
-@import "tailwindcss";@layer components {  .btn-primary {    border-radius: calc(infinity * 1px);    background-color: var(--color-violet-500);    padding-inline: --spacing(5);    padding-block: --spacing(2);    font-weight: var(--font-weight-semibold);    color: var(--color-white);    box-shadow: var(--shadow-md);    &:hover {      @media (hover: hover) {        background-color: var(--color-violet-700);      }    }  }}
 ```
 
 Again though, for anything that's more complicated than just a single HTML element, we highly recommend using template partials so the styles and structure can be encapsulated in one place.

@@ -15,8 +15,6 @@ Utilities for controlling the style of text.
 
 Use the `italic` utility to make text italic:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="italic ...">The quick brown fox ...</p>
 ```
@@ -24,8 +22,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Displaying text normally](#displaying-text-normally)
 
 Use the `not-italic` utility to display text normally:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="not-italic ...">The quick brown fox ...</p>

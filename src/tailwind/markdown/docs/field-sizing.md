@@ -17,8 +17,6 @@ Use the `field-sizing-content` utility to allow a form control to adjust it's si
 
 Type in the input below to see the size change
 
-Latex Salesman, Vanderlay Industries
-
 ```
 <textarea class="field-sizing-content ..." rows="2">  Latex Salesman, Vanderlay Industries</textarea>
 ```
@@ -28,8 +26,6 @@ Latex Salesman, Vanderlay Industries
 Use the `field-sizing-fixed` utility to make a form control use a fixed size:
 
 Type in the input below to see the size remain the same
-
-Latex Salesman, Vanderlay Industries
 
 ```
 <textarea class="field-sizing-fixed w-80 ..." rows="2">  Latex Salesman, Vanderlay Industries</textarea>

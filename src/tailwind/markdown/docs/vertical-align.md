@@ -23,8 +23,6 @@ Utilities for controlling the vertical alignment of an inline or table-cell box.
 
 Use the `align-baseline` utility to align the baseline of an element with the baseline of its parent:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <span class="inline-block align-baseline">The quick brown fox...</span>
 ```
@@ -32,8 +30,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Aligning to top](#aligning-to-top)
 
 Use the `align-top` utility to align the top of an element and its descendants with the top of the entire line:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <span class="inline-block align-top">The quick brown fox...</span>
@@ -43,8 +39,6 @@ The quick brown fox jumps over the lazy dog.
 
 Use the `align-middle` utility to align the middle of an element with the baseline plus half the x-height of the parent:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <span class="inline-block align-middle">The quick brown fox...</span>
 ```
@@ -52,8 +46,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Aligning to bottom](#aligning-to-bottom)
 
 Use the `align-bottom` utility to align the bottom of an element and its descendants with the bottom of the entire line:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <span class="inline-block align-bottom">The quick brown fox...</span>
@@ -63,8 +55,6 @@ The quick brown fox jumps over the lazy dog.
 
 Use the `align-text-top` utility to align the top of an element with the top of the parent element's font:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <span class="inline-block align-text-top">The quick brown fox...</span>
 ```
@@ -72,8 +62,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Aligning to parent bottom](#aligning-to-parent-bottom)
 
 Use the `align-text-bottom` utility to align the bottom of an element with the bottom of the parent element's font:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <span class="inline-block align-text-bottom">The quick brown fox...</span>

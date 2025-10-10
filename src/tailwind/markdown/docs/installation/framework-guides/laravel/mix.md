@@ -7,8 +7,6 @@ Setting up Tailwind CSS in a Laravel project.
 - ## [Using Vite](/docs/installation/framework-guides/laravel/vite)
 - ## [Using Laravel Mix](/docs/installation/framework-guides/laravel/mix)
 
-01
-
 #### Install Tailwind CSS
 
 Install `@tailwindcss/postcss` and its peer dependencies via npm.
@@ -18,8 +16,6 @@ Terminal
 ```
 npm install tailwindcss @tailwindcss/postcss postcss
 ```
-
-02
 
 #### Add Tailwind to your Laravel Mix configuration
 
@@ -31,8 +27,6 @@ webpack.mix.js
 mix  .js("resources/js/app.js", "public/js")  .postCss("resources/css/app.css", "public/css", [    require("@tailwindcss/postcss"),  ]);
 ```
 
-03
-
 #### Import Tailwind CSS
 
 Add an `@import` to `./resources/css/app.css` that imports Tailwind CSS. Additionally, tell Tailwind CSS to scan some directories for utilities.
@@ -43,8 +37,6 @@ app.css
 @import 'tailwindcss';@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';@source '../../storage/framework/views/*.php';@source '../**/*.blade.php';@source '../**/*.js';
 ```
 
-04
-
 #### Start your build process
 
 Run your build process with `npm run watch`.
@@ -54,8 +46,6 @@ Terminal
 ```
 npm run watch
 ```
-
-05
 
 #### Start using Tailwind in your project
 

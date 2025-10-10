@@ -15,8 +15,6 @@ Utilities for controlling the font smoothing of an element.
 
 Use the `antialiased` utility to render text using grayscale antialiasing:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="antialiased ...">The quick brown fox ...</p>
 ```
@@ -24,8 +22,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Subpixel antialiasing](#subpixel-antialiasing)
 
 Use the `subpixel-antialiased` utility to render text using subpixel antialiasing:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="subpixel-antialiased ...">The quick brown fox ...</p>

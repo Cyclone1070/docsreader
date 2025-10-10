@@ -277,8 +277,6 @@ Use the `stroke-current` utility to set the stroke color to the current text col
 
 Hover over the button to see the stroke color change
 
-Download file
-
 ```
 <button class="bg-white text-pink-600 hover:bg-pink-600 hover:text-white ...">  <svg class="size-5 stroke-current ..." fill="none">    <!-- ... -->  </svg>  Download file</button>
 ```

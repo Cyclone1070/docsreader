@@ -17,18 +17,6 @@ Utilities for controlling the offset of an element's outline.
 
 Use utilities like `outline-offset-2` and `outline-offset-4` to change the offset of an element's outline:
 
-outline-offset-0
-
-Button A
-
-outline-offset-2
-
-Button B
-
-outline-offset-4
-
-Button C
-
 ```
 <button class="outline-2 outline-offset-0 ...">Button A</button><button class="outline-2 outline-offset-2 ...">Button B</button><button class="outline-2 outline-offset-4 ...">Button C</button>
 ```

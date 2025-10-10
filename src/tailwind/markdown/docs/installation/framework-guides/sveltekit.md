@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in a SvelteKit project.
 
-01
-
 #### Create your project
 
 Start by creating a new SvelteKit project if you don't have one set up already. The most common approach is outlined in the [SvelteKit](https://svelte.dev/docs/kit/creating-a-project) documentation.
@@ -15,8 +13,6 @@ Terminal
 ```
 npx sv create my-projectcd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install tailwindcss @tailwindcss/vite
 ```
 
-03
-
 #### Configure Vite Plugin
 
 Add the `@tailwindcss/vite` plugin to your Vite configuration.
@@ -39,8 +33,6 @@ vite.config.ts
 ```
 import { sveltekit } from '@sveltejs/kit/vite';import { defineConfig } from 'vite';import tailwindcss from '@tailwindcss/vite';export default defineConfig({  plugins: [    tailwindcss(),    sveltekit(),  ],});
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -52,8 +44,6 @@ app.css
 @import "tailwindcss";
 ```
 
-05
-
 #### Import the CSS file
 
 Create a `./src/routes/+layout.svelte` file and import the newly-created `app.css` file.
@@ -64,8 +54,6 @@ Create a `./src/routes/+layout.svelte` file and import the newly-created `app.cs
 <script>  let { children } = $props();  import "../app.css";</script>{@render children()}
 ```
 
-06
-
 #### Start your build process
 
 Run your build process with `npm run dev`.
@@ -75,8 +63,6 @@ Terminal
 ```
 npm run dev
 ```
-
-07
 
 #### Start using Tailwind in your project
 

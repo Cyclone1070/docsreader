@@ -19,8 +19,6 @@ Use the `select-none` utility to prevent selecting text in an element and its ch
 
 Try selecting the text to see the expected behavior
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <div class="select-none ...">The quick brown fox jumps over the lazy dog.</div>
 ```
@@ -30,8 +28,6 @@ The quick brown fox jumps over the lazy dog.
 Use the `select-text` utility to allow selecting text in an element and its children:
 
 Try selecting the text to see the expected behavior
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <div class="select-text ...">The quick brown fox jumps over the lazy dog.</div>
@@ -43,8 +39,6 @@ Use the `select-all` utility to automatically select all the text in an element 
 
 Try clicking the text to see the expected behavior
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <div class="select-all ...">The quick brown fox jumps over the lazy dog.</div>
 ```
@@ -54,8 +48,6 @@ The quick brown fox jumps over the lazy dog.
 Use the `select-auto` utility to use the default browser behavior for selecting text:
 
 Try selecting the text to see the expected behavior
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <div class="select-auto ...">The quick brown fox jumps over the lazy dog.</div>

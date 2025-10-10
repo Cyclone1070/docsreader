@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in an AdonisJS project.
 
-01
-
 #### Create your project
 
 Start by creating a new AdonisJS project if you don’t have one set up already. The most common approach is to use [Create AdonisJS](https://docs.adonisjs.com/guides/getting-started/installation).
@@ -15,8 +13,6 @@ Terminal
 ```
 npm init adonisjs@latest my-project -- --kit=webcd my-project
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install tailwindcss @tailwindcss/vite
 ```
 
-03
-
 #### Configure Vite Plugin
 
 Add the `@tailwindcss/vite` plugin to your Vite configuration.
@@ -39,8 +33,6 @@ vite.config.ts
 ```
 import { defineConfig } from 'vite'import adonisjs from '@adonisjs/vite/client'import tailwindcss from '@tailwindcss/vite'export default defineConfig({  plugins: [    tailwindcss(),    adonisjs({      // …    }),  ],})
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -52,8 +44,6 @@ app.css
 @import "tailwindcss";@source "../views";
 ```
 
-05
-
 #### Start your build process
 
 Run your build process with `npm run dev`.
@@ -63,8 +53,6 @@ Terminal
 ```
 npm run dev
 ```
-
-06
 
 #### Start using Tailwind in your project
 

@@ -18,18 +18,6 @@ Utilities for controlling the thickness of text decorations.
 
 Use `decoration-<number>` utilities like `decoration-2` and `decoration-4` to change the [text decoration](/docs/text-decoration-line) thickness of an element:
 
-decoration-1
-
-The quick brown fox jumps over the lazy dog.
-
-decoration-2
-
-The quick brown fox jumps over the lazy dog.
-
-decoration-4
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="underline decoration-1">The quick brown fox...</p><p class="underline decoration-2">The quick brown fox...</p><p class="underline decoration-4">The quick brown fox...</p>
 ```

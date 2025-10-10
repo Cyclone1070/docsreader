@@ -22,18 +22,6 @@ Like all other Headless UI components, the combobox abstracts away all of the co
 
 Here's a quick demo if you'd like to see it in action:
 
-Wade Cooper
-
-Arlene McCoy
-
-Devon Webb
-
-Tom Cook
-
-Tanya Fox
-
-Hellen Schmidt
-
 We've intentionally designed it so that you have full control over filtering the actual results. You can do basic string comparisons, use a fuzzy search library like [Fuse.js](https://fusejs.io/), or even make server-side requests to an API — whatever makes sense for your project.
 
 Here's what it looks like to filter the results using a basic string comparison:

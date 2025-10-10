@@ -21,12 +21,6 @@ Use utilities like `scheme-light` and `scheme-light-dark` to control how element
 
 Try switching your system color scheme to see the difference
 
-scheme-light
-
-scheme-dark
-
-scheme-light-dark
-
 ```
 <div class="scheme-light ...">  <input type="date" /></div><div class="scheme-dark ...">  <input type="date" /></div><div class="scheme-light-dark ...">  <input type="date" /></div>
 ```

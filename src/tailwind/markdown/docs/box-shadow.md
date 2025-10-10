@@ -1028,12 +1028,6 @@ Show more
 
 Use utilities like `shadow-sm` and `shadow-lg` to apply different sized outer box shadows to an element:
 
-shadow-md
-
-shadow-lg
-
-shadow-xl
-
 ```
 <div class="shadow-md ..."></div><div class="shadow-lg ..."></div><div class="shadow-xl ..."></div>
 ```
@@ -1041,12 +1035,6 @@ shadow-xl
 ### [Changing the opacity](#changing-the-opacity)
 
 Use the opacity modifier to adjust the opacity of the box shadow:
-
-shadow-xl
-
-shadow-xl/20
-
-shadow-xl/30
 
 ```
 <div class="shadow-xl ..."></div><div class="shadow-xl/20 ..."></div><div class="shadow-xl/30 ..."></div>
@@ -1058,18 +1046,6 @@ The default box shadow opacities are quite low (25% or less), so increasing the 
 
 Use utilities like `shadow-indigo-500` and `shadow-cyan-500/50` to change the color of a box shadow:
 
-shadow-cyan-500/50
-
-Subscribe
-
-shadow-blue-500/50
-
-Subscribe
-
-shadow-indigo-500/50
-
-Subscribe
-
 ```
 <button class="bg-cyan-500 shadow-lg shadow-cyan-500/50 ...">Subscribe</button><button class="bg-blue-500 shadow-lg shadow-blue-500/50 ...">Subscribe</button><button class="bg-indigo-500 shadow-lg shadow-indigo-500/50 ...">Subscribe</button>
 ```
@@ -1079,12 +1055,6 @@ By default colored shadows have an opacity of 100% but you can adjust this using
 ### [Adding an inset shadow](#adding-an-inset-shadow)
 
 Use utilities like `inset-shadow-xs` and `inset-shadow-sm` to apply an inset box shadow to an element:
-
-inset-shadow-2xs
-
-inset-shadow-xs
-
-inset-shadow-sm
 
 ```
 <div class="inset-shadow-2xs ..."></div><div class="inset-shadow-xs ..."></div><div class="inset-shadow-sm ..."></div>
@@ -1096,10 +1066,6 @@ You can adjust the opacity of an inset shadow using the opacity modifier, like `
 
 Use utilities like `inset-shadow-indigo-500` and `inset-shadow-cyan-500/50` to change the color of an inset box shadow:
 
-inset-shadow-indigo-500
-
-inset-shadow-indigo-500/50
-
 ```
 <div class="inset-shadow-sm inset-shadow-indigo-500 ..."></div><div class="inset-shadow-sm inset-shadow-indigo-500/50 ..."></div>
 ```
@@ -1109,18 +1075,6 @@ By default colored shadows have an opacity of 100% but you can adjust this using
 ### [Adding a ring](#adding-a-ring)
 
 Use `ring` or `ring-<number>` utilities like `ring-2` and `ring-4` to apply a solid box-shadow to an element:
-
-ring
-
-Subscribe
-
-ring-2
-
-Subscribe
-
-ring-4
-
-Subscribe
 
 ```
 <button class="ring ...">Subscribe</button><button class="ring-2 ...">Subscribe</button><button class="ring-4 ...">Subscribe</button>
@@ -1132,14 +1086,6 @@ By default rings match the `currentColor` of the element they are applied to.
 
 Use utilities like `ring-indigo-500` and `ring-cyan-500/50` to change the color of a ring:
 
-ring-blue-500
-
-Subscribe
-
-ring-blue-500/50
-
-Subscribe
-
 ```
 <button class="ring-2 ring-blue-500 ...">Subscribe</button><button class="ring-2 ring-blue-500/50 ...">Subscribe</button>
 ```
@@ -1149,18 +1095,6 @@ By default rings have an opacity of 100% but you can adjust this using the opaci
 ### [Adding an inset ring](#adding-an-inset-ring)
 
 Use `inset-ring` or `inset-ring-<number>` utilities like `inset-ring-2` and `inset-ring-4` to apply a solid inset box-shadow to an element:
-
-inset-ring
-
-Subscribe
-
-inset-ring-2
-
-Subscribe
-
-inset-ring-4
-
-Subscribe
 
 ```
 <button class="inset-ring ...">Subscribe</button><button class="inset-ring-2 ...">Subscribe</button><button class="inset-ring-4 ...">Subscribe</button>
@@ -1172,14 +1106,6 @@ By default inset rings match the `currentColor` of the element they are applied 
 
 Use utilities like `inset-ring-indigo-500` and `inset-ring-cyan-500/50` to change the color of an inset ring:
 
-inset-ring-blue-500
-
-Subscribe
-
-inset-ring-blue-500/50
-
-Subscribe
-
 ```
 <button class="inset-ring-2 inset-ring-blue-500 ...">Subscribe</button><button class="inset-ring-2 inset-ring-blue-500/50 ...">Subscribe</button>
 ```
@@ -1189,8 +1115,6 @@ By default inset rings have an opacity of 100% but you can adjust this using the
 ### [Removing a box shadow](#removing-a-box-shadow)
 
 Use the `shadow-none`, `inset-shadow-none`,`ring-0`, and `inset-ring-0` utilities to remove an existing box shadow from an element:
-
-shadow-none
 
 ```
 <div class="shadow-none ..."></div>

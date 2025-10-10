@@ -55,8 +55,6 @@ Use utilities like `cursor-pointer` and `cursor-grab` to control which cursor is
 
 Hover over each button to see the cursor change
 
-SubmitSaving...Confirm
-
 ```
 <button class="cursor-pointer ...">Submit</button><button class="cursor-progress ...">Saving...</button><button class="cursor-not-allowed ..." disabled>Confirm</button>
 ```

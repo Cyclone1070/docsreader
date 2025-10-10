@@ -18,24 +18,6 @@ Utilities for controlling the marker style of a list.
 
 Use utilities like `list-disc` and `list-decimal` to control the style of the markers in a list:
 
-list-disc
-
-- Now this is a story all about how, my life got flipped-turned upside down
-- And I'd like to take a minute just sit right there
-- I'll tell you how I became the prince of a town called Bel-Air
-
-list-decimal
-
-- Now this is a story all about how, my life got flipped-turned upside down
-- And I'd like to take a minute just sit right there
-- I'll tell you how I became the prince of a town called Bel-Air
-
-list-none
-
-- Now this is a story all about how, my life got flipped-turned upside down
-- And I'd like to take a minute just sit right there
-- I'll tell you how I became the prince of a town called Bel-Air
-
 ```
 <ul class="list-disc">  <li>Now this is a story all about how, my life got flipped-turned upside down</li>  <!-- ... --></ul><ol class="list-decimal">  <li>Now this is a story all about how, my life got flipped-turned upside down</li>  <!-- ... --></ol><ul class="list-none">  <li>Now this is a story all about how, my life got flipped-turned upside down</li>  <!-- ... --></ul>
 ```

@@ -24,26 +24,6 @@ Utilities for controlling the font weight of an element.
 
 Use utilities like `font-thin` and `font-bold` to set the font weight of an element:
 
-font-light
-
-The quick brown fox jumps over the lazy dog.
-
-font-normal
-
-The quick brown fox jumps over the lazy dog.
-
-font-medium
-
-The quick brown fox jumps over the lazy dog.
-
-font-semibold
-
-The quick brown fox jumps over the lazy dog.
-
-font-bold
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="font-light ...">The quick brown fox ...</p><p class="font-normal ...">The quick brown fox ...</p><p class="font-medium ...">The quick brown fox ...</p><p class="font-semibold ...">The quick brown fox ...</p><p class="font-bold ...">The quick brown fox ...</p>
 ```

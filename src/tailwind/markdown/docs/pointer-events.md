@@ -17,10 +17,6 @@ Use the `pointer-events-none` utility to make an element ignore pointer events, 
 
 Click the search icons to see the expected behavior
 
-pointer-events-auto
-
-pointer-events-none
-
 ```
 <div class="relative ...">  <div class="pointer-events-auto absolute ...">    <svg class="absolute h-5 w-5 text-gray-400">      <!-- ... -->    </svg>  </div>  <input type="text" placeholder="Search" class="..." /></div><div class="relative ...">  <div class="pointer-events-none absolute ...">    <svg class="absolute h-5 w-5 text-gray-400">      <!-- ... -->    </svg>  </div>  <input type="text" placeholder="Search" class="..." /></div>
 ```

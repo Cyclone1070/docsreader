@@ -131,12 +131,6 @@ If you haven't seen any of this before, check out our updated [Using CSS variabl
 
 We've added new set of utilities for the `border-spacing` property, so you can control the space between table borders when using [separate borders](https://v3.tailwindcss.com/docs/border-collapse#separate):
 
-| State    | City         |
-| -------- | ------------ |
-| Indiana  | Indianapolis |
-| Ohio     | Columbus     |
-| Michigan | Detroit      |
-
 ```
 <table class="border-separate border-spacing-2 ...">  <thead>    <tr>      <th class="border border-slate-300 ...">State</th>      <th class="border border-slate-300 ...">City</th>    </tr>  </thead>  <tbody>    <tr>      <td class="border border-slate-300 ...">Indiana</td>      <td class="border border-slate-300 ...">Indianapolis</td>    </tr>    <!-- ... -->  </tbody></table>
 ```
@@ -146,23 +140,6 @@ I know what you're thinking — *"I have never in my life wanted to build a tabl
 One situation where this is actually super useful is when building a table with a sticky header row and you want a persistent bottom border under the headings:
 
 Scroll this table to see the sticky header row in action
-
-| Name            | Email                        | Role   |
-| --------------- | ---------------------------- | ------ |
-| Courtney Henry  | courtney.henry\@example.com  | Admin  |
-| Tom Cook        | tom.cook\@example.com        | Member |
-| Whitney Francis | whitney.francis\@example.com | Admin  |
-| Leonard Krasner | leonard.krasner\@example.com | Owner  |
-| Floyd Miles     | floyd.miles\@example.com     | Member |
-| Emily Selman    | emily.selman\@example.com    | Member |
-| Kristin Watson  | kristin.watson\@example.com  | Admin  |
-| Emma Dorsey     | emma.dorsey\@example.com     | Member |
-| Alicia Bell     | alicia.bell\@example.com     | Admin  |
-| Jenny Wilson    | jenny.wilson\@example.com    | Owner  |
-| Anna Roberts    | anna.roberts\@example.com    | Member |
-| Benjamin Russel | benjamin.russel\@example.com | Member |
-| Jeffrey Webb    | jeffrey.webb\@example.com    | Admin  |
-| Kathryn Murphy  | kathryn.murphy\@example.com  | Member |
 
 ```
 <table class="border-separate border-spacing-0">  <thead class="bg-gray-50">    <tr>      <th class="sticky top-0 z-10 border-b border-gray-300 ...">Name</th>      <th class="sticky top-0 z-10 border-b border-gray-300 ...">Email</th>      <th class="sticky top-0 z-10 border-b border-gray-300 ...">Role</th>    </tr>  </thead>  <tbody class="bg-white">    <tr>      <td class="border-b border-gray-200 ...">Courtney Henry</td>      <td class="border-b border-gray-200 ...">courtney.henry@example.com</td>      <td class="border-b border-gray-200 ...">Admin</td>    </tr>    <!-- ... -->  </tbody></table>
@@ -182,8 +159,6 @@ Ouch, that hurts because it's true — I pretty much just write emails and answe
 
 But check out this disabled button example:
 
-Processing...
-
 ```
 <button type="button" class="bg-indigo-500 hover:bg-indigo-400 disabled:opacity-75 ..." disabled>Processing...</button>
 ```
@@ -196,8 +171,6 @@ Notice how when you hover over the button, the background still changes color ev
 
 But with the new `enabled` modifier, you can write it like this instead:
 
-Processing...
-
 ```
 <button type="button" class="bg-indigo-500 hover:enabled:bg-indigo-400 disabled:opacity-75 ..." disabled>  Processing...</button>
 ```
@@ -205,16 +178,6 @@ Processing...
 Instead of overriding the hover color back to the default color when the button is disabled, we combine the `hover` and `enabled` variants to just not apply the hover styles when the button is disabled in the first place. I think that's better!
 
 Here's an example combining the new `optional` modifier with our [sibling state features](https://v3.tailwindcss.com/docs/hover-focus-and-other-states#styling-based-on-sibling-state) to hide a little "Required" notice for fields that aren't required:
-
-Email
-
-Required
-
-Name
-
-Required
-
-Submit
 
 ```
 <form>  <div>    <label for="email" ...>Email</label>    <div>      <input required class="peer ..." id="email" />      <div class="peer-optional:hidden ...">Required</div>    </div>  </div>  <div>    <label for="name" ...>Name</label>    <div>      <input class="peer ..." id="name" />      <div class="peer-optional:hidden ...">Required</div>    </div>  </div>  <!-- ... --></form>
@@ -229,10 +192,6 @@ Did you know there's a `prefers-contrast` media query? Well there is, and now Ta
 Use the new `contrast-more` and `contrast-less` variants to modify your design when the user has requested more or less contrast, usually through an operating system accessibility preference like "Increase contrast" on macOS.
 
 Try emulating \`prefers-contrast: more\` in your developer tools to see the changes
-
-Social Security Number
-
-We need this to steal your identity.
 
 ```
 <form>  <label class="block">    <span class="block text-sm font-medium text-slate-700">Social Security Number</span>    <input      class="border-slate-200 placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500"    />    <p class="mt-2 text-sm text-slate-600 opacity-10 contrast-more:opacity-100">We need this to steal your identity.</p>  </label></form>
@@ -282,24 +241,6 @@ This is super useful for variants that sort of feel like they need to be paramet
 
 You can even use this feature to target child elements with arbitrary variants like `[&>*]`:
 
-- ![](https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Kristen Ramos
-
-  kristen.ramos\@example.com
-
-- ![](https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Floyd Miles
-
-  floyd.miles\@example.com
-
-- ![](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Courtney Henry
-
-  courtney.henry\@example.com
-
 ```
 <ul role="list" class="space-y-4 [&>*]:rounded-lg [&>*]:bg-white [&>*]:p-4 [&>*]:shadow">  <li class="flex">    <img class="h-10 w-10 rounded-full" src="..." alt="" />    <div class="ml-3 overflow-hidden">      <p class="text-sm font-medium text-slate-900">Kristen Ramos</p>      <p class="truncate text-sm text-slate-500">kristen.ramos@example.com</p>    </div>  </li>  <!-- ... --></ul>
 ```
@@ -307,24 +248,6 @@ You can even use this feature to target child elements with arbitrary variants l
 You can even style the first `p` inside the `div` in the second child `li` but only on `hover`:
 
 Try hovering over the text “Floyd Miles”
-
-- ![](https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Kristen Ramos
-
-  kristen.ramos\@example.com
-
-- ![](https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Floyd Miles
-
-  floyd.miles\@example.com
-
-- ![](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1\&ixid=eyJhcHBfaWQiOjEyMDd9\&auto=format\&fit=facearea\&facepad=2\&w=256\&h=256\&q=80)
-
-  Courtney Henry
-
-  courtney.henry\@example.com
 
 ```
 <ul  role="list"  class="space-y-4 [&>*]:rounded-lg [&>*]:bg-white [&>*]:p-4 [&>*]:shadow hover:[&>li:nth-child(2)>div>p:first-child]:text-indigo-500">  <!-- ... -->  <li class="flex">    <img class="h-10 w-10 rounded-full" src="..." alt="" />    <div class="ml-3 overflow-hidden">      <p class="text-sm font-medium text-slate-900">Floyd Miles</p>      <p class="truncate text-sm text-slate-500">floyd.miles@example.com</p>    </div>  </li>  <!-- ... --></ul>

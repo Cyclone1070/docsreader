@@ -17,12 +17,6 @@ Utilities for controlling how flex items shrink.
 
 Use `shrink` to allow a flex item to shrink if needed:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex ...">  <div class="h-14 w-14 flex-none ...">01</div>  <div class="h-14 w-64 shrink ...">02</div>  <div class="h-14 w-14 flex-none ...">03</div></div>
 ```
@@ -30,12 +24,6 @@ Use `shrink` to allow a flex item to shrink if needed:
 ### [Preventing items from shrinking](#preventing-items-from-shrinking)
 
 Use `shrink-0` to prevent a flex item from shrinking:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex ...">  <div class="h-16 flex-1 ...">01</div>  <div class="h-16 w-32 shrink-0 ...">02</div>  <div class="h-16 flex-1 ...">03</div></div>

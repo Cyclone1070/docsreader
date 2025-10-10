@@ -17,18 +17,6 @@ Utilities for controlling the width of an element's outline.
 
 Use `outline` or `outline-<number>` utilities like `outline-2` and `outline-4` to set the width of an element's outline:
 
-outline
-
-Button A
-
-outline-2
-
-Button B
-
-outline-4
-
-Button C
-
 ```
 <button class="outline outline-offset-2 ...">Button A</button><button class="outline-2 outline-offset-2 ...">Button B</button><button class="outline-4 outline-offset-2 ...">Button C</button>
 ```
@@ -38,8 +26,6 @@ Button C
 Prefix an `outline-width` utility with a variant like `focus:*` to only apply the utility in that state:
 
 Focus the button to see the outline added
-
-Save Changes
 
 ```
 <button class="outline-offset-2 outline-sky-500 focus:outline-2 ...">Save Changes</button>

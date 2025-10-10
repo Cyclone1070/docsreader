@@ -33,18 +33,6 @@ Show more
 
 Use `max-h-<number>` utilities like `max-h-24` and `max-h-64` to set an element to a fixed maximum height based on the spacing scale:
 
-max-h-80
-
-max-h-64
-
-max-h-48
-
-max-h-40
-
-max-h-32
-
-max-h-24
-
 ```
 <div class="h-96 ...">  <div class="h-full max-h-80 ...">max-h-80</div>  <div class="h-full max-h-64 ...">max-h-64</div>  <div class="h-full max-h-48 ...">max-h-48</div>  <div class="h-full max-h-40 ...">max-h-40</div>  <div class="h-full max-h-32 ...">max-h-32</div>  <div class="h-full max-h-24 ...">max-h-24</div></div>
 ```
@@ -52,16 +40,6 @@ max-h-24
 ### [Using a percentage](#using-a-percentage)
 
 Use `max-h-full` or `max-h-<fraction>` utilities like `max-h-1/2` and `max-h-2/5` to give an element a percentage-based maximum height:
-
-max-h-9/10
-
-max-h-3/4
-
-max-h-1/2
-
-max-h-1/4
-
-max-h-full
 
 ```
 <div class="h-96 ...">  <div class="h-full max-h-9/10 ...">max-h-9/10</div>  <div class="h-full max-h-3/4 ...">max-h-3/4</div>  <div class="h-full max-h-1/2 ...">max-h-1/2</div>  <div class="h-full max-h-1/4 ...">max-h-1/4</div>  <div class="h-full max-h-full ...">max-h-full</div></div>

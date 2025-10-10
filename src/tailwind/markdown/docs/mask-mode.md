@@ -16,10 +16,6 @@ Utilities for controlling an element's mask mode.
 
 Use the `mask-alpha`, `mask-luminance` and `mask-match` utilities to control the mode of an element's mask:
 
-mask-alpha
-
-mask-luminance
-
 ```
 <div class="mask-alpha mask-r-from-black mask-r-from-50% mask-r-to-transparent bg-[url(/img/mountains.jpg)] ..."></div><div class="mask-luminance mask-r-from-white mask-r-from-50% mask-r-to-black bg-[url(/img/mountains.jpg)] ..."></div>
 ```

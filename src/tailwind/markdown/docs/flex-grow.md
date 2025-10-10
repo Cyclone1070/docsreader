@@ -17,12 +17,6 @@ Utilities for controlling how flex items grow.
 
 Use `grow` to allow a flex item to grow to fill any available space:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex ...">  <div class="size-14 flex-none ...">01</div>  <div class="size-14 grow ...">02</div>  <div class="size-14 flex-none ...">03</div></div>
 ```
@@ -31,12 +25,6 @@ Use `grow` to allow a flex item to grow to fill any available space:
 
 Use `grow-<number>` utilities like `grow-3` to make flex items grow proportionally based on their growth factor, allowing them to fill the available space relative to each other:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex ...">  <div class="size-14 grow-3 ...">01</div>  <div class="size-14 grow-7 ...">02</div>  <div class="size-14 grow-3 ...">03</div></div>
 ```
@@ -44,12 +32,6 @@ Use `grow-<number>` utilities like `grow-3` to make flex items grow proportional
 ### [Preventing items from growing](#preventing-items-from-growing)
 
 Use `grow-0` to prevent a flex item from growing:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex ...">  <div class="size-14 grow ...">01</div>  <div class="size-14 grow-0 ...">02</div>  <div class="size-14 grow ...">03</div></div>

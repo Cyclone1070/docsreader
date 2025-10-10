@@ -61,20 +61,6 @@ Show more
 
 Use `w-<number>` utilities like `w-24` and `w-64` to set an element to a fixed width based on the spacing scale:
 
-w-96
-
-w-80
-
-w-64
-
-w-48
-
-w-40
-
-w-32
-
-w-24
-
 ```
 <div class="w-96 ...">w-96</div><div class="w-80 ...">w-80</div><div class="w-64 ...">w-64</div><div class="w-48 ...">w-48</div><div class="w-40 ...">w-40</div><div class="w-32 ...">w-32</div><div class="w-24 ...">w-24</div>
 ```
@@ -83,32 +69,6 @@ w-24
 
 Use `w-full` or `w-<fraction>` utilities like `w-1/2` and `w-2/5` to give an element a percentage-based width:
 
-w-1/2
-
-w-1/2
-
-w-2/5
-
-w-3/5
-
-w-1/3
-
-w-2/3
-
-w-1/4
-
-w-3/4
-
-w-1/5
-
-w-4/5
-
-w-1/6
-
-w-5/6
-
-w-full
-
 ```
 <div class="flex ...">  <div class="w-1/2 ...">w-1/2</div>  <div class="w-1/2 ...">w-1/2</div></div><div class="flex ...">  <div class="w-2/5 ...">w-2/5</div>  <div class="w-3/5 ...">w-3/5</div></div><div class="flex ...">  <div class="w-1/3 ...">w-1/3</div>  <div class="w-2/3 ...">w-2/3</div></div><div class="flex ...">  <div class="w-1/4 ...">w-1/4</div>  <div class="w-3/4 ...">w-3/4</div></div><div class="flex ...">  <div class="w-1/5 ...">w-1/5</div>  <div class="w-4/5 ...">w-4/5</div></div><div class="flex ...">  <div class="w-1/6 ...">w-1/6</div>  <div class="w-5/6 ...">w-5/6</div></div><div class="w-full ...">w-full</div>
 ```
@@ -116,20 +76,6 @@ w-full
 ### [Using the container scale](#using-the-container-scale)
 
 Use utilities like `w-sm` and `w-xl` to set an element to a fixed width based on the container scale:
-
-w-xl
-
-w-lg
-
-w-md
-
-w-sm
-
-w-xs
-
-w-2xs
-
-w-3xs
 
 ```
 <div class="w-xl ...">w-xl</div><div class="w-lg ...">w-lg</div><div class="w-md ...">w-md</div><div class="w-sm ...">w-sm</div><div class="w-xs ...">w-xs</div><div class="w-2xs ...">w-2xs</div><div class="w-3xs ...">w-3xs</div>
@@ -156,16 +102,6 @@ Use the `w-auto` utility to remove an element's assigned width under a specific 
 ### [Setting both width and height](#setting-both-width-and-height)
 
 Use utilities like `size-px`, `size-4`, and `size-full` to set both the width and height of an element at the same time:
-
-size-16
-
-size-20
-
-size-24
-
-size-32
-
-size-40
 
 ```
 <div class="size-16 ...">size-16</div><div class="size-20 ...">size-20</div><div class="size-24 ...">size-24</div><div class="size-32 ...">size-32</div><div class="size-40 ...">size-40</div>

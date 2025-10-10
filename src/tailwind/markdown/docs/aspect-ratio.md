@@ -21,8 +21,6 @@ Use `aspect-<ratio>` utilities like `aspect-3/2` to give an element a specific a
 
 Resize the example to see the expected behavior
 
-![](https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=crop\&w=1200\&q=80)
-
 ```
 <img class="aspect-3/2 object-cover ..." src="/img/villas.jpg" />
 ```

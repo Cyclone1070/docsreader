@@ -17,10 +17,6 @@ Use the `transition-discrete` utility to start transitions when changing propert
 
 Interact with the checkboxes to see the expected behavior
 
-transition-normalI hide
-
-transition-discreteI fade out
-
 ```
 <label class="peer ...">  <input type="checkbox" checked /></label><button class="hidden transition-all not-peer-has-checked:opacity-0 peer-has-checked:block ...">  I hide</button><label class="peer ...">  <input type="checkbox" checked /></label><button class="hidden transition-all transition-discrete not-peer-has-checked:opacity-0 peer-has-checked:block ...">  I fade out</button>
 ```

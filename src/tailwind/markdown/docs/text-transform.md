@@ -17,8 +17,6 @@ Utilities for controlling the capitalization of text.
 
 Use the `uppercase` utility to uppercase the text of an element:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="uppercase">The quick brown fox ...</p>
 ```
@@ -26,8 +24,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Lowercasing text](#lowercasing-text)
 
 Use the `lowercase` utility to lowercase the text of an element:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="lowercase">The quick brown fox ...</p>
@@ -37,8 +33,6 @@ The quick brown fox jumps over the lazy dog.
 
 Use the `capitalize` utility to capitalize text of an element:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="capitalize">The quick brown fox ...</p>
 ```
@@ -46,8 +40,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Resetting text casing](#resetting-text-casing)
 
 Use the `normal-case` utility to preserve the original text casing of an element—typically used to reset capitalization at different breakpoints:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="normal-case">The quick brown fox ...</p>

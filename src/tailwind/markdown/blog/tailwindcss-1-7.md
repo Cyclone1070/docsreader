@@ -49,8 +49,6 @@ It includes 4 new utilities:
 
 Combined with the new gradient features, you can use this to do cool gradient text stuff like this:
 
-Greetings from Tailwind v1.7.
-
 ```
 <h1 class="text-center text-5xl font-bold">  <span class="bg-gradient-to-r from-teal-400 to-blue-500 bg-clip-text text-transparent">    Greetings from Tailwind v1.7.  </span></h1>
 ```

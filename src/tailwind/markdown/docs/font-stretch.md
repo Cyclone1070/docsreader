@@ -25,26 +25,6 @@ Utilities for selecting the width of a font face.
 
 Use utilities like `font-stretch-condensed` and `font-stretch-expanded` to set the width of a font face:
 
-font-stretch-extra-condensed
-
-The quick brown fox jumps over the lazy dog.
-
-font-stretch-condensed
-
-The quick brown fox jumps over the lazy dog.
-
-font-stretch-normal
-
-The quick brown fox jumps over the lazy dog.
-
-font-stretch-expanded
-
-The quick brown fox jumps over the lazy dog.
-
-font-stretch-extra-expanded
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="font-stretch-extra-condensed">The quick brown fox...</p><p class="font-stretch-condensed">The quick brown fox...</p><p class="font-stretch-normal">The quick brown fox...</p><p class="font-stretch-expanded">The quick brown fox...</p><p class="font-stretch-extra-expanded">The quick brown fox...</p>
 ```
@@ -54,18 +34,6 @@ This only applies to fonts that have multiple width variations available, otherw
 ### [Using percentages](#using-percentages)
 
 Use `font-stretch-<percentage>` utilities like `font-stretch-50%` and `font-stretch-125%` to set the width of a font face using a percentage:
-
-font-stretch-50%
-
-The quick brown fox jumps over the lazy dog.
-
-font-stretch-100%
-
-The quick brown fox jumps over the lazy dog.
-
-font-stretch-150%
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="font-stretch-50%">The quick brown fox...</p><p class="font-stretch-100%">The quick brown fox...</p><p class="font-stretch-150%">The quick brown fox...</p>

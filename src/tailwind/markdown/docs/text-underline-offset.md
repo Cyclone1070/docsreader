@@ -18,22 +18,6 @@ Utilities for controlling the offset of a text underline.
 
 Use `underline-offset-<number>` utilities like `underline-offset-2` and `underline-offset-4` to change the offset of a text underline:
 
-underline-offset-1
-
-The quick brown fox jumps over the lazy dog.
-
-underline-offset-2
-
-The quick brown fox jumps over the lazy dog.
-
-underline-offset-4
-
-The quick brown fox jumps over the lazy dog.
-
-underline-offset-8
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="underline underline-offset-1">The quick brown fox...</p><p class="underline underline-offset-2">The quick brown fox...</p><p class="underline underline-offset-4">The quick brown fox...</p><p class="underline underline-offset-8">The quick brown fox...</p>
 ```

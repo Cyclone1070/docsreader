@@ -179,8 +179,6 @@ rose
 
 100
 
-50
-
 CSS grid layout
 
 Using grid utilities directly in your HTML makes it so much easier to reason about complex layouts.

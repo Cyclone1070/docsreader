@@ -8,8 +8,6 @@ Tailwind CSS includes a vast, beautiful color palette out of the box, carefully 
 
  
 
-50
-
 100
 
 200
@@ -78,28 +76,6 @@ Click to copy the OKLCH value or shift+click to copy the nearest hex value.
 
 Every color in the default palette includes 11 steps, with 50 being the lightest, and 950 being the darkest:
 
-50
-
-100
-
-200
-
-300
-
-400
-
-500
-
-600
-
-700
-
-800
-
-900
-
-950
-
 ```
 <div>  <div class="bg-sky-50"></div>  <div class="bg-sky-100"></div>  <div class="bg-sky-200"></div>  <div class="bg-sky-300"></div>  <div class="bg-sky-400"></div>  <div class="bg-sky-500"></div>  <div class="bg-sky-600"></div>  <div class="bg-sky-700"></div>  <div class="bg-sky-800"></div>  <div class="bg-sky-900"></div>  <div class="bg-sky-950"></div></div>
 ```
@@ -111,10 +87,6 @@ The entire color palette is available across all color related utilities, includ
 ### [Using color utilities](#using-color-utilities)
 
 Use color utilities like `bg-white`, `border-pink-300`, and `text-gray-950` to set the different color properties of elements in your design:
-
-Tom Watson mentioned you in Logo redesign
-
-9:37am
 
 ```
 <div class="flex items-center gap-4 rounded-lg bg-white p-6 shadow-md outline outline-black/5 dark:bg-gray-800">  <span class="inline-flex shrink-0 rounded-full border border-pink-300 bg-pink-100 p-2 dark:border-pink-300/10 dark:bg-pink-400/10">    <svg class="size-6 stroke-pink-700 dark:stroke-pink-500"><!-- ... --></svg>  </span>  <div>    <p class="text-gray-700 dark:text-gray-400">      <span class="font-medium text-gray-950 dark:text-white">Tom Watson</span> mentioned you in      <span class="font-medium text-gray-950 dark:text-white">Logo redesign</span>    </p>    <time class="mt-1 block text-gray-500" datetime="9:37">9:37am</time>  </div></div>
@@ -157,18 +129,6 @@ HTML
 ### [Targeting dark mode](#targeting-dark-mode)
 
 Use the `dark` variant to write classes like `dark:bg-gray-800` that only apply a color when dark mode is active:
-
-Light mode
-
-Writes upside-down
-
-The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
-
-Dark mode
-
-Writes upside-down
-
-The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.
 
 ```
 <div class="bg-white dark:bg-gray-800 rounded-lg px-6 py-8 ring shadow-xl ring-gray-900/5">  <div>    <span class="inline-flex items-center justify-center rounded-md bg-indigo-500 p-2 shadow-lg">      <svg class="h-6 w-6 stroke-white" ...>        <!-- ... -->      </svg>    </span>  </div>  <h3 class="text-gray-900 dark:text-white mt-5 text-base font-medium tracking-tight ">Writes upside-down</h3>  <p class="text-gray-500 dark:text-gray-400 mt-2 text-sm ">    The Zero Gravity Pen can be used to write in any orientation, including upside-down. It even works in outer space.  </p></div>

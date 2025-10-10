@@ -89,12 +89,6 @@ Use utilities like `from-indigo-500`, `via-purple-500`, and `to-pink-500` to set
 
 Use utilities like `from-10%`, `via-30%`, and `to-90%` to set more precise positions for the gradient color stops:
 
-10%
-
-30%
-
-90%
-
 ```
 <div class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ..."></div>
 ```
@@ -102,22 +96,6 @@ Use utilities like `from-10%`, `via-30%`, and `to-90%` to set more precise posit
 ### [Changing interpolation mode](#changing-interpolation-mode)
 
 Use the interpolation modifier to control the interpolation mode of a gradient:
-
-srgb
-
-hsl
-
-oklab
-
-oklch
-
-longer
-
-shorter
-
-increasing
-
-decreasing
 
 ```
 <div class="bg-linear-to-r/srgb from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/hsl from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/oklab from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/oklch from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/longer from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/shorter from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/increasing from-indigo-500 to-teal-400"></div><div class="bg-linear-to-r/decreasing from-indigo-500 to-teal-400"></div>

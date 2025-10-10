@@ -22,12 +22,6 @@ Utilities for controlling how an individual flex or grid item is positioned alon
 
 Use the `self-auto` utility to align an item based on the value of the container's `align-items` property:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex items-stretch ...">  <div>01</div>  <div class="self-auto ...">02</div>  <div>03</div></div>
 ```
@@ -35,12 +29,6 @@ Use the `self-auto` utility to align an item based on the value of the container
 ### [Start](#start)
 
 Use the `self-start` utility to align an item to the start of the container's cross axis, despite the container's `align-items` value:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex items-stretch ...">  <div>01</div>  <div class="self-start ...">02</div>  <div>03</div></div>
@@ -50,12 +38,6 @@ Use the `self-start` utility to align an item to the start of the container's cr
 
 Use the `self-center` utility to align an item along the center of the container's cross axis, despite the container's `align-items` value:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex items-stretch ...">  <div>01</div>  <div class="self-center ...">02</div>  <div>03</div></div>
 ```
@@ -63,12 +45,6 @@ Use the `self-center` utility to align an item along the center of the container
 ### [End](#end)
 
 Use the `self-end` utility to align an item to the end of the container's cross axis, despite the container's `align-items` value:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex items-stretch ...">  <div>01</div>  <div class="self-end ...">02</div>  <div>03</div></div>
@@ -78,12 +54,6 @@ Use the `self-end` utility to align an item to the end of the container's cross 
 
 Use the `self-stretch` utility to stretch an item to fill the container's cross axis, despite the container's `align-items` value:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex items-stretch ...">  <div>01</div>  <div class="self-stretch ...">02</div>  <div>03</div></div>
 ```
@@ -92,12 +62,6 @@ Use the `self-stretch` utility to stretch an item to fill the container's cross 
 
 Use the `self-baseline` utility to align an item such that its baseline aligns with the baseline of the flex container's cross axis:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex ...">  <div class="self-baseline pt-2 pb-6">01</div>  <div class="self-baseline pt-8 pb-12">02</div>  <div class="self-baseline pt-12 pb-4">03</div></div>
 ```
@@ -105,22 +69,6 @@ Use the `self-baseline` utility to align an item such that its baseline aligns w
 ### [Last baseline](#last-baseline)
 
 Use the `self-baseline-last` utility to align an item along the container's cross axis such that its baseline aligns with the last baseline in the container:
-
-![](https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.51a13c67.jpg\&w=128\&q=80)
-
-Spencer Sharp
-
-Working on the future of astronaut recruitment at Space Recruit.
-
-[spacerecruit.com](#)
-
-![](https://images.unsplash.com/photo-1590895340509-793cb98788c9?q=80\&w=256\&h=256&\&auto=format\&fit=crop\&ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
-
-Alex Reed
-
-A multidisciplinary designer.
-
-[alex-reed.com](#)
 
 ```
 <div class="grid grid-cols-[1fr_auto]">  <div>    <img src="img/spencer-sharp.jpg" />    <h4>Spencer Sharp</h4>    <p class="self-baseline-last">Working on the future of astronaut recruitment at Space Recruit.</p>  </div>  <p class="self-baseline-last">spacerecruit.com</p></div>

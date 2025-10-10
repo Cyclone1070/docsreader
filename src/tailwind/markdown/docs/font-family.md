@@ -18,18 +18,6 @@ Utilities for controlling the font family of an element.
 
 Use utilities like `font-sans` and `font-mono` to set the font family of an element:
 
-font-sans
-
-The quick brown fox jumps over the lazy dog.
-
-font-serif
-
-The quick brown fox jumps over the lazy dog.
-
-font-mono
-
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="font-sans ...">The quick brown fox ...</p><p class="font-serif ...">The quick brown fox ...</p><p class="font-mono ...">The quick brown fox ...</p>
 ```

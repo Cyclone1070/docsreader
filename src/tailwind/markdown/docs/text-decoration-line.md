@@ -17,8 +17,6 @@ Utilities for controlling the decoration of text.
 
 Use the `underline` utility to add an underline to the text of an element:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="underline">The quick brown fox...</p>
 ```
@@ -26,8 +24,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Adding an overline to text](#adding-an-overline-to-text)
 
 Use the `overline` utility to add an overline to the text of an element:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="overline">The quick brown fox...</p>
@@ -37,8 +33,6 @@ The quick brown fox jumps over the lazy dog.
 
 Use the `line-through` utility to add a line through the text of an element:
 
-The quick brown fox jumps over the lazy dog.
-
 ```
 <p class="line-through">The quick brown fox...</p>
 ```
@@ -46,8 +40,6 @@ The quick brown fox jumps over the lazy dog.
 ### [Removing a line from text](#removing-a-line-from-text)
 
 Use the `no-underline` utility to remove a line from the text of an element:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="no-underline">The quick brown fox...</p>
@@ -58,8 +50,6 @@ The quick brown fox jumps over the lazy dog.
 Prefix a `text-decoration-line` utility with a variant like `hover:*` to only apply the utility in that state:
 
 Hover over the text to see the expected behavior
-
-The [quick brown fox](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog) jumps over the lazy dog.
 
 ```
 <p>The <a href="..." class="no-underline hover:underline ...">quick brown fox</a> jumps over the lazy dog.</p>

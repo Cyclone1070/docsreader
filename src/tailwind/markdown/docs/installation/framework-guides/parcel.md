@@ -4,8 +4,6 @@ Installation
 
 Setting up Tailwind CSS in a Parcel project.
 
-01
-
 #### Create your project
 
 Start by creating a new Parcel project if you don’t have one set up already. The most common approach is to add Parcel as a dev-dependency to your project as outlined in their [getting started guide](https://parceljs.org/getting-started/webapp/).
@@ -15,8 +13,6 @@ Terminal
 ```
 mkdir my-projectcd my-projectnpm init -ynpm install parcelmkdir srctouch src/index.html
 ```
-
-02
 
 #### Install Tailwind CSS
 
@@ -28,8 +24,6 @@ Terminal
 npm install tailwindcss @tailwindcss/postcss
 ```
 
-03
-
 #### Configure PostCSS
 
 Create a `.postcssrc` file in your project root, and enable the `@tailwindcss/postcss` plugin.
@@ -39,8 +33,6 @@ Create a `.postcssrc` file in your project root, and enable the `@tailwindcss/po
 ```
 {  "plugins": {    "@tailwindcss/postcss": {}  }}
 ```
-
-04
 
 #### Import Tailwind CSS
 
@@ -52,8 +44,6 @@ index.css
 @import "tailwindcss";
 ```
 
-05
-
 #### Start your build process
 
 Run your build process with `npx parcel src/index.html`.
@@ -63,8 +53,6 @@ Terminal
 ```
 npx parcel src/index.html
 ```
-
-06
 
 #### Start using Tailwind in your project
 

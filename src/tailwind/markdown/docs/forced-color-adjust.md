@@ -17,16 +17,6 @@ Use the `forced-color-adjust-none` utility to opt an element out of the colors e
 
 Try emulating \`forced-colors: active\` in your developer tools to see the changes
 
-![Two each of gray, white, and black shirts laying flat.](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ft-shirt.2fa4f9c3.jpg\&w=3840\&q=75)
-
-Basic Tee
-
-$35
-
-Choose a color
-
-WhiteGrayBlack
-
 ```
 <form>  <img src="/img/shirt.jpg" />  <div>    <h3>Basic Tee</h3>    <h3>$35</h3>    <fieldset>      <legend class="sr-only">Choose a color</legend>      <div class="forced-color-adjust-none ...">        <label>          <input class="sr-only" type="radio" name="color-choice" value="White" />          <span class="sr-only">White</span>          <span class="size-6 rounded-full border border-black/10 bg-white"></span>        </label>        <!-- ... -->      </div>    </fieldset>  </div></form>
 ```

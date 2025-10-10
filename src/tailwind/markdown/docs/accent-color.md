@@ -264,10 +264,6 @@ Show more
 
 Use utilities like `accent-rose-500` and `accent-lime-600` to change the accent color of an element:
 
-Browser default
-
-Customized
-
 ```
 <label>  <input type="checkbox" checked />  Browser default</label><label>  <input class="accent-pink-500" type="checkbox" checked />  Customized</label>
 ```
@@ -277,10 +273,6 @@ This is helpful for styling elements like checkboxes and radio groups by overrid
 ### [Changing the opacity](#changing-the-opacity)
 
 Use the color opacity modifier to control the opacity of an element's accent color:
-
-accent-purple-500/25
-
-accent-purple-500/75
 
 ```
 <input class="accent-purple-500/25" type="checkbox" checked /><input class="accent-purple-500/75" type="checkbox" checked />
@@ -307,8 +299,6 @@ This is just a shorthand for `accent-[var(<custom-property>)]` that adds the `va
 ### [Applying on hover](#applying-on-hover)
 
 Prefix an `accent-color` utility with a variant like `hover:*` to only apply the utility in that state:
-
-Agree to terms
 
 ```
 <input class="accent-black hover:accent-pink-500" type="checkbox" />

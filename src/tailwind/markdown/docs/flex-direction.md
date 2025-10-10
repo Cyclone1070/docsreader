@@ -17,12 +17,6 @@ Utilities for controlling the direction of flex items.
 
 Use `flex-row` to position flex items horizontally in the same direction as text:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex flex-row ...">  <div>01</div>  <div>02</div>  <div>03</div></div>
 ```
@@ -30,12 +24,6 @@ Use `flex-row` to position flex items horizontally in the same direction as text
 ### [Row reversed](#row-reversed)
 
 Use `flex-row-reverse` to position flex items horizontally in the opposite direction:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex flex-row-reverse ...">  <div>01</div>  <div>02</div>  <div>03</div></div>
@@ -45,12 +33,6 @@ Use `flex-row-reverse` to position flex items horizontally in the opposite direc
 
 Use `flex-col` to position flex items vertically:
 
-01
-
-02
-
-03
-
 ```
 <div class="flex flex-col ...">  <div>01</div>  <div>02</div>  <div>03</div></div>
 ```
@@ -58,12 +40,6 @@ Use `flex-col` to position flex items vertically:
 ### [Column reversed](#column-reversed)
 
 Use `flex-col-reverse` to position flex items vertically in the opposite direction:
-
-01
-
-02
-
-03
 
 ```
 <div class="flex flex-col-reverse ...">  <div>01</div>  <div>02</div>  <div>03</div></div>

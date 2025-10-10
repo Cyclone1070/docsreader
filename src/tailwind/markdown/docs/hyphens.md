@@ -16,8 +16,6 @@ Utilities for controlling how words should be hyphenated.
 
 Use the `hyphens-none` utility to prevent words from being hyphenated even if the line break suggestion `&shy;` is used:
 
-Officially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeug­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
-
 ```
 <p class="hyphens-none">  ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...</p>
 ```
@@ -25,8 +23,6 @@ Officially recognized by the Duden dictionary as the longest word in German, Kra
 ### [Manual hyphenation](#manual-hyphenation)
 
 Use the `hyphens-manual` utility to only set hyphenation points where the line break suggestion `&shy;` is used:
-
-Officially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeug­haftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
 
 ```
 <p class="hyphens-manual">  ... Kraftfahrzeug&shy;haftpflichtversicherung is a ...</p>
@@ -37,8 +33,6 @@ This is the default browser behavior.
 ### [Automatic hyphenation](#automatic-hyphenation)
 
 Use the `hyphens-auto` utility to allow the browser to automatically choose hyphenation points based on the language:
-
-Officially recognized by the Duden dictionary as the longest word in German, Kraftfahrzeughaftpflichtversicherung is a 36 letter word for motor vehicle liability insurance.
 
 ```
 <p class="hyphens-auto" lang="de">  ... Kraftfahrzeughaftpflichtversicherung is a ...</p>

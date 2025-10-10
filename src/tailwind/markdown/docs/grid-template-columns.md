@@ -18,24 +18,6 @@ Utilities for specifying the columns in a grid layout.
 
 Use `grid-cols-<number>` utilities like `grid-cols-2` and `grid-cols-4` to create grids with *n* equally sized columns:
 
-01
-
-02
-
-03
-
-04
-
-05
-
-06
-
-07
-
-08
-
-09
-
 ```
 <div class="grid grid-cols-4 gap-4">  <div>01</div>  <!-- ... -->  <div>09</div></div>
 ```
@@ -43,18 +25,6 @@ Use `grid-cols-<number>` utilities like `grid-cols-2` and `grid-cols-4` to creat
 ### [Implementing a subgrid](#implementing-a-subgrid)
 
 Use the `grid-cols-subgrid` utility to adopt the column tracks defined by the item's parent:
-
-01
-
-02
-
-03
-
-04
-
-05
-
-06
 
 ```
 <div class="grid grid-cols-4 gap-4">  <div>01</div>  <!-- ... -->  <div>05</div>  <div class="col-span-3 grid grid-cols-subgrid gap-4">    <div class="col-start-2">06</div>  </div></div>

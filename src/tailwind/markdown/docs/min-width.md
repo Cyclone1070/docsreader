@@ -45,18 +45,6 @@ Show more
 
 Use `min-w-<number>` utilities like `min-w-24` and `min-w-64` to set an element to a fixed minimum width based on the spacing scale:
 
-min-w-80
-
-min-w-64
-
-min-w-48
-
-min-w-40
-
-min-w-32
-
-min-w-24
-
 ```
 <div class="w-20 ...">  <div class="min-w-80 ...">min-w-80</div>  <div class="min-w-64 ...">min-w-64</div>  <div class="min-w-48 ...">min-w-48</div>  <div class="min-w-40 ...">min-w-40</div>  <div class="min-w-32 ...">min-w-32</div>  <div class="min-w-24 ...">min-w-24</div></div>
 ```
@@ -65,10 +53,6 @@ min-w-24
 
 Use `min-w-full` or `min-w-<fraction>` utilities like `min-w-1/2` and `min-w-2/5` to give an element a percentage-based minimum width:
 
-min-w-3/4
-
-w-full
-
 ```
 <div class="flex ...">  <div class="min-w-3/4 ...">min-w-3/4</div>  <div class="w-full ...">w-full</div></div>
 ```
@@ -76,18 +60,6 @@ w-full
 ### [Using the container scale](#using-the-container-scale)
 
 Use utilities like `min-w-sm` and `min-w-xl` to set an element to a fixed minimum width based on the container scale:
-
-min-w-lg
-
-min-w-md
-
-min-w-sm
-
-min-w-xs
-
-min-w-2xs
-
-min-w-3xs
 
 ```
 <div class="w-40 ...">  <div class="min-w-lg ...">min-w-lg</div>  <div class="min-w-md ...">min-w-md</div>  <div class="min-w-sm ...">min-w-sm</div>  <div class="min-w-xs ...">min-w-xs</div>  <div class="min-w-2xs ...">min-w-2xs</div>  <div class="min-w-3xs ...">min-w-3xs</div></div>

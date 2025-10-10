@@ -264,18 +264,6 @@ Show more
 
 Use utilities like `bg-white`, `bg-indigo-500` and `bg-transparent` to control the background color of an element:
 
-bg-blue-500
-
-Button A
-
-bg-cyan-500
-
-Button B
-
-bg-pink-500
-
-Button C
-
 ```
 <button class="bg-blue-500 ...">Button A</button><button class="bg-cyan-500 ...">Button B</button><button class="bg-pink-500 ...">Button C</button>
 ```
@@ -283,18 +271,6 @@ Button C
 ### [Changing the opacity](#changing-the-opacity)
 
 Use the color opacity modifier to control the opacity of an element's background color:
-
-bg-sky-500/100
-
-Button A
-
-bg-sky-500/75
-
-Button B
-
-bg-sky-500/50
-
-Button C
 
 ```
 <button class="bg-sky-500/100 ..."></button><button class="bg-sky-500/75 ..."></button><button class="bg-sky-500/50 ..."></button>
@@ -319,8 +295,6 @@ This is just a shorthand for `bg-[var(<custom-property>)]` that adds the `var()`
 ### [Applying on hover](#applying-on-hover)
 
 Prefix a `background-color` utility with a variant like `hover:*` to only apply the utility in that state:
-
-Save changes
 
 ```
 <button class="bg-indigo-500 hover:bg-fuchsia-500 ...">Save changes</button>

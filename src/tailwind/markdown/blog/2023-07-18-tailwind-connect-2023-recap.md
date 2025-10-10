@@ -16,10 +16,6 @@ But even though we got a little carried away with the production, we really trie
 
 We originally expected it to be a "drive there after work" local-heavy event, but almost half of the people who attended traveled by plane to get here. So to help everyone make the most of their time here, we set up a Discord server for the event so people traveling in could make plans with each other, and rented out the patio at the [Foundry Tavern](https://www.instagram.com/foundrytavern/) next door to the event space for the afternoon to give people a reason to meet up early and make some new friends.
 
-![Tailwind Connect attendees enjoying their lunch at the Foundry Tavern](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffoundry-tavern.1d1287fe.jpg\&w=3840\&q=75)
-
-Those two guys in the Tailwind CSS shirts flew in from Germany for this thing.
-
 We opened up the doors for the event around 5:30pm and started the night with an hour long opening reception, where people could hang out and talk and enjoy some canapés.
 
 ![Attendees talking and enjoying drinks before the event](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fattendees-talking.18d25854.jpg\&w=3840\&q=75)

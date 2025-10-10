@@ -103,16 +103,6 @@ module.exports = {  theme: {    extend: {      aria: {        asc: 'sort="ascend
 
 If you need to use a one-off `aria` modifier that doesn’t make sense to include in your theme, or for more complex ARIA attributes that take specific values, use square brackets to generate a property on the fly using any arbitrary value.
 
-| Invoice # | Client                      | Amount     |
-| --------- | --------------------------- | ---------- |
-| #100      | Pendant Publishing          | $2,000.00  |
-| #101      | Kruger Industrial Smoothing | $545.00    |
-| #102      | J. Peterman                 | $10,000.25 |
-
-HTML
-
-Generated CSS
-
 ```
 <table>  <thead>    <tr>      <th        aria-sort="ascending"        class="aria-[sort=ascending]:bg-[url('/img/down-arrow.svg')] aria-[sort=descending]:bg-[url('/img/up-arrow.svg')]"      >        Invoice #      </th>      <!-- ... -->    </tr>  </thead>  <!-- ... --></table>
 ```

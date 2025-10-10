@@ -16,10 +16,6 @@ Utilities for controlling the marker images for list items.
 
 Use the `list-image-[<value>]` syntax to control the marker image for list items:
 
-- 5 cups chopped Porcini mushrooms
-- 1/2 cup of olive oil
-- 3lb of celery
-
 ```
 <ul class="list-image-[url(/img/checkmark.png)]">  <li>5 cups chopped Porcini mushrooms</li>  <!-- ... --></ul>
 ```

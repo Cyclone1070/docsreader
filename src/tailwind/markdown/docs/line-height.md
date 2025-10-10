@@ -20,18 +20,6 @@ Utilities for controlling the leading, or line height, of an element.
 
 Use font size utilities like `text-sm/6` and `text-lg/7` to set the font size and line-height of an element at the same time:
 
-text-sm/6
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
-text-sm/7
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
-text-sm/8
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
 ```
 <p class="text-base/6 ...">So I started to walk into the water...</p><p class="text-base/7 ...">So I started to walk into the water...</p><p class="text-base/8 ...">So I started to walk into the water...</p>
 ```
@@ -42,18 +30,6 @@ Each font size utility also sets a default line height when one isn't provided. 
 
 Use `leading-<number>` utilities like `leading-6` and `leading-7` to set the line height of an element independent of the font-size:
 
-leading-6
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
-leading-7
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
-leading-8
-
-So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all living things but I tell you Jerry at that moment, I *was* a marine biologist.
-
 ```
 <p class="text-sm leading-6">So I started to walk into the water...</p><p class="text-sm leading-7">So I started to walk into the water...</p><p class="text-sm leading-8">So I started to walk into the water...</p>
 ```
@@ -61,8 +37,6 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 ### [Removing the leading](#removing-the-leading)
 
 Use the `leading-none` utility to set the line height of an element equal to its font size:
-
-The quick brown fox jumps over the lazy dog.
 
 ```
 <p class="text-2xl leading-none ...">The quick brown fox...</p>

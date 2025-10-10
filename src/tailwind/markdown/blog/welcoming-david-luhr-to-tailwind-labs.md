@@ -12,8 +12,6 @@ We started working with [David Luhr](https://twitter.com/david_luhr) last summer
 
 Today we're excited to share that David has joined the team full-time!
 
-Watch David build some Tailwind UI components in Figma live on his YouTube channel!
-
 David is an accessibility expert, a world-class front-end developer, a gifted educator, and a compassionate leader. He's performed black magic with Tailwind UI in Figma that Steve and I didn't even know was possible, and he's been doing an incredible job turning Steve's Tailwind UI designs into pixel-perfect HTML and CSS that works for everyone.
 
 Say what you will about HTML being easy to learn, it's a bear to master. David knows things about the spec that I've never encountered in 20 years of building things for the web, and has so much built up knowledge from his own real-world device testing that it would take years of dedicated focus to even come close to writing markup as bullet-proof as what David produces by default.
