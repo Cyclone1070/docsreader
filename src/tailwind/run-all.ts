@@ -8,41 +8,43 @@
  * 5. Restore original components
  */
 
-import { spawn } from 'child_process';
-import path from 'path';
-import { fileURLToPath } from 'url';
+import { spawn } from "child_process";
+import path from "path";
+import { fileURLToPath } from "url";
 
 // Get the directory where this script is located
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const SCRIPTS_DIR = __dirname;
-const PROJECT_ROOT = path.resolve(__dirname, '../..');
+const PROJECT_ROOT = path.resolve(__dirname, "../..");
 
 function runScript(scriptName: string): Promise<void> {
-  return new Promise((resolve, reject) => {
-    console.log(`\n${'='.repeat(60)}`);
-    console.log(`Running: ${scriptName}`);
-    console.log('='.repeat(60));
+	return new Promise((resolve, reject) => {
+		console.log(`\n${"=".repeat(60)}`);
+		console.log(`Running: ${scriptName}`);
+		console.log("=".repeat(60));
 
-    const scriptPath = path.join(SCRIPTS_DIR, scriptName);
-    const childProcess = spawn('node', [scriptPath], {
-      stdio: 'inherit',
-      shell: true,
-      cwd: PROJECT_ROOT, // Run scripts from project root
-    });
+		const scriptPath = path.join(SCRIPTS_DIR, scriptName);
+		const childProcess = spawn("node", [scriptPath], {
+			stdio: "inherit",
+			shell: true,
+			cwd: PROJECT_ROOT, // Run scripts from project root
+		});
 
-    childProcess.on('close', (code) => {
-      if (code === 0) {
-        resolve();
-      } else {
-        reject(new Error(`Script ${scriptName} exited with code ${code}`));
-      }
-    });
+		childProcess.on("close", (code) => {
+			if (code === 0) {
+				resolve();
+			} else {
+				reject(
+					new Error(`Script ${scriptName} exited with code ${code}`)
+				);
+			}
+		});
 
-    childProcess.on('error', (error) => {
-      reject(error);
-    });
-  });
+		childProcess.on("error", (error) => {
+			reject(error);
+		});
+	});
 }
 
 async function main() {
@@ -52,7 +54,9 @@ async function main() {
 	console.log("  2. Build site to static HTML");
 	console.log("  3. Strip HTML attributes");
 	console.log("  4. Convert HTML to Markdown\n");
-	console.log("After completion, restore with: cd docs/tailwindcss.com && git checkout src/\n");
+	console.log(
+		"After completion, restore with: cd docs/tailwindcss.com && git checkout src/\n"
+	);
 
 	const startTime = Date.now();
 
@@ -67,7 +71,9 @@ async function main() {
 		console.log("✅ Full pipeline completed successfully!");
 		console.log(`   Total time: ${duration}s`);
 		console.log("=".repeat(60));
-		console.log("\nMarkdown files are available in: src/tailwind/markdown/");
+		console.log(
+			"\nMarkdown files are available in: src/tailwind/markdown/"
+		);
 		console.log("\nTo restore original files:");
 		console.log("  cd docs/tailwindcss.com && git checkout src/");
 	} catch (error) {

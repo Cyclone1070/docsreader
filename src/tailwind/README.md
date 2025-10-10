@@ -1,18 +1,10 @@
 # Tailwind CSS Documentation to Markdown Converter# Tailwind CSS Documentation to Markdown Converter# Tailwind CSS Documentation to Markdown Converter# Tailwind CSS Documentation to Markdown Converter# Tailwind CSS Documentation to Markdown Converter# Tailwind CSS Documentation to Markdown Converter
 
-
-
 This set of scripts converts the Tailwind CSS documentation website into clean, AI-consumable markdown files.
-
-
 
 ## What It DoesThis set of scripts converts the Tailwind CSS documentation website into clean, AI-consumable markdown files.
 
-
-
 The pipeline performs the following steps:
-
-
 
 1. **Patches React Components** - Strips out UI chrome (headers, footers, pagination, table of contents, breadcrumbs, promos) by replacing them with minimal implementations## What It DoesThis set of scripts converts the Tailwind CSS documentation website into clean, AI-consumable markdown files.
 
@@ -24,27 +16,17 @@ The pipeline performs the following steps:
 
 5. **Converts to Markdown** - Uses unified/rehype/remark to convert the cleaned HTML to markdown filesThe pipeline performs the following steps:
 
-
-
 **Note:** All file modifications are temporary. Use `git checkout` to restore original files after the pipeline completes.
-
-
 
 ## Requirements1. **Patches React Components** - Strips out UI chrome (headers, footers, pagination, table of contents, breadcrumbs, promos) by replacing them with minimal implementations## What It DoesThis set of scripts converts the Tailwind CSS documentation website into clean, AI-consumable markdown files.
 
+-   Node.js (the scripts run with plain `node` command)2. **Configures Next.js** - Temporarily modifies `next.config.ts` to enable static export
 
+-   pnpm (used by the Tailwind CSS project)
 
-- Node.js (the scripts run with plain `node` command)2. **Configures Next.js** - Temporarily modifies `next.config.ts` to enable static export
-
-- pnpm (used by the Tailwind CSS project)
-
-- All dependencies are already installed in the root workspace3. **Builds Static HTML** - Runs `pnpm build` to generate static HTML files in `cleanHtml` directory
-
-
+-   All dependencies are already installed in the root workspace3. **Builds Static HTML** - Runs `pnpm build` to generate static HTML files in `cleanHtml` directory
 
 **Important:** Before running the pipeline, make sure dependencies are installed in the Tailwind CSS directory:4. **Strips HTML Attributes** - Removes all `<script>` tags, `style` attributes, `class`, `id`, React Suspense markers, and other non-semantic content
-
-
 
 ```bash5. **Converts to Markdown** - Uses unified/rehype/remark to convert the cleaned HTML to markdown filesThe pipeline performs the following steps:
 
@@ -52,29 +34,17 @@ cd docs/tailwindcss.com && pnpm install
 
 ```
 
-
-
 ## Performance Note**Note:** All file modifications are temporary. Use `git checkout` to restore original files after the pipeline completes.
-
-
 
 The Next.js build process can take **~30-60 seconds** to compile the entire Tailwind CSS documentation site. This is normal. The script will show progress output during the build.
 
-
-
 ## Usage## Requirements1. **Patches React Components** - Strips out UI chrome (headers, footers, pagination, table of contents, breadcrumbs, promos) by replacing them with minimal implementations## What It DoesThis set of scripts converts the Tailwind CSS documentation website into clean, AI-consumable markdown files.This set of scripts converts the Tailwind CSS documen### Intermediate Output
-
-
 
 ### Run from Anywhere
 
-
-
 The scripts automatically detect their location and work from any directory:- Node.js (the scripts run with plain `node` command)2. **Configures Next.js** - Temporarily modifies `next.config.ts` to enable static export
 
-
-
-```bash- pnpm (used by the Tailwind CSS project)
+````bash- pnpm (used by the Tailwind CSS project)
 
 # From anywhere on your system
 
@@ -96,31 +66,29 @@ cd ~/Downloads
 
 node ~/Desktop/repos/docsreader/src/tailwind/run-all.ts```bash5. **Converts to Markdown** - Uses unified/rehype/remark to convert the cleaned HTML to markdown filesThe pipeline performs the following steps:
 
-```
+````
 
 cd docs/tailwindcss.com && pnpm install
 
 After completion, restore original files with:
 
-```
+````
 
 ```bash
 
 cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
-```
+````
 
 ## Performance Note**Note:** All file modifications are temporary. Use `git checkout` to restore original files after the pipeline completes.
 
 ### Run Individual Scripts
 
-
-
 You can also run scripts individually from any directory:
 
 The Next.js build process can take **~30-60 seconds** to compile the entire Tailwind CSS documentation site. This is normal. The script will show progress output during the build.
 
-```bash
+```````bash
 
 # 1. Patch components
 
@@ -194,7 +162,7 @@ cd ~/Downloads
 
   - Root-level files: `404.md`, `blog.md`, `brand.md`, `showcase.md`, `sponsor.md`, etc.
 
-```
+```````
 
 Total: **278 clean markdown files** ready for AI consumption
 
@@ -206,7 +174,7 @@ After completion, restore original files with:
 
 ### Path Resolution
 
-```
+`````
 
 All scripts use `import.meta.url` to determine their own location and calculate the project root dynamically. This means:
 
@@ -276,9 +244,7 @@ Temporarily adds to `next.config.ts`:# 2. Build to static HTML
 
 }node /path/to/docsreader/src/tailwind/3-strip-html.ts
 
-```
-
-
+`````
 
 ### HTML Cleaning
 
@@ -288,107 +254,77 @@ Removes:
 
 node /path/to/docsreader/src/tailwind/4-html-to-markdown.tsThe scripts automatically detect their location and work from any directory:- Node.js (the scripts run with plain `node` command)2. **Configures Next.js** - Temporarily modifies `next.config.ts` to enable static export
 
-- All `<script>` tags
+-   All `<script>` tags
 
-- All `<style>` tags
+-   All `<style>` tags
 
-- All `<noscript>` tags
+-   All `<noscript>` tags
 
-- React Suspense boundary markers: `<!--$-->` and `<!--/$-->`# 5. Restore files
+-   React Suspense boundary markers: `<!--$-->` and `<!--/$-->`# 5. Restore files
 
-- Empty HTML comments: `<!-- -->`
+-   Empty HTML comments: `<!-- -->`
 
-- All attributes except: `href`, `src`, `alt`, `title`cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
-
-
+-   All attributes except: `href`, `src`, `alt`, `title`cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
 ### Markdown Conversion``````bash- pnpm (used by the Tailwind CSS project)
 
-
-
 Uses the unified ecosystem:
 
+-   `rehype-parse` - Parse HTML**Important:** Always restore files after running to get back to a clean state!# From anywhere on your system
 
+-   `rehype-remark` - Convert HTML to Markdown AST
 
-- `rehype-parse` - Parse HTML**Important:** Always restore files after running to get back to a clean state!# From anywhere on your system
+-   `remark-gfm` - Add support for tables and GitHub Flavored Markdown
 
-- `rehype-remark` - Convert HTML to Markdown AST
-
-- `remark-gfm` - Add support for tables and GitHub Flavored Markdown
-
-- `remark-stringify` - Stringify Markdown
+-   `remark-stringify` - Stringify Markdown
 
 ## Outputnode /path/to/docsreader/src/tailwind/run-all.ts- All dependencies are already installed in the root workspace3. **Builds Static HTML** - Runs `pnpm build` to generate static HTML files in `cleanHtml` directory## Error Handling
 
 Filters applied during conversion:
 
+-   **Excluded root directories**: `installation/`, `course/`, `build-uis-that-dont-suck/` (at root level only)
 
+-   **Excluded root files**: `404.html`, `blog.html`, `brand.html`, `showcase.html`, `sponsor.html`, `course.html`, `build-uis-that-dont-suck.html`### Intermediate Output
 
-- **Excluded root directories**: `installation/`, `course/`, `build-uis-that-dont-suck/` (at root level only)
-
-- **Excluded root files**: `404.html`, `blog.html`, `brand.html`, `showcase.html`, `sponsor.html`, `course.html`, `build-uis-that-dont-suck.html`### Intermediate Output
-
-- **Kept**: `index.md`, all files in `docs/**/*.md` (including `docs/installation/`), and all `blog/**/*.md`
-
-
+-   **Kept**: `index.md`, all files in `docs/**/*.md` (including `docs/installation/`), and all `blog/**/*.md`
 
 ## Error Handling
 
-- `docs/tailwindcss.com/cleanHtml/` - Contains the built static HTML files (temporary)# Or from the project root
+-   `docs/tailwindcss.com/cleanHtml/` - Contains the built static HTML files (temporary)# Or from the project root
 
-- ESLint and TypeScript errors are automatically ignored during build
+-   ESLint and TypeScript errors are automatically ignored during build
 
-- If the build fails, use `git checkout` to restore original files
+-   If the build fails, use `git checkout` to restore original files
 
-- The pipeline can be safely re-run multiple times
+-   The pipeline can be safely re-run multiple times
 
-- Next.js config is automatically restored even on build failure### Final Outputcd /path/to/docsreader
-
-
+-   Next.js config is automatically restored even on build failure### Final Outputcd /path/to/docsreader
 
 ## Troubleshooting
 
-
-
 ### Build Fails- `src/tailwind/markdown/` - All converted markdown filesnode src/tailwind/run-all.ts**Important:** Before running the pipeline, make sure dependencies are installed in the Tailwind CSS directory:4. **Strips HTML Attributes** - Removes all `<script>` tags, `style` attributes, `class`, `id`, and other non-semantic attributes
 
+If the build fails, check: - `index.md` - Homepage
 
-
-If the build fails, check:  - `index.md` - Homepage
-
-
-
-1. Has `pnpm install` been run in `docs/tailwindcss.com`?  - `docs/` - Documentation pages (~214 files)
+1. Has `pnpm install` been run in `docs/tailwindcss.com`? - `docs/` - Documentation pages (~214 files)
 
 2. Check the error output for specific issues
 
-3. Try running from the project root directory  - `blog/` - Blog posts (~63 files)
-
-
+3. Try running from the project root directory - `blog/` - Blog posts (~63 files)
 
 ### Files Not Restored# Or from a different directory
 
-
-
 If something goes wrong and you need to restore files:**Excluded from output:**
-
-
 
 ```bash  - `installation/`, `course/`, `build-uis-that-dont-suck/` directories (not useful for AI consumption)cd ~/Downloads
 
 cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
-```  - Root-level files: `404.md`, `blog.md`, `brand.md`, `showcase.md`, `sponsor.md`, etc.
-
-
+``` - Root-level files:`404.md`, `blog.md`, `brand.md`, `showcase.md`, `sponsor.md`, etc.
 
 ### No Markdown Files Generatednode ~/Desktop/repos/docsreader/src/tailwind/run-all.ts```bash5. **Converts to Markdown** - Uses unified/rehype/remark to convert the cleaned HTML to markdown files- ESLint and TypeScript errors are automatically ignored during build
 
-
-
 If no markdown files appear in `src/tailwind/markdown/`:Total: **250 clean markdown files** ready for AI consumption
-
-
 
 1. Check if HTML files were generated in `docs/tailwindcss.com/cleanHtml/````
 
@@ -400,71 +336,59 @@ If no markdown files appear in `src/tailwind/markdown/`:Total: **250 clean markd
 
 cd docs/tailwindcss.com && pnpm install
 
-- Everything is version controlled, so no permanent damage can occur
+-   Everything is version controlled, so no permanent damage can occur
 
-- The scripts use the repo's existing build process, not custom build logic### Path Resolution
+-   The scripts use the repo's existing build process, not custom build logic### Path Resolution
 
-- All scripts are written in TypeScript but run directly with `node` (no transpilation needed)
+-   All scripts are written in TypeScript but run directly with `node` (no transpilation needed)
 
-- The pipeline is idempotent - you can run it multiple times safelyAfter completion, restore original files with:
+-   The pipeline is idempotent - you can run it multiple times safelyAfter completion, restore original files with:
 
-- Total pipeline execution time: ~70-100 seconds
+-   Total pipeline execution time: ~70-100 seconds
 
-- **Can be run from anywhere** - scripts automatically find the project rootAll scripts use `import.meta.url` to determine their own location and calculate the project root dynamically. This means:
+-   **Can be run from anywhere** - scripts automatically find the project rootAll scripts use `import.meta.url` to determine their own location and calculate the project root dynamically. This means:
 
-- Output markdown is completely clean - no React artifacts, no UI chrome, just content
+-   Output markdown is completely clean - no React artifacts, no UI chrome, just content
 
 ```- If the build fails, use `git checkout` to restore original files
 
-- ✅ Works from any directory
+-   ✅ Works from any directory
 
-- ✅ No need to be in project root```bash
+-   ✅ No need to be in project root```bash
 
-- ✅ Scripts find the Tailwind CSS repo automatically
+-   ✅ Scripts find the Tailwind CSS repo automatically
 
-- ✅ Output goes to the correct locationcd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
-
-
+-   ✅ Output goes to the correct locationcd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
 ### Component Patching```
 
-
-
 The script modifies these files temporarily:## Performance Note**Note:** All file modifications are temporary. Use `git checkout` to restore original files after the pipeline completes.- The pipeline can be safely re-run multiple times
 
+-   All `layout.tsx` files → Return only `{children}`### Run Individual Scripts
 
+-   Dynamic routes with `[params]` → Adds `generateStaticParams()` returning `[]`
 
-- All `layout.tsx` files → Return only `{children}`### Run Individual Scripts
+-   API routes → Adds `dynamic = 'force-static'`
 
-- Dynamic routes with `[params]` → Adds `generateStaticParams()` returning `[]`
+-   `pagination.tsx` → Returns `null`
 
-- API routes → Adds `dynamic = 'force-static'`
+-   `table-of-contents.tsx` → Returns `null`You can also run scripts individually from any directory:
 
-- `pagination.tsx` → Returns `null`
+-   `header.tsx` → Returns `null`
 
-- `table-of-contents.tsx` → Returns `null`You can also run scripts individually from any directory:
+-   `footer.tsx` → Returns `null`The Next.js build process can take **~30-60 seconds** to compile the entire Tailwind CSS documentation site. This is normal. The script will show progress output during the build.- Next.js config is automatically restored even on build failureclean, AI-consumable markdown files.
 
-- `header.tsx` → Returns `null`
+-   `breadcrumb.tsx` → Returns `null`
 
-- `footer.tsx` → Returns `null`The Next.js build process can take **~30-60 seconds** to compile the entire Tailwind CSS documentation site. This is normal. The script will show progress output during the build.- Next.js config is automatically restored even on build failureclean, AI-consumable markdown files.
+-   `promos.tsx` → Returns `null` (BookPromo, CoursePromo, RandomPromo)```bash
 
-- `breadcrumb.tsx` → Returns `null`
+-   Deletes `@breadcrumb/[...catchAll]/page.tsx` (conflicts with default.tsx)
 
-- `promos.tsx` → Returns `null` (BookPromo, CoursePromo, RandomPromo)```bash
-
-- Deletes `@breadcrumb/[...catchAll]/page.tsx` (conflicts with default.tsx)
-
-- Skips all `@breadcrumb` routes (parallel slots inherit params)# 1. Patch components
-
-
+-   Skips all `@breadcrumb` routes (parallel slots inherit params)# 1. Patch components
 
 ### Next.js Configurationnode /path/to/docsreader/src/tailwind/1-patch-components.ts
 
-
-
 Temporarily adds to `next.config.ts`:## Usage## Requirements
-
-
 
 ```typescript# 2. Build to static HTML
 
@@ -486,99 +410,73 @@ node /path/to/docsreader/src/tailwind/3-strip-html.ts
 
 ### HTML Cleaning
 
-
-
 Removes:
 
 # 4. Convert HTML to Markdown
 
-- All `<script>` tags
+-   All `<script>` tags
 
-- All `<style>` tagsnode /path/to/docsreader/src/tailwind/4-html-to-markdown.tsThe scripts automatically detect their location and work from any directory:- Node.js (the scripts run with plain `node` command)
+-   All `<style>` tagsnode /path/to/docsreader/src/tailwind/4-html-to-markdown.tsThe scripts automatically detect their location and work from any directory:- Node.js (the scripts run with plain `node` command)
 
-- All `<noscript>` tags
+-   All `<noscript>` tags
 
-- React Suspense boundary markers: `<!--$-->` and `<!--/$-->`
+-   React Suspense boundary markers: `<!--$-->` and `<!--/$-->`
 
-- Empty HTML comments: `<!-- -->`
+-   Empty HTML comments: `<!-- -->`
 
-- All attributes except: `href`, `src`, `alt`, `title`# 5. Restore files
-
-
+-   All attributes except: `href`, `src`, `alt`, `title`# 5. Restore files
 
 ### Markdown Conversioncd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
-
-
 Uses the unified ecosystem:``````bash- pnpm (used by the Tailwind CSS project)The pipeline performs the following steps:
 
+-   `rehype-parse` - Parse HTML
 
+-   `rehype-remark` - Convert HTML to Markdown AST
 
-- `rehype-parse` - Parse HTML
+-   `remark-gfm` - Add support for tables and GitHub Flavored Markdown**Important:** Always restore files after running to get back to a clean state!# From anywhere on your system
 
-- `rehype-remark` - Convert HTML to Markdown AST
-
-- `remark-gfm` - Add support for tables and GitHub Flavored Markdown**Important:** Always restore files after running to get back to a clean state!# From anywhere on your system
-
-- `remark-stringify` - Stringify Markdown
-
-
+-   `remark-stringify` - Stringify Markdown
 
 Filters applied during conversion:
 
 ## Outputnode /path/to/docsreader/src/tailwind/run-all.ts- All dependencies are already installed in the root workspace
 
-- **Excluded directories**: `installation/`, `course/`, `build-uis-that-dont-suck/`
+-   **Excluded directories**: `installation/`, `course/`, `build-uis-that-dont-suck/`
 
-- **Excluded root files**: `404.html`, `blog.html`, `brand.html`, `showcase.html`, `sponsor.html`, `course.html`, `build-uis-that-dont-suck.html`
+-   **Excluded root files**: `404.html`, `blog.html`, `brand.html`, `showcase.html`, `sponsor.html`, `course.html`, `build-uis-that-dont-suck.html`
 
-- **Kept**: `index.md` and all files in `docs/` and `blog/` subdirectories
+-   **Kept**: `index.md` and all files in `docs/` and `blog/` subdirectories
 
 ### Intermediate Output
 
 ## Error Handling
 
+-   ESLint and TypeScript errors are automatically ignored during build
 
+-   If the build fails, use `git checkout` to restore original files- `docs/tailwindcss.com/cleanHtml/` - Contains the built static HTML files (temporary)# Or from the project root1. **Patches React Components** - Strips out UI chrome (headers, footers, pagination, table of contents) by replacing them with minimal implementations
 
-- ESLint and TypeScript errors are automatically ignored during build
+-   The pipeline can be safely re-run multiple times
 
-- If the build fails, use `git checkout` to restore original files- `docs/tailwindcss.com/cleanHtml/` - Contains the built static HTML files (temporary)# Or from the project root1. **Patches React Components** - Strips out UI chrome (headers, footers, pagination, table of contents) by replacing them with minimal implementations
-
-- The pipeline can be safely re-run multiple times
-
-- Next.js config is automatically restored even on build failure
-
-
+-   Next.js config is automatically restored even on build failure
 
 ## Troubleshooting### Final Outputcd /path/to/docsreader
 
-
-
 ### Build Fails
-
-
 
 If the build fails, check:- `src/tailwind/markdown/` - All converted markdown filesnode src/tailwind/run-all.ts**Important:** Before running the pipeline, make sure dependencies are installed in the Tailwind CSS directory:2. **Configures Next.js** - Temporarily modifies `next.config.ts` to enable static export
 
-
-
-1. Has `pnpm install` been run in `docs/tailwindcss.com`?  - `docs/` - Documentation pages (~190 files)
+1. Has `pnpm install` been run in `docs/tailwindcss.com`? - `docs/` - Documentation pages (~190 files)
 
 2. Check the error output for specific issues
 
-3. Try running from the project root directory  - `blog/` - Blog posts (~70 files)
+3. Try running from the project root directory - `blog/` - Blog posts (~70 files)
 
+### Files Not Restored - `installation/` - Installation guides
 
+If something goes wrong and you need to restore files: - Root pages (index.md, 404.md, brand.md, etc.)# Or from a different directory3. **Builds Static HTML** - Runs `pnpm build` to generate static HTML files in `cleanHtml` directory
 
-### Files Not Restored  - `installation/` - Installation guides
-
-
-
-If something goes wrong and you need to restore files:  - Root pages (index.md, 404.md, brand.md, etc.)# Or from a different directory3. **Builds Static HTML** - Runs `pnpm build` to generate static HTML files in `cleanHtml` directory
-
-
-
-```bash
+````bash
 
 cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
@@ -620,11 +518,11 @@ All scripts use `import.meta.url` to determine their own location and calculate 
 
 - ✅ Output goes to the correct location
 
-```
+````
 
 ### Component Patching
 
-```bash
+```````bash
 
 The script modifies these files temporarily:
 
@@ -762,61 +660,53 @@ If something goes wrong and you need to restore files:
 
 cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/
 
-```
+```````
 
-- `src/tailwind/markdown/` - All converted markdown files```bash
+-   `src/tailwind/markdown/` - All converted markdown files```bash
 
 ### No Markdown Files Generated
 
-  - `docs/` - Documentation pages (~190 files)
+-   `docs/` - Documentation pages (~190 files)
 
 If no markdown files appear in `src/tailwind/markdown/`:
 
-  - `blog/` - Blog posts (~70 files)cd docs/tailwindcss.com && git checkout src/## Usage
+-   `blog/` - Blog posts (~70 files)cd docs/tailwindcss.com && git checkout src/## Usage
 
 1. Check if HTML files were generated in `docs/tailwindcss.com/cleanHtml/`
 
-2. Run the conversion script individually: `node /path/to/4-html-to-markdown.ts`  - `installation/` - Installation guides
+2. Run the conversion script individually: `node /path/to/4-html-to-markdown.ts` - `installation/` - Installation guides
 
+## Notes - Root pages (index.md, 404.md, brand.md, etc.)```
 
+-   Everything is version controlled, so no permanent damage can occur
 
-## Notes  - Root pages (index.md, 404.md, brand.md, etc.)```
+-   The scripts use the repo's existing build process, not custom build logic
 
+-   All scripts are written in TypeScript but run directly with `node` (no transpilation needed)## How It Works### Run the Complete Pipeline
 
+-   The pipeline is idempotent - you can run it multiple times safely
 
-- Everything is version controlled, so no permanent damage can occur
+-   Total pipeline execution time: ~80-100 seconds
 
-- The scripts use the repo's existing build process, not custom build logic
-
-- All scripts are written in TypeScript but run directly with `node` (no transpilation needed)## How It Works### Run the Complete Pipeline
-
-- The pipeline is idempotent - you can run it multiple times safely
-
-- Total pipeline execution time: ~80-100 seconds
-
-- **Can be run from anywhere** - scripts automatically find the project root
+-   **Can be run from anywhere** - scripts automatically find the project root
 
 ### Path Resolution### Run Individual Scripts
 
-
-
 All scripts use `import.meta.url` to determine their own location and calculate the project root dynamically. This means:To run all steps in sequence:
 
+-   ✅ Works from any directory```bash
 
+-   ✅ No need to be in project root
 
-- ✅ Works from any directory```bash
+-   ✅ Scripts find the Tailwind CSS repo automatically# 1. Patch components```bash
 
-- ✅ No need to be in project root
-
-- ✅ Scripts find the Tailwind CSS repo automatically# 1. Patch components```bash
-
-- ✅ Output goes to the correct location
+-   ✅ Output goes to the correct location
 
 node src/tailwind/1-patch-components.tsnode src/tailwind/run-all.ts
 
 ### Component Patching
 
-```
+````
 
 The script modifies these files temporarily:
 
@@ -840,7 +730,7 @@ The script modifies these files temporarily:
 
 - Skips all `@breadcrumb` routes (parallel slots inherit params)
 
-```
+````
 
 ### Next.js Configuration
 
@@ -850,7 +740,7 @@ Temporarily adds to `next.config.ts`:
 
 node src/tailwind/4-html-to-markdown.ts### Run Individual Scripts
 
-```typescript
+```````typescript
 
 {
 
@@ -950,9 +840,9 @@ If something goes wrong and you need to restore files:
 
 cd /path/to/docsreader/docs/tailwindcss.com && git checkout src/-   Build the site
 
-```
+```````
 
-The script modifies these files temporarily:-   Clean the HTML
+The script modifies these files temporarily:- Clean the HTML
 
 ### No Markdown Files Generated
 
@@ -960,47 +850,41 @@ The script modifies these files temporarily:-   Clean the HTML
 
 If no markdown files appear in `src/tailwind/markdown/`:
 
-- All `layout.tsx` files → Return only `{children}`-   Restore all original files
+-   All `layout.tsx` files → Return only `{children}`- Restore all original files
 
 1. Check if HTML files were generated in `docs/tailwindcss.com/cleanHtml/`
 
 2. Run the conversion script individually: `node /path/to/4-html-to-markdown.ts`- Dynamic routes with `[params]` → Adds `generateStaticParams()` returning `[]`
 
-
-
 ## Notes- API routes → Adds `dynamic = 'force-static'`The final markdown files will be available in `src/tailwind/` directory.
 
+-   Everything is version controlled, so no permanent damage can occur- `pagination.tsx` → Returns `null`
 
+-   The scripts use the repo's existing build process, not custom build logic
 
-- Everything is version controlled, so no permanent damage can occur- `pagination.tsx` → Returns `null`
+-   All scripts are written in TypeScript but run directly with `node` (no transpilation needed)- `table-of-contents.tsx` → Returns `null`### Run Individual Scripts
 
-- The scripts use the repo's existing build process, not custom build logic
+-   The pipeline is idempotent - you can run it multiple times safely
 
-- All scripts are written in TypeScript but run directly with `node` (no transpilation needed)- `table-of-contents.tsx` → Returns `null`### Run Individual Scripts
+-   Total pipeline execution time: ~80-100 seconds- `header.tsx` → Returns `null`
 
-- The pipeline is idempotent - you can run it multiple times safely
+-   **Can be run from anywhere** - scripts automatically find the project root
 
-- Total pipeline execution time: ~80-100 seconds- `header.tsx` → Returns `null`
+-   `footer.tsx` → Returns `null`You can also run scripts individually if needed:
 
-- **Can be run from anywhere** - scripts automatically find the project root
+-   Deletes `@breadcrumb/[...catchAll]/page.tsx` (conflicts with default.tsx)
 
-- `footer.tsx` → Returns `null`You can also run scripts individually if needed:
-
-- Deletes `@breadcrumb/[...catchAll]/page.tsx` (conflicts with default.tsx)
-
-- Skips all `@breadcrumb` routes (parallel slots inherit params)```bash
+-   Skips all `@breadcrumb` routes (parallel slots inherit params)```bash
 
 # 1. Patch components (backs up originals)
 
 ### Next.js Configurationnode src/tailwind/1-patch-components.ts
 
-
-
 Temporarily adds to `next.config.ts`:# 2. Build to static HTML
 
 node src/tailwind/2-build-clean-html.ts
 
-```typescript
+`````typescript
 
 {# 3. Strip HTML attributes
 
@@ -1156,7 +1040,7 @@ If the build fails, check:
 If something goes wrong and you need to restore files:
 ```bash
 cd docs/tailwindcss.com && git checkout src/
-```
+`````
 
 ### No HTML Files Generated
 

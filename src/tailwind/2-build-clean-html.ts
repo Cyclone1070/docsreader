@@ -17,22 +17,22 @@ const TAILWIND_DIR = path.resolve(PROJECT_ROOT, "docs/tailwindcss.com");
 const OUTPUT_DIR = path.join(TAILWIND_DIR, "cleanHtml");
 
 async function patchNextConfig(): Promise<void> {
-  const nextConfigPath = path.join(TAILWIND_DIR, 'next.config.ts');
-  const content = await fs.readFile(nextConfigPath, 'utf-8');
-  
-  // Add output: 'export' to the config if not present
-  if (content.includes("output:")) {
-    console.log('✓ Next.js config already has output setting');
-    return;
-  }
-  
-  // Save backup
-  await fs.writeFile(nextConfigPath + '.backup', content);
-  
-  // Add output: 'export', distDir, and disable eslint/typescript checking
-  const modifiedContent = content.replace(
-    'const nextConfig = {',
-    `const nextConfig = {
+	const nextConfigPath = path.join(TAILWIND_DIR, "next.config.ts");
+	const content = await fs.readFile(nextConfigPath, "utf-8");
+
+	// Add output: 'export' to the config if not present
+	if (content.includes("output:")) {
+		console.log("✓ Next.js config already has output setting");
+		return;
+	}
+
+	// Save backup
+	await fs.writeFile(nextConfigPath + ".backup", content);
+
+	// Add output: 'export', distDir, and disable eslint/typescript checking
+	const modifiedContent = content.replace(
+		"const nextConfig = {",
+		`const nextConfig = {
   output: 'export',
   distDir: 'cleanHtml',
   eslint: {
@@ -43,10 +43,10 @@ async function patchNextConfig(): Promise<void> {
   },
   // Disable static page generation errors
   staticPageGenerationTimeout: 1000,`
-  );
-  
-  await fs.writeFile(nextConfigPath, modifiedContent);
-  console.log('✓ Temporarily modified next.config.ts for static export');
+	);
+
+	await fs.writeFile(nextConfigPath, modifiedContent);
+	console.log("✓ Temporarily modified next.config.ts for static export");
 }
 
 async function restoreNextConfig(): Promise<void> {
