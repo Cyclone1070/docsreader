@@ -186,6 +186,8 @@ async function main() {
 		await patchComponent("table-of-contents.tsx");
 		await patchComponent("header.tsx");
 		await patchComponent("footer.tsx");
+		await patchComponent("breadcrumb.tsx");
+		await patchComponent("promos.tsx");
 
 		console.log("\n✅ Component patching completed successfully!");
 		console.log("\nTo restore: cd docs/tailwindcss.com && git checkout src/");
