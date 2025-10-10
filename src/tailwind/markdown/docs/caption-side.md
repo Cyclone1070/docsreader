@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Tables
 
 # caption-side
@@ -45,14 +41,10 @@ Use the `caption-bottom` utility to position a caption element at the bottom of 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `caption-side` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `caption-side` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <caption class="caption-top md:caption-bottom ...">  <!-- ... --></caption>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

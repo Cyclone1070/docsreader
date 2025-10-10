@@ -1,18 +1,10 @@
-<!--$-->
-
-<!--/$-->
-
-text-4xl text-5xl text-6xl text-8xl text-gray-950 text-white tracking-tighter
-
-<!-- -->
-
-text-balance
+text-4xl text-5xl text-6xl text-8xl text-gray-950 text-white tracking-tighter text-balance
 
 # Rapidly build modern websites without ever leaving your HTML.
 
 text-lg text-gray-950text-white font-medium
 
-A utility-first CSS framework packed with classes like<!-- --> flex,<!-- --> pt-4,<!-- --> text-center and<!-- --> rotate-90 that can be composed to build any design, directly in your markup.
+A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
 
 [Get started](docs/installation)
 
@@ -85,7 +77,7 @@ Beach House on Lake Huron2.66(128 reviews)·Bayfield, ON
 
 Check availability
 
-This sunny and spacious room is for those traveling light and looking for a comfy and cozy place to lay their head for a night...<!-- --> Show more
+This sunny and spacious room is for those traveling light and looking for a comfy and cozy place to lay their head for a night... Show more
 
 Show more
 
@@ -115,7 +107,7 @@ sepia
 
 Dark mode
 
-If you’re not a fan of burning your retinas, just stick<!-- --> `dark:` in front of any color to apply it in dark mode.
+If you’re not a fan of burning your retinas, just stick `dark:` in front of any color to apply it in dark mode.
 
 ![](/_next/static/media/dark-mode.light.288405b1.png)
 
@@ -425,7 +417,3 @@ UI Kit
 A starter kit for building your own component systems with React and Tailwind CSS.
 
 ![](/_next/static/media/templates-col-1.44d582cd.png)![](/_next/static/media/templates-col-2.9768ca29.png)![](/_next/static/media/templates-col-3.08018dac.png)
-
-<!--$-->
-
-<!--/$-->

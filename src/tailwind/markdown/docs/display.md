@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # display
@@ -42,35 +38,11 @@ Show more
 
 Use the `inline`, `inline-block`, and `block` utilities to control the flow of text and elements:
 
-When controlling the flow of text, using the CSS property
-
-<!-- -->
-
-display: inline
-
-<!-- -->
-
-will cause the text inside the element to wrap normally.\
+When controlling the flow of text, using the CSS property display: inline will cause the text inside the element to wrap normally.\
 \
-While using the property
-
-<!-- -->
-
-display: inline-block
-
-<!-- -->
-
-will wrap the element to prevent the text inside from extending beyond its parent.\
+While using the property display: inline-block will wrap the element to prevent the text inside from extending beyond its parent.\
 \
-Lastly, using the property
-
-<!-- -->
-
-display: block
-
-<!-- -->
-
-will put the element on its own line and fill its parent.
+Lastly, using the property display: block will put the element on its own line and fill its parent.
 
 ```
 <p>  When controlling the flow of text, using the CSS property <span class="inline">display: inline</span> will cause the  text inside the element to wrap normally.</p><p>  While using the property <span class="inline-block">display: inline-block</span> will wrap the element to prevent the  text inside from extending beyond its parent.</p><p>  Lastly, using the property <span class="block">display: block</span> will put the element on its own line and fill its  parent.</p>
@@ -104,7 +76,7 @@ Use the `flex` utility to create a block-level flex container:
 
 Use the `inline-flex` utility to create an inline flex container that flows with text:
 
-Today I spent most of the day researching ways to take advantage of the fact that bottles can be returned for 10 cents in Michigan, but only 5 cents here.<!-- --> ![](https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=facearea\&facepad=4\&w=256\&h=256\&q=80)Kramer <!-- -->keeps telling me there is no way to make it work, that he has run the numbers on every possible approach, but I just have to believe there's a way to make it work, there's simply too much opportunity here.
+Today I spent most of the day researching ways to take advantage of the fact that bottles can be returned for 10 cents in Michigan, but only 5 cents here. ![](https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?ixlib=rb-1.2.1\&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8\&auto=format\&fit=facearea\&facepad=4\&w=256\&h=256\&q=80)Kramer keeps telling me there is no way to make it work, that he has run the numbers on every possible approach, but I just have to believe there's a way to make it work, there's simply too much opportunity here.
 
 ```
 <p>  Today I spent most of the day researching ways to ...  <span class="inline-flex items-baseline">    <img src="/img/kramer.jpg" class="mx-1 size-5 self-center rounded-full" />    <span>Kramer</span>  </span>  keeps telling me there is no way to make it work, that ...</p>
@@ -250,14 +222,10 @@ This can be useful when you want to visually hide something on small screens but
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `display` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `display` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="flex md:inline-flex ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

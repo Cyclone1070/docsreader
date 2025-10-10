@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # place-items
@@ -102,14 +98,10 @@ Use `place-items-stretch` to stretch items along their grid areas on both axes:
 
 ## [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `place-items` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `place-items` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid place-items-start md:place-items-center ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

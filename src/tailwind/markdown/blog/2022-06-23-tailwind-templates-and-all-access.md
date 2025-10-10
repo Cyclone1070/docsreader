@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 June 24, 2022
 
 # Tailwind UI: Site templates and all-access
@@ -10,11 +6,7 @@ June 24, 2022
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Tailwind CSS Templates](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftemplates.645e1829.jpg\&w=3840\&q=75)
 
@@ -84,7 +76,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

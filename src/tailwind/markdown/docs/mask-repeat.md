@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Effects
 
 # mask-repeat
@@ -69,14 +65,10 @@ Use the `mask-no-repeat` utility to prevent a mask image from repeating:
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `mask-repeat` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `mask-repeat` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="mask-repeat md:mask-repeat-x ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

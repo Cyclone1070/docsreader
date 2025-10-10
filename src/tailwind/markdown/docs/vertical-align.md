@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # vertical-align
@@ -85,30 +81,26 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `align-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->vertical alignment<!-- --> based on a completely custom value:
+Use the `align-[<value>]` syntax to set the vertical alignment based on a completely custom value:
 
 ```
 <span class="align-[4px] ...">  <!-- ... --></span>
 ```
 
-For CSS variables, you can also use the<!-- --> `align-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `align-(<custom-property>)` syntax:
 
 ```
 <span class="align-(--my-alignment) ...">  <!-- ... --></span>
 ```
 
-This is just a shorthand for<!-- --> `align-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `align-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `vertical-align` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `vertical-align` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <span class="align-middle md:align-top ...">  <!-- ... --></span>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

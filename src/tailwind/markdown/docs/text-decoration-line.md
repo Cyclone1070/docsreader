@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # text-decoration-line
@@ -59,19 +55,11 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Applying on hover](#applying-on-hover)
 
-Prefix <!-- -->a<!-- --> `text-decoration-line` utility with a variant like<!-- --> `hover:*` to only apply the utility in that state:
+Prefix a `text-decoration-line` utility with a variant like `hover:*` to only apply the utility in that state:
 
 Hover over the text to see the expected behavior
 
-The
-
-<!-- -->
-
-[quick brown fox](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog)
-
-<!-- -->
-
-jumps over the lazy dog.
+The [quick brown fox](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog) jumps over the lazy dog.
 
 ```
 <p>The <a href="..." class="no-underline hover:underline ...">quick brown fox</a> jumps over the lazy dog.</p>
@@ -81,14 +69,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `text-decoration-line` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `text-decoration-line` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <a class="no-underline md:underline ..." href="...">  <!-- ... --></a>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

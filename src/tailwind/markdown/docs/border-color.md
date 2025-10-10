@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Borders
 
 # border-color
@@ -2589,23 +2585,23 @@ Use utilities like `divide-indigo-500` and `divide-lime-100` to control the bord
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `border-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->border color<!-- --> based on a completely custom value:
+Use the `border-[<value>]` syntax to set the border color based on a completely custom value:
 
 ```
 <div class="border-[#243c5a] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `border-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `border-(<custom-property>)` syntax:
 
 ```
 <div class="border-(--my-border) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `border-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `border-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Applying on focus](#applying-on-focus)
 
-Prefix <!-- -->a<!-- --> `border-color` utility with a variant like<!-- --> `focus:*` to only apply the utility in that state:
+Prefix a `border-color` utility with a variant like `focus:*` to only apply the utility in that state:
 
 Email address
 
@@ -2617,7 +2613,7 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `border-color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `border-color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="border-blue-500 md:border-green-500 ...">  <!-- ... --></div>
@@ -2627,20 +2623,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `border-regal-blue` <!-- -->utility can be used in your markup:
+Now the `border-regal-blue` utility can be used in your markup:
 
 ```
 <div class="border-regal-blue">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

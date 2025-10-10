@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 19, 2022
 
 # New Tailwind CSS + Framer Motion template and Tailwind Jobs
@@ -10,11 +6,7 @@ August 19, 2022
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Got another update for you today on some cool things we've shipped, and some other things that are in the works but shipping soon!
 
@@ -86,7 +78,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

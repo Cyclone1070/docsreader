@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # text-decoration-thickness
@@ -40,30 +36,26 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `decoration-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->text decoration thickness<!-- --> based on a completely custom value:
+Use the `decoration-[<value>]` syntax to set the text decoration thickness based on a completely custom value:
 
 ```
 <p class="decoration-[0.25rem] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `decoration-(length:<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `decoration-(length:<custom-property>)` syntax:
 
 ```
 <p class="decoration-(length:--my-decoration-thickness) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `decoration-[length:var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `decoration-[length:var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `text-decoration-thickness` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `text-decoration-thickness` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="underline md:decoration-4 ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

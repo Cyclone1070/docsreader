@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # overflow
@@ -244,14 +240,10 @@ Unlike `overflow-auto`, which only shows scrollbars if they are necessary, this 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `overflow` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `overflow` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="overflow-auto md:overflow-scroll ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

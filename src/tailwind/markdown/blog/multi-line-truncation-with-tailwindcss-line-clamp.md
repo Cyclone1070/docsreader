@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 January 25, 2021
 
 # Multi-line truncation with @tailwindcss/line-clamp
@@ -10,11 +6,7 @@ January 25, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 A few weeks back we released [`@tailwindcss/line-clamp`](https://github.com/tailwindlabs/tailwindcss-line-clamp), an official Tailwind CSS plugin for truncating text to a specific number of lines.
 
@@ -47,7 +39,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # object-fit
@@ -70,14 +66,10 @@ Use the `object-none` utility to display an element's content at its original si
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `object-fit` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `object-fit` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="object-contain md:object-cover" src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

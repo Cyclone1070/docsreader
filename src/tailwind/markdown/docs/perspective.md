@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transforms
 
 # perspective
@@ -69,23 +65,23 @@ Use the `perspective-none` utility to remove a perspective transform from an ele
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `perspective-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->perspective<!-- --> based on a completely custom value:
+Use the `perspective-[<value>]` syntax to set the perspective based on a completely custom value:
 
 ```
 <div class="perspective-[750px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `perspective-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `perspective-(<custom-property>)` syntax:
 
 ```
 <div class="perspective-(--my-perspective) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `perspective-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `perspective-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `perspective` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `perspective` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="perspective-midrange md:perspective-dramatic ...">  <!-- ... --></div>
@@ -95,20 +91,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--perspective-*` theme variables to customize the <!-- -->perspective<!-- --> <!-- -->utilities in your project:
+Use the `--perspective-*` theme variables to customize the perspective utilities in your project:
 
 ```
 @theme {  --perspective-remote: 1800px; }
 ```
 
-Now the<!-- --> `perspective-remote` <!-- -->utility can be used in your markup:
+Now the `perspective-remote` utility can be used in your markup:
 
 ```
 <div class="perspective-remote">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

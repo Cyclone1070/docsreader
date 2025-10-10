@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Sizing
 
 # min-width
@@ -99,23 +95,23 @@ min-w-3xs
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `min-w-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->minimum width<!-- --> based on a completely custom value:
+Use the `min-w-[<value>]` syntax to set the minimum width based on a completely custom value:
 
 ```
 <div class="min-w-[220px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `min-w-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `min-w-(<custom-property>)` syntax:
 
 ```
 <div class="min-w-(--my-min-width) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `min-w-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `min-w-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `min-width` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `min-width` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="w-24 min-w-full md:min-w-0 ...">  <!-- ... --></div>
@@ -125,14 +121,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `min-w-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `min-w-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

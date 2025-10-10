@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # text-indent
@@ -41,30 +37,26 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `indent-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->text indentation<!-- --> based on a completely custom value:
+Use the `indent-[<value>]` syntax to set the text indentation based on a completely custom value:
 
 ```
 <p class="indent-[50%] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `indent-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `indent-(<custom-property>)` syntax:
 
 ```
 <p class="indent-(--my-indentation) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `indent-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `indent-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `text-indent` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `text-indent` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="indent-4 md:indent-8 ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

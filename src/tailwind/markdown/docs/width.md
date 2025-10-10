@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Sizing
 
 # width
@@ -177,23 +173,23 @@ size-40
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `w-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->width<!-- --> based on a completely custom value:
+Use the `w-[<value>]` syntax to set the width based on a completely custom value:
 
 ```
 <div class="w-[5px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `w-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `w-(<custom-property>)` syntax:
 
 ```
 <div class="w-(--my-width) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `w-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `w-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `width` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `width` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="w-1/2 md:w-full ...">  <!-- ... --></div>
@@ -203,14 +199,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `w-<number>` and `size-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `w-<number>` and `size-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

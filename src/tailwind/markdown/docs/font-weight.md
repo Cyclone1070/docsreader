@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # font-weight
@@ -54,23 +50,23 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `font-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->font weight<!-- --> based on a completely custom value:
+Use the `font-[<value>]` syntax to set the font weight based on a completely custom value:
 
 ```
 <p class="font-[1000] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `font-(weight:<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `font-(weight:<custom-property>)` syntax:
 
 ```
 <p class="font-(weight:--my-font-weight) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `font-[weight:var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `font-[weight:var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `font-weight` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `font-weight` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="font-normal md:font-bold ...">  Lorem ipsum dolor sit amet...</p>
@@ -80,20 +76,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--font-weight-*` theme variables to customize the <!-- -->font weight<!-- --> <!-- -->utilities in your project:
+Use the `--font-weight-*` theme variables to customize the font weight utilities in your project:
 
 ```
 @theme {  --font-weight-extrablack: 1000; }
 ```
 
-Now the<!-- --> `font-extrablack` <!-- -->utility can be used in your markup:
+Now the `font-extrablack` utility can be used in your markup:
 
 ```
 <div class="font-extrablack">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # position
@@ -146,14 +142,10 @@ With sticky positioned elements, any [offsets](/docs/top-right-bottom-left) are 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `position` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `position` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="relative md:absolute ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

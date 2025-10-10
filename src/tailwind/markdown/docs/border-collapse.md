@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Tables
 
 # border-collapse
@@ -47,14 +43,10 @@ Use the `border-separate` utility to force each cell to display its own separate
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `border-collapse` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `border-collapse` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <table class="border-collapse md:border-separate ...">  <!-- ... --></table>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

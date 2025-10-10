@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # filter: sepia()
@@ -39,30 +35,26 @@ sepia
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `sepia-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->sepia amount<!-- --> based on a completely custom value:
+Use the `sepia-[<value>]` syntax to set the sepia amount based on a completely custom value:
 
 ```
 <img class="sepia-[.25] ..." src="/img/mountains.jpg" />
 ```
 
-For CSS variables, you can also use the<!-- --> `sepia-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `sepia-(<custom-property>)` syntax:
 
 ```
 <img class="sepia-(--my-sepia) ..." src="/img/mountains.jpg" />
 ```
 
-This is just a shorthand for<!-- --> `sepia-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `sepia-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `filter: sepia()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `filter: sepia()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="sepia md:sepia-0 ..." src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

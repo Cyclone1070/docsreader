@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Backgrounds
 
 # background-image
@@ -139,23 +135,23 @@ Use the `bg-none` utility to remove an existing background image from an element
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use utilities like<!-- --> `bg-linear-[<value>]` and `from-[<value>]` <!-- -->to set the <!-- -->gradient<!-- --> based on a completely custom value:
+Use utilities like `bg-linear-[<value>]` and `from-[<value>]` to set the gradient based on a completely custom value:
 
 ```
 <div class="bg-linear-[25deg,red_5%,yellow_60%,lime_90%,teal] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `bg-linear-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `bg-linear-(<custom-property>)` syntax:
 
 ```
 <div class="bg-linear-(--my-gradient) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `bg-linear-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `bg-linear-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `background-image` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `background-image` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="from-purple-400 md:from-yellow-500 ...">  <!-- ... --></div>
@@ -165,20 +161,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now utilities like<!-- --> `from-regal-blue`,`via-regal-blue`,<!-- --> and `to-regal-blue` <!-- -->can be used in your markup:
+Now utilities like `from-regal-blue`,`via-regal-blue`, and `to-regal-blue` can be used in your markup:
 
 ```
 <div class="from-regal-blue">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 7, 2024
 
 # Open-sourcing our progress on Tailwind CSS v4.0
@@ -10,11 +6,7 @@ March 7, 2024
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Tailwind CSS v4.0-alpha](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.7fed5563.jpg\&w=3840\&q=75)
 
@@ -72,8 +64,6 @@ The new architecture makes it possible to compose together variants that act on 
 
 In earlier releases, variants like `group-has-*` were explicitly defined in the framework, but now `group-*` can compose with the existing `has-*` variant, which can compose with other variants like `focus`:
 
-<!-- -->
-
 index.html
 
 ```
@@ -119,8 +109,6 @@ main.css
 ```
 
 The special `@theme` directive tells Tailwind to make new utilities and variants available based on those variables, letting you use classes like `3xl:text-neon-lime` in your markup:
-
-<!-- -->
 
 index.html
 
@@ -290,7 +278,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

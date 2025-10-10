@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 May 15, 2025
 
 # Compass: A starter kit for online courses
@@ -10,11 +6,7 @@ May 15, 2025
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 I've been itching to get back into screencasting and teaching lately, so a couple of months ago I put together this free [Build UIs that don't suck](/build-uis-that-dont-suck) mini-course. People seemed to like it and now I want to do some bigger video projects, but there was a problem.
 
@@ -125,7 +117,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

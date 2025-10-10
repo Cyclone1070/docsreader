@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 February 2, 2021
 
 # Welcoming David Luhr to Tailwind Labs
@@ -10,11 +6,7 @@ February 2, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 We started working with [David Luhr](https://twitter.com/david_luhr) last summer on a project-by-project basis to help us develop a Figma version of [Tailwind UI](https://tailwindui.com) *(almost ready!)*, as well as to leverage his accessibility expertise when building Tailwind UI templates, ensuring we were following best practices and delivering markup that would work for everyone, no matter what tools they use to browse the web.
 
@@ -43,7 +35,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

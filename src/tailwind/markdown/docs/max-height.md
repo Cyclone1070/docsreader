@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Sizing
 
 # max-height
@@ -73,23 +69,23 @@ max-h-full
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `max-h-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->maximum height<!-- --> based on a completely custom value:
+Use the `max-h-[<value>]` syntax to set the maximum height based on a completely custom value:
 
 ```
 <div class="max-h-[220px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `max-h-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `max-h-(<custom-property>)` syntax:
 
 ```
 <div class="max-h-(--my-max-height) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `max-h-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `max-h-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `max-height` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `max-height` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="h-48 max-h-full md:max-h-screen ...">  <!-- ... --></div>
@@ -99,14 +95,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `max-h-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `max-h-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

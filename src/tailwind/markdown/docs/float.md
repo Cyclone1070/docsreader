@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # float
@@ -76,14 +72,10 @@ Maybe we can live without libraries, people like you and me. Maybe. Sure, we're 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `float` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `float` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="float-right md:float-left" src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

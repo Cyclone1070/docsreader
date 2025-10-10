@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Ember.js
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in an Ember.js project.
 
 #### Create your project
 
-Start by creating a new Ember.js project if you don't have one set up already. The most common approach is to use<!-- --> [Ember CLI](https://guides.emberjs.com/release/getting-started/quick-start/#toc_create-a-new-application).
+Start by creating a new Ember.js project if you don't have one set up already. The most common approach is to use [Ember CLI](https://guides.emberjs.com/release/getting-started/quick-start/#toc_create-a-new-application).
 
 Terminal
 
@@ -24,7 +20,7 @@ npx ember-cli new my-project --embroider --no-welcomecd my-project
 
 #### Install Tailwind CSS
 
-Using npm, install `@tailwindcss/postcss` and its peer dependencies, as well as<!-- --> `postcss-loader`.
+Using npm, install `@tailwindcss/postcss` and its peer dependencies, as well as `postcss-loader`.
 
 Terminal
 
@@ -48,7 +44,7 @@ ember-cli-build.js
 
 #### Configure PostCSS Plugins
 
-Create a `postcss.config.mjs` file in the root of your project and add the<!-- --> `@tailwindcss/postcss` plugin to your PostCSS configuration.
+Create a `postcss.config.mjs` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
 
 postcss.config.mjs
 
@@ -103,7 +99,3 @@ application.hbs
 ```
 {{page-title "MyProject"}}<h1 class="text-3xl font-bold underline">  Hello world!</h1>{{outlet}}
 ```
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 April 25, 2023
 
 # New changelog template + the biggest Tailwind UI update ever
@@ -10,11 +6,7 @@ April 25, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 I haven't shared a Tailwind UI update since we released the [Protocol template](https://tailwindui.com/templates/protocol) in December, but that's not because we haven't been busy.
 
@@ -119,7 +111,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

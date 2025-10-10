@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 19, 2020
 
 # Tailwind CSS v1.7.0
@@ -10,11 +6,7 @@ August 19, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Another new Tailwind release is here! This time with support for gradients, background-clip, experimental support for using `@apply` with variant utilities, and tons more. Let's dig in!
 
@@ -189,8 +181,6 @@ By default both classes will exist, but the old utilities will be removed in Tai
 
 To migrate to the new class names, simply replace any existing usage of the old names with the new names:
 
-<!-- -->
-
 ```
 <div class="col-gap-4 row-gap-2 ..."><div class="gap-x-4 gap-y-2 ..."></div>
 ```
@@ -298,7 +288,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

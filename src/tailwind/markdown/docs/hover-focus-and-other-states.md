@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Core concepts
 
 # Hover, focus, and other states
@@ -180,7 +176,7 @@ If you need to style an element based on the descendants of a parent element, yo
 
 Spencer Sharp
 
-Product Designer at<!-- --> [planeteria.tech](#)
+Product Designer at [planeteria.tech](#)
 
 ![](https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80\&w=256\&h=256\&auto=format\&fit=crop\&ixlib=rb-4.0.3\&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
@@ -318,8 +314,6 @@ Generated CSS
 
 The `in-*` variant works similarly to `group` except you don't need to add `group` to the parent element:
 
-<!-- -->
-
 ```
 <div tabindex="0" class="group">  <div class="opacity-50 group-focus:opacity-100"><div tabindex="0">  <div class="opacity-50 in-focus:opacity-100">    <!-- ... -->  </div></div>
 ```
@@ -406,15 +400,7 @@ Email
 
 When using these variants, Tailwind will automatically add `content: ''` by default so you don't have to specify it unless you want a different value:
 
-> When you look
->
-> <!-- -->
->
-> annoyed
->
-> <!-- -->
->
-> all the time, people think that you're busy.
+> When you look annoyed all the time, people think that you're busy.
 
 ```
 <blockquote class="text-center text-2xl font-semibold text-gray-900 italic dark:text-white">  When you look  <span class="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">    <span class="relative text-white dark:text-gray-950">annoyed</span>  </span>  all the time, people think that you're busy.</blockquote>
@@ -1441,7 +1427,3 @@ Style an input when it is read-only using the `read-only` variant:
 ```
 <input class="read-only:bg-gray-100 ..." />
 ```
-
-<!--$-->
-
-<!--/$-->

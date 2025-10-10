@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # color
@@ -292,27 +288,27 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `text-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->text color<!-- --> based on a completely custom value:
+Use the `text-[<value>]` syntax to set the text color based on a completely custom value:
 
 ```
 <p class="text-[#50d71e] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `text-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `text-(<custom-property>)` syntax:
 
 ```
 <p class="text-(--my-color) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `text-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `text-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Applying on hover](#applying-on-hover)
 
-Prefix <!-- -->a<!-- --> `color` utility with a variant like<!-- --> `hover:*` to only apply the utility in that state:
+Prefix a `color` utility with a variant like `hover:*` to only apply the utility in that state:
 
 Hover over the text to see the expected behavior
 
-Oh I gotta get on that<!-- --> [internet](https://en.wikipedia.org/wiki/Internet), I'm late on everything!
+Oh I gotta get on that [internet](https://en.wikipedia.org/wiki/Internet), I'm late on everything!
 
 ```
 <p class="...">  Oh I gotta get on that  <a class="underline hover:text-blue-600 dark:hover:text-blue-400" href="https://en.wikipedia.org/wiki/Internet">internet</a>,  I'm late on everything!</p>
@@ -322,7 +318,7 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="text-blue-600 md:text-green-600 ...">  Lorem ipsum dolor sit amet...</p>
@@ -332,20 +328,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `text-regal-blue` <!-- -->utility can be used in your markup:
+Now the `text-regal-blue` utility can be used in your markup:
 
 ```
 <p class="text-regal-blue">  Lorem ipsum dolor sit amet...</p>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Core concepts
 
 # Responsive design
@@ -281,7 +277,3 @@ By default, Tailwind includes container sizes ranging from 16rem *(256px)* to 80
 | `@5xl`  | 64rem *(1024px)* | `@container (width >= 64rem) { … }` |
 | `@6xl`  | 72rem *(1152px)* | `@container (width >= 72rem) { … }` |
 | `@7xl`  | 80rem *(1280px)* | `@container (width >= 80rem) { … }` |
-
-<!--$-->
-
-<!--/$-->

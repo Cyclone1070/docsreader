@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # order
@@ -58,30 +54,26 @@ To use a negative order value, prefix the class name with a dash to convert it t
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `order-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->order<!-- --> based on a completely custom value:
+Use the `order-[<value>]` syntax to set the order based on a completely custom value:
 
 ```
 <div class="order-[min(var(--total-items),10)] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `order-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `order-(<custom-property>)` syntax:
 
 ```
 <div class="order-(--my-order) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `order-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `order-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `order` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `order` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="order-first md:order-last ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

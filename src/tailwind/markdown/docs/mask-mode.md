@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Effects
 
 # mask-mode
@@ -32,14 +28,10 @@ When using `mask-luminance` the luminance value of the mask determines visibilit
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `mask-mode` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `mask-mode` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="mask-alpha md:mask-luminance ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

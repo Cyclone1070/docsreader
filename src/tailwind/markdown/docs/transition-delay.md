@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transitions & Animation
 
 # transition-delay
@@ -40,30 +36,26 @@ Button C
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `delay-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->transition delay<!-- --> based on a completely custom value:
+Use the `delay-[<value>]` syntax to set the transition delay based on a completely custom value:
 
 ```
 <button class="delay-[1s,250ms] ...">  <!-- ... --></button>
 ```
 
-For CSS variables, you can also use the<!-- --> `delay-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `delay-(<custom-property>)` syntax:
 
 ```
 <button class="delay-(--my-delay) ...">  <!-- ... --></button>
 ```
 
-This is just a shorthand for<!-- --> `delay-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `delay-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `transition-delay` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `transition-delay` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <button class="delay-150 md:delay-300 ...">  <!-- ... --></button>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # caret-color
@@ -276,23 +272,23 @@ Focus the textarea to see the new caret color
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `caret-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->caret color<!-- --> based on a completely custom value:
+Use the `caret-[<value>]` syntax to set the caret color based on a completely custom value:
 
 ```
 <textarea class="caret-[#50d71e] ..."></textarea>
 ```
 
-For CSS variables, you can also use the<!-- --> `caret-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `caret-(<custom-property>)` syntax:
 
 ```
 <textarea class="caret-(--my-caret-color) ..."></textarea>
 ```
 
-This is just a shorthand for<!-- --> `caret-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `caret-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `caret-color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `caret-color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <textarea class="caret-rose-500 md:caret-lime-600 ..."></textarea>
@@ -302,20 +298,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `caret-regal-blue` <!-- -->utility can be used in your markup:
+Now the `caret-regal-blue` utility can be used in your markup:
 
 ```
 <textarea class="caret-regal-blue"></textarea>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

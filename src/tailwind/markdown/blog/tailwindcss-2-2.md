@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 June 18, 2021
 
 # Tailwind CSS v2.2
@@ -10,11 +6,7 @@ June 18, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Well I can't say we were really planning on it but over the last few weeks we've been having a ton of fun dumping new and exciting features into Tailwind and now feels like the right time to cut a release, so here it is — Tailwind CSS v2.2!
 
@@ -205,8 +197,6 @@ Personal favorite in the list is `placeholder-shown` — when combined with the 
 
 Instead of using utilities like `bg-opacity-50`, `text-opacity-25`, or `placeholder-opacity-40`, Tailwind CSS v2.2 gives you a new color opacity shorthand you can use to tweak the alpha channel of a color directly in the color utility itself:
 
-<!-- -->
-
 ```
 <div class="bg-red-500 bg-opacity-25"><div class="bg-red-500/25"></div>
 ```
@@ -290,8 +280,6 @@ Under the hood, this uses a new `screen()` function we've introduced that you ca
 
 You probably won't need to use this yourself but it could be helpful if you're ever integrating Tailwind with another tool that understands `@media` but doesn't handle `@screen` properly.
 
-<!-- -->
-
 ```
 @screen sm {@media screen(sm) {  /* ... */}
 ```
@@ -330,8 +318,6 @@ Learn more in the [background origin documentation](https://v2.tailwindcss.com/d
 
 The `transform`, `filter`, and `backdrop-filter` classes are no longer necessary to "enable" their respective set of composable utilities.
 
-<!-- -->
-
 ```
 <div class="transform scale-50 filter grayscale backdrop-filter backdrop-blur-sm"><div class="scale-50 grayscale backdrop-blur-sm"></div>
 ```
@@ -339,8 +325,6 @@ The `transform`, `filter`, and `backdrop-filter` classes are no longer necessary
 Now those features are automatically enabled any time you use any of the relevant sub-utilities.
 
 It's important to understand though that because these utilities aren't needed anymore, you can no longer expect transforms and filters to be "dormant" by default. If you were relying on conditionally "activating" transforms or filters by toggling these classes, you will want to make sure you are toggling the sub-utilities themselves instead:
-
-<!-- -->
 
 ```
 <div class="scale-105 -translate-y-1 hover:transform"><div class="hover:scale-105 hover:-translate-y-1"></div>
@@ -413,7 +397,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

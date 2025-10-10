@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Borders
 
 # border-radius
@@ -294,23 +290,23 @@ Save Changes
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `rounded-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->border radius<!-- --> based on a completely custom value:
+Use the `rounded-[<value>]` syntax to set the border radius based on a completely custom value:
 
 ```
 <div class="rounded-[2vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `rounded-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `rounded-(<custom-property>)` syntax:
 
 ```
 <div class="rounded-(--my-radius) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `rounded-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `rounded-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `border-radius` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `border-radius` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="rounded md:rounded-lg ...">  <!-- ... --></div>
@@ -320,20 +316,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--radius-*` theme variables to customize the <!-- -->border radius<!-- --> <!-- -->utilities in your project:
+Use the `--radius-*` theme variables to customize the border radius utilities in your project:
 
 ```
 @theme {  --radius-5xl: 3rem; }
 ```
 
-Now the<!-- --> `rounded-5xl` <!-- -->utility can be used in your markup:
+Now the `rounded-5xl` utility can be used in your markup:
 
 ```
 <div class="rounded-5xl">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # letter-spacing
@@ -57,23 +53,23 @@ To use a negative letter spacing value, prefix the class name with a dash to con
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `tracking-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->letter spacing<!-- --> based on a completely custom value:
+Use the `tracking-[<value>]` syntax to set the letter spacing based on a completely custom value:
 
 ```
 <p class="tracking-[.25em] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `tracking-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `tracking-(<custom-property>)` syntax:
 
 ```
 <p class="tracking-(--my-tracking) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `tracking-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `tracking-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `letter-spacing` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `letter-spacing` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="tracking-tight md:tracking-wide ...">  Lorem ipsum dolor sit amet...</p>
@@ -83,20 +79,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--tracking-*` theme variables to customize the <!-- -->letter spacing<!-- --> <!-- -->utilities in your project:
+Use the `--tracking-*` theme variables to customize the letter spacing utilities in your project:
 
 ```
 @theme {  --tracking-tightest: -0.075em; }
 ```
 
-Now the<!-- --> `tracking-tightest` <!-- -->utility can be used in your markup:
+Now the `tracking-tightest` utility can be used in your markup:
 
 ```
 <p class="tracking-tightest">  Lorem ipsum dolor sit amet...</p>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

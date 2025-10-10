@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # list-style-image
@@ -48,14 +44,10 @@ Use the `list-image-none` utility to remove an existing marker image from list i
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `list-style-image` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `list-style-image` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="list-image-none md:list-image-[url(/img/checkmark.png)] ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

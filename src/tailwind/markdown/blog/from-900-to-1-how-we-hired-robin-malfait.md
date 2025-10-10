@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 10, 2020
 
 # From Nine Hundred to One: How We Hired Robin Malfait
@@ -10,11 +6,7 @@ August 10, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Robin Malfait](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frobin.f702cca2.jpg\&w=3840\&q=75)
 
@@ -148,7 +140,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

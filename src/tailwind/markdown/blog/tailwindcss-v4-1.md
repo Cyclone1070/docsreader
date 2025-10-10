@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 April 4, 2025
 
 # Tailwind CSS v4.1: Text shadows, masks, and tons more
@@ -10,21 +6,13 @@ April 4, 2025
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fdanhollick.ee205d2a.jpg\&w=96\&q=75)
 
 Dan Hollick
 
-[@](https://twitter.com/DanHollick)
-
-<!-- -->
-
-[DanHollick](https://twitter.com/DanHollick)
+[@DanHollick](https://twitter.com/DanHollick)
 
 I wasn't sure it would ever happen but we did it — we released a version of Tailwind CSS that includes `text-shadow` utilities.
 
@@ -191,7 +179,7 @@ To learn everything you need to know about browser compatibility in Tailwind CSS
 
 The new `overflow-wrap` utilities let you control how text wraps within an element. The `wrap-break-word` utility is especially useful for long words or URLs that might otherwise break your layout:
 
-The longest word in any of the major English language dictionaries is<!-- --> pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
 
 ```
 <p class="wrap-break-word">The longest word in any of the major...</p>
@@ -488,7 +476,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

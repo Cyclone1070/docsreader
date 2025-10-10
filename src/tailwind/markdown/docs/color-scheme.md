@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # color-scheme
@@ -37,14 +33,10 @@ scheme-light-dark
 
 ### [Applying in dark mode](#applying-in-dark-mode)
 
-Prefix <!-- -->a<!-- --> `color-scheme` utility with a variant like<!-- --> `dark:*` to only apply the utility in that state:
+Prefix a `color-scheme` utility with a variant like `dark:*` to only apply the utility in that state:
 
 ```
 <html class="scheme-light dark:scheme-dark ...">  <!-- ... --></html>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

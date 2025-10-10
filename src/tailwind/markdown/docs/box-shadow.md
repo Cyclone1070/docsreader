@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Effects
 
 # box-shadow
@@ -1202,23 +1198,23 @@ shadow-none
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use utilities like<!-- --> `shadow-[<value>]`,`inset-shadow-[<value>]`,`ring-[<value>]`,<!-- --> and `inset-ring-[<value>]` <!-- -->to set the <!-- -->box shadow<!-- --> based on a completely custom value:
+Use utilities like `shadow-[<value>]`,`inset-shadow-[<value>]`,`ring-[<value>]`, and `inset-ring-[<value>]` to set the box shadow based on a completely custom value:
 
 ```
 <div class="shadow-[0_35px_35px_rgba(0,0,0,0.25)] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `shadow-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `shadow-(<custom-property>)` syntax:
 
 ```
 <div class="shadow-(--my-shadow) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `shadow-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `shadow-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `box-shadow` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `box-shadow` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="shadow-none md:shadow-lg ...">  <!-- ... --></div>
@@ -1230,52 +1226,48 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Customizing shadows](#customizing-shadows)
 
-Use the `--shadow-*` theme variables to customize the <!-- -->box shadow<!-- --> <!-- -->utilities in your project:
+Use the `--shadow-*` theme variables to customize the box shadow utilities in your project:
 
 ```
 @theme {  --shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.25); }
 ```
 
-Now the<!-- --> `shadow-3xl` <!-- -->utility can be used in your markup:
+Now the `shadow-3xl` utility can be used in your markup:
 
 ```
 <div class="shadow-3xl">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).
 
 ### [Customizing inset shadows](#customizing-inset-shadows)
 
-Use the `--inset-shadow-*` theme variables to customize the <!-- -->inset box shadow<!-- --> <!-- -->utilities in your project:
+Use the `--inset-shadow-*` theme variables to customize the inset box shadow utilities in your project:
 
 ```
 @theme {  --inset-shadow-md: inset 0 2px 3px rgba(0, 0, 0, 0.25); }
 ```
 
-Now the<!-- --> `inset-shadow-md` <!-- -->utility can be used in your markup:
+Now the `inset-shadow-md` utility can be used in your markup:
 
 ```
 <div class="inset-shadow-md">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).
 
 ### [Customizing shadow colors](#customizing-shadow-colors)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now utilities like<!-- --> `shadow-regal-blue`,`inset-shadow-regal-blue`,`ring-regal-blue`,<!-- --> and `inset-ring-regal-blue` <!-- -->can be used in your markup:
+Now utilities like `shadow-regal-blue`,`inset-shadow-regal-blue`,`ring-regal-blue`, and `inset-ring-regal-blue` can be used in your markup:
 
 ```
 <div class="shadow-regal-blue">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

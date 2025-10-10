@@ -82,8 +82,15 @@ async function stripHtmlFile(filePath: string): Promise<void> {
 			stripElement(document.head);
 		}
 
+		// Remove React Suspense boundary markers and empty HTML comments
+		let cleanedHtml = dom.serialize();
+		// Remove <!--$--> and <!--/$--> markers (React Suspense boundaries)
+		cleanedHtml = cleanedHtml.replace(/<!--\$-->/g, "");
+		cleanedHtml = cleanedHtml.replace(/<!--\/\$-->/g, "");
+		// Remove empty HTML comments: <!-- -->
+		cleanedHtml = cleanedHtml.replace(/<!--\s*-->/g, "");
+
 		// Write the cleaned HTML back
-		const cleanedHtml = dom.serialize();
 		await fs.writeFile(filePath, cleanedHtml);
 
 		stats.filesProcessed++;

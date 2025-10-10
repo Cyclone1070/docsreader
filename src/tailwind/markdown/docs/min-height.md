@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Sizing
 
 # min-height
@@ -75,23 +71,23 @@ min-h-1/3
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `min-h-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->minimum height<!-- --> based on a completely custom value:
+Use the `min-h-[<value>]` syntax to set the minimum height based on a completely custom value:
 
 ```
 <div class="min-h-[220px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `min-h-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `min-h-(<custom-property>)` syntax:
 
 ```
 <div class="min-h-(--my-min-height) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `min-h-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `min-h-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `min-height` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `min-height` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="h-24 min-h-0 md:min-h-full ...">  <!-- ... --></div>
@@ -101,14 +97,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `min-h-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `min-h-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

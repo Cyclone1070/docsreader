@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Astro
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in an Astro project.
 
 #### Create your project
 
-Start by creating a new Astro project if you don't have one set up already. The most common approach is to use<!-- --> [create astro](https://docs.astro.build/en/install-and-setup/#install-from-the-cli-wizard).
+Start by creating a new Astro project if you don't have one set up already. The most common approach is to use [create astro](https://docs.astro.build/en/install-and-setup/#install-from-the-cli-wizard).
 
 Terminal
 
@@ -79,7 +75,3 @@ index.astro
 ```
 ---import "../styles/global.css";---<h1 class="text-3xl font-bold underline">  Hello world!</h1>
 ```
-
-<!--$-->
-
-<!--/$-->

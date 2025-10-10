@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter: hue-rotate()
@@ -59,30 +55,26 @@ Use utilities like `-backdrop-hue-rotate-90` and `-backdrop-hue-rotate-180` to s
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-hue-rotate-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop hue rotation<!-- --> based on a completely custom value:
+Use the `backdrop-hue-rotate-[<value>]` syntax to set the backdrop hue rotation based on a completely custom value:
 
 ```
 <div class="backdrop-hue-rotate-[3.142rad] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-hue-rotate-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-hue-rotate-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-hue-rotate-(--my-backdrop-hue-rotation) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-hue-rotate-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-hue-rotate-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter: hue-rotate()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter: hue-rotate()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-hue-rotate-15 md:backdrop-hue-rotate-0 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

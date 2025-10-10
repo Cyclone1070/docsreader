@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Borders
 
 # outline-width
@@ -39,7 +35,7 @@ Button C
 
 ### [Applying on focus](#applying-on-focus)
 
-Prefix <!-- -->an<!-- --> `outline-width` utility with a variant like<!-- --> `focus:*` to only apply the utility in that state:
+Prefix an `outline-width` utility with a variant like `focus:*` to only apply the utility in that state:
 
 Focus the button to see the outline added
 
@@ -53,30 +49,26 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `outline-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->outline width<!-- --> based on a completely custom value:
+Use the `outline-[<value>]` syntax to set the outline width based on a completely custom value:
 
 ```
 <div class="outline-[2vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `outline-(length:<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `outline-(length:<custom-property>)` syntax:
 
 ```
 <div class="outline-(length:--my-outline-width) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `outline-[length:var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `outline-[length:var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `outline-width` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `outline-width` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="outline md:outline-2 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

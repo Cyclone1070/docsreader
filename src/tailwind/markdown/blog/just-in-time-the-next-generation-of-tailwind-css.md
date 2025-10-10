@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 16, 2021
 
 # Just-In-Time: The Next Generation of Tailwind CSS
@@ -10,11 +6,7 @@ March 16, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ***Update**: As of Tailwind CSS v2.1, the new Just-in-Time engine is included right in Tailwind CSS itself, so you don't need the `@tailwindcss/jit` package anymore. [Learn more in the documentation](https://v2.tailwindcss.com/docs/just-in-time-mode).*
 
@@ -55,7 +47,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

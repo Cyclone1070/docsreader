@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # flex-wrap
@@ -60,14 +56,10 @@ Use `flex-wrap-reverse` to wrap flex items in the reverse direction:
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `flex-wrap` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `flex-wrap` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="flex flex-wrap md:flex-wrap-reverse ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

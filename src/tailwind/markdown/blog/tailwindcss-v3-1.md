@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 June 8, 2022
 
 # Tailwind CSS v3.1: You wanna get nuts? Come on, let's get nuts!
@@ -10,11 +6,7 @@ June 8, 2022
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 It's been about six months since we released [Tailwind CSS v3.0](/blog/tailwindcss-v3), and even though we've been collecting a lot of little improvements in the codebase since then, we just didn't have *that-one-feature* yet that makes you say *"okay, it's release-cuttin' time"*.
 
@@ -359,7 +351,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

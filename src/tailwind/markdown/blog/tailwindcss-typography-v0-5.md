@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 18, 2021
 
 # Effortless Typography, Even in Dark Mode
@@ -10,11 +6,7 @@ December 18, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Today we're announcing the next version of the [Tailwind CSS Typography plugin](https://v3.tailwindcss.com/docs/typography-plugin), which brings easy dark mode support, a brand new customization API, and the `not-prose` class I wasn't sure we'd ever figure out how to support.
 
@@ -60,8 +52,6 @@ Check out the [documentation](https://v3.tailwindcss.com/docs/typography-plugin#
 
 We've added tons of modifiers you can use to tweak specific elements in your prose styles, directly in your HTML:
 
-<!-- -->
-
 ```
 <article class="prose prose-img:rounded-xl prose-headings:underline prose-a:text-blue-600">  {{ markdown }}</article>
 ```
@@ -89,7 +79,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Spacing
 
 # margin
@@ -206,23 +202,23 @@ Additionally, the space utilities are not designed to work together with the [di
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use utilities like<!-- --> `m-[<value>]`,`mx-[<value>]`,<!-- --> and `mb-[<value>]` <!-- -->to set the <!-- -->margin<!-- --> based on a completely custom value:
+Use utilities like `m-[<value>]`,`mx-[<value>]`, and `mb-[<value>]` to set the margin based on a completely custom value:
 
 ```
 <div class="m-[5px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `m-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `m-(<custom-property>)` syntax:
 
 ```
 <div class="m-(--my-margin) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `m-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `m-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `margin` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `margin` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="mt-4 md:mt-8 ...">  <!-- ... --></div>
@@ -232,14 +228,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `m-<number>`,`mx-<number>`,`my-<number>`,`ms-<number>`,`me-<number>`,`mt-<number>`,`mr-<number>`,`mb-<number>`,<!-- --> and `ml-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `m-<number>`,`mx-<number>`,`my-<number>`,`ms-<number>`,`me-<number>`,`mt-<number>`,`mr-<number>`,`mb-<number>`, and `ml-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

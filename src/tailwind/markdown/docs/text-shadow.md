@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Effects
 
 # text-shadow
@@ -331,23 +327,23 @@ Use the `text-shadow-none` utility to remove an existing text shadow from an ele
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `text-shadow-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->text shadow<!-- --> based on a completely custom value:
+Use the `text-shadow-[<value>]` syntax to set the text shadow based on a completely custom value:
 
 ```
 <p class="text-shadow-[0_35px_35px_rgb(0_0_0_/_0.25)] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `text-shadow-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `text-shadow-(<custom-property>)` syntax:
 
 ```
 <p class="text-shadow-(--my-text-shadow) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `text-shadow-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `text-shadow-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `text-shadow` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `text-shadow` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="text-shadow-none md:text-shadow-lg ...">  Lorem ipsum dolor sit amet...</p>
@@ -359,36 +355,32 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Customizing text shadows](#customizing-text-shadows)
 
-Use the `--text-shadow-*` theme variables to customize the <!-- -->text shadow<!-- --> <!-- -->utilities in your project:
+Use the `--text-shadow-*` theme variables to customize the text shadow utilities in your project:
 
 ```
 @theme {  --text-shadow-xl: 0 35px 35px rgb(0, 0, 0 / 0.25); }
 ```
 
-Now the<!-- --> `text-shadow-xl` <!-- -->utility can be used in your markup:
+Now the `text-shadow-xl` utility can be used in your markup:
 
 ```
 <p class="text-shadow-xl">  Lorem ipsum dolor sit amet...</p>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).
 
 ### [Customizing shadow colors](#customizing-shadow-colors)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `text-shadow-regal-blue` <!-- -->utility can be used in your markup:
+Now the `text-shadow-regal-blue` utility can be used in your markup:
 
 ```
 <p class="text-shadow-regal-blue">  Lorem ipsum dolor sit amet...</p>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

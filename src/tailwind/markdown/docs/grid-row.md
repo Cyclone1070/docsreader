@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-row
@@ -66,30 +62,26 @@ These can also be combined with the `row-span-<number>` utilities to span a spec
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use utilities like<!-- --> `row-[<value>]`,`row-span-[<value>]`,`row-start-[<value>]`,<!-- --> and `row-end-[<value>]` <!-- -->to set the <!-- -->grid row size and location<!-- --> based on a completely custom value:
+Use utilities like `row-[<value>]`,`row-span-[<value>]`,`row-start-[<value>]`, and `row-end-[<value>]` to set the grid row size and location based on a completely custom value:
 
 ```
 <div class="row-[span_16_/_span_16] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `row-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `row-(<custom-property>)` syntax:
 
 ```
 <div class="row-(--my-rows) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `row-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `row-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix<!-- --> `grid-row`,`grid-row-start`,<!-- --> and `grid-row-end` <!-- -->utilities<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix `grid-row`,`grid-row-start`, and `grid-row-end` utilities with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="row-span-3 md:row-span-4 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

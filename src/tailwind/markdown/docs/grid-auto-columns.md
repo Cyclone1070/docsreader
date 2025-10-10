@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-auto-columns
@@ -29,30 +25,26 @@ Use utilities like `auto-cols-min` and `auto-cols-max` to control the size of im
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `auto-cols-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->size of implicitly-created grid columns<!-- --> based on a completely custom value:
+Use the `auto-cols-[<value>]` syntax to set the size of implicitly-created grid columns based on a completely custom value:
 
 ```
 <div class="auto-cols-[minmax(0,2fr)] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `auto-cols-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `auto-cols-(<custom-property>)` syntax:
 
 ```
 <div class="auto-cols-(--my-auto-cols) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `auto-cols-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `auto-cols-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `grid-auto-columns` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `grid-auto-columns` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid grid-flow-col auto-cols-max md:auto-cols-min ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

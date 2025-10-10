@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # justify-items
@@ -134,14 +130,10 @@ Use the `justify-items-stretch` utility to stretch items along their inline axis
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `justify-items` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `justify-items` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid justify-items-start md:justify-items-center ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

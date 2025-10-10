@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transitions & Animation
 
 # transition-property
@@ -44,30 +40,26 @@ For situations where the user has specified that they prefer reduced motion, you
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `transition-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->transition properties<!-- --> based on a completely custom value:
+Use the `transition-[<value>]` syntax to set the transition properties based on a completely custom value:
 
 ```
 <button class="transition-[height] ...">  <!-- ... --></button>
 ```
 
-For CSS variables, you can also use the<!-- --> `transition-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `transition-(<custom-property>)` syntax:
 
 ```
 <button class="transition-(--my-properties) ...">  <!-- ... --></button>
 ```
 
-This is just a shorthand for<!-- --> `transition-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `transition-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `transition-property` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `transition-property` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <button class="transition-none md:transition-all ...">  <!-- ... --></button>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

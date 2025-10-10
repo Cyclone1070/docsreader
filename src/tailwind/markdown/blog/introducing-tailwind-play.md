@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 October 8, 2020
 
 # Introducing Tailwind Play
@@ -10,11 +6,7 @@ October 8, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 To get the most out of Tailwind, you need a build step. It's the only way to be able to customize your [`tailwind.config.js`](https://v2.tailwindcss.com/docs/configuration) file, extract components with [`@apply`](https://v2.tailwindcss.com/docs/functions-and-directives#apply), or include [plugins](https://v2.tailwindcss.com/docs/plugins).
 
@@ -47,7 +39,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

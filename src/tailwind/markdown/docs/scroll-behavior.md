@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # scroll-behavior
@@ -32,7 +28,3 @@ Use the `scroll-auto` utility to revert to the default browser behavior for scro
 ```
 <html class="scroll-smooth md:scroll-auto">  <!-- ... --></html>
 ```
-
-<!--$-->
-
-<!--/$-->

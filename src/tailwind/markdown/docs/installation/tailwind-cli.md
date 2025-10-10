@@ -1,10 +1,6 @@
-<!--$-->
-
-<!--/$-->
-
 ### Installing Tailwind CLI
 
-The simplest and fastest way to get up and running with Tailwind CSS from scratch is with the Tailwind CLI tool. The CLI is also available as a<!-- --> [standalone executable](https://github.com/tailwindlabs/tailwindcss/releases/latest) if you want to use it without installing Node.js.
+The simplest and fastest way to get up and running with Tailwind CSS from scratch is with the Tailwind CLI tool. The CLI is also available as a [standalone executable](https://github.com/tailwindlabs/tailwindcss/releases/latest) if you want to use it without installing Node.js.
 
 01
 
@@ -53,7 +49,3 @@ src/index.html
 ```
 <!doctype html><html><head>  <meta charset="UTF-8">  <meta name="viewport" content="width=device-width, initial-scale=1.0">  <link href="./output.css" rel="stylesheet"></head><body>  <h1 class="text-3xl font-bold underline">    Hello world!  </h1></body></html>
 ```
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # filter: saturate()
@@ -42,30 +38,26 @@ saturate-200
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `saturate-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->saturation<!-- --> based on a completely custom value:
+Use the `saturate-[<value>]` syntax to set the saturation based on a completely custom value:
 
 ```
 <img class="saturate-[.25] ..." src="/img/mountains.jpg" />
 ```
 
-For CSS variables, you can also use the<!-- --> `saturate-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `saturate-(<custom-property>)` syntax:
 
 ```
 <img class="saturate-(--my-saturation) ..." src="/img/mountains.jpg" />
 ```
 
-This is just a shorthand for<!-- --> `saturate-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `saturate-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `filter: saturate()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `filter: saturate()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="saturate-50 md:saturate-150 ..." src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

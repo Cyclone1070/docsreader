@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # font-family
@@ -40,23 +36,23 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `font-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->font family<!-- --> based on a completely custom value:
+Use the `font-[<value>]` syntax to set the font family based on a completely custom value:
 
 ```
 <p class="font-[Open_Sans] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `font-(family-name:<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `font-(family-name:<custom-property>)` syntax:
 
 ```
 <p class="font-(family-name:--my-font) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `font-[family-name:var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `font-[family-name:var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `font-family` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `font-family` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="font-sans md:font-serif ...">  Lorem ipsum dolor sit amet...</p>
@@ -66,13 +62,13 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--font-*` theme variables to customize the <!-- -->font family<!-- --> <!-- -->utilities in your project:
+Use the `--font-*` theme variables to customize the font family utilities in your project:
 
 ```
 @theme {  --font-display: "Oswald", sans-serif; }
 ```
 
-Now the<!-- --> `font-display` <!-- -->utility can be used in your markup:
+Now the `font-display` utility can be used in your markup:
 
 ```
 <div class="font-display">  <!-- ... --></div>
@@ -98,8 +94,4 @@ If you're loading a font from a service like [Google Fonts](https://fonts.google
 
 Browsers require that `@import` statements come before any other rules, so URL imports need to be above imports like `@import "tailwindcss"` which are inlined in the compiled CSS.
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 October 14, 2020
 
 # Tailwind CSS v1.9.0
@@ -10,11 +6,7 @@ October 14, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 We just released Tailwind CSS v1.9 which adds support for configuration presets, useful new CSS grid utilities, extended border radius, rotate, and skew scales, helpful accessibility improvements, and more!
 
@@ -156,7 +148,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

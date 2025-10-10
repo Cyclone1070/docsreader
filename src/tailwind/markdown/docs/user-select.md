@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # user-select
@@ -67,14 +63,10 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `user-select` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `user-select` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="select-none md:select-all ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

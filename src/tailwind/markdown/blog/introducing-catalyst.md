@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 21, 2023
 
 # Introducing Catalyst: A modern UI kit for React
@@ -10,11 +6,7 @@ December 21, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Overview of components included in Catalyst](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcatalyst-ui-kit.1b90ff54.png\&w=3840\&q=75)
 
@@ -110,8 +102,6 @@ import { Description, Field, Label } from "@/components/fieldset";import { Input
 
 It also makes it easy to move the description *below* the input, instead of above:
 
-<!-- -->
-
 ```
 import { Description, Field, Label } from '@/components/fieldset'import { Input } from '@/components/input'function Example() {  return (    <Field>      <Label>Product name</Label>      <Description>Use the name you'd like people to see in their cart.</Description>      <Input name="product_name" className="max-w-sm" />      <Description>Use the name you'd like people to see in their cart.</Description>    </Field>  )}
 ```
@@ -155,7 +145,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

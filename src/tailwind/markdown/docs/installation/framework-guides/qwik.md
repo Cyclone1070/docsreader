@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Qwik
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in an Qwik project.
 
 #### Create your project
 
-Start by creating a new Qwik project if you don't have one set up already. The most common approach is to use<!-- --> [Create Qwik](https://qwik.dev/docs/getting-started/#create-an-app-using-the-cli).
+Start by creating a new Qwik project if you don't have one set up already. The most common approach is to use [Create Qwik](https://qwik.dev/docs/getting-started/#create-an-app-using-the-cli).
 
 Terminal
 
@@ -79,7 +75,3 @@ index.tsx
 ```
 import { component$ } from '@builder.io/qwik'export default component$(() => {  return (    <h1 class="text-3xl font-bold underline">      Hello World!    </h1>  )})
 ```
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Laravel
@@ -15,7 +11,7 @@ Setting up Tailwind CSS in a Laravel project.
 
 #### Create your project
 
-Start by creating a new Laravel project if you don’t have one set up already. The most common approach is to use<!-- --> [the Laravel installer](https://laravel.com/docs#creating-an-application).
+Start by creating a new Laravel project if you don’t have one set up already. The most common approach is to use [the Laravel installer](https://laravel.com/docs#creating-an-application).
 
 Terminal
 
@@ -82,7 +78,3 @@ app.blade.php
 ```
 <!doctype html><html>  <head>    <meta charset="utf-8" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    @vite('resources/css/app.css')  </head>  <body>    <h1 class="text-3xl font-bold underline">      Hello world!    </h1>  </body></html>
 ```
-
-<!--$-->
-
-<!--/$-->

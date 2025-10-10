@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Borders
 
 # border-width
@@ -147,30 +143,26 @@ If your elements are in reverse order (using say `flex-row-reverse` or `flex-col
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `border-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->border width<!-- --> based on a completely custom value:
+Use the `border-[<value>]` syntax to set the border width based on a completely custom value:
 
 ```
 <div class="border-[2vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `border-(length:<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `border-(length:<custom-property>)` syntax:
 
 ```
 <div class="border-(length:--my-border-width) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `border-[length:var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `border-[length:var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `border-width` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `border-width` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="border-2 md:border-t-4 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

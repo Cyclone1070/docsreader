@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transforms
 
 # transform-style
@@ -55,14 +51,10 @@ Without this, any children will only be transformed in 2D space and not in 3D sp
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `transform-style` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `transform-style` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="transform-3d md:transform-flat ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

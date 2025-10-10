@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 29, 2020
 
 # Tailwind CSS v1.6.0
@@ -10,11 +6,7 @@ July 29, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 It's like Tailwind CSS v1.5 except now there's animation support, overscroll utilities, and more!
 
@@ -116,7 +108,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

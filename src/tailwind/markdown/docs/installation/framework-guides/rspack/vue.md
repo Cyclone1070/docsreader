@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Rspack
@@ -15,7 +11,7 @@ Setting up Tailwind CSS in a Rspack project.
 
 #### Create your project
 
-Start by creating a new Rspack project if you don’t have one set up already. The most common approach is to use<!-- --> [Rspack CLI](https://rspack.dev/guide/start/quick-start#using-the-rspack-cli).
+Start by creating a new Rspack project if you don’t have one set up already. The most common approach is to use [Rspack CLI](https://rspack.dev/guide/start/quick-start#using-the-rspack-cli).
 
 Terminal
 
@@ -39,7 +35,7 @@ npm install tailwindcss @tailwindcss/postcss postcss postcss-loader
 
 #### Enable PostCSS support
 
-In your `rspack.config.js` file, enable the PostCSS loader. See<!-- --> [the documentation](https://rspack.dev/guide/tech/css#tailwind-css) for more information.
+In your `rspack.config.js` file, enable the PostCSS loader. See [the documentation](https://rspack.dev/guide/tech/css#tailwind-css) for more information.
 
 rspack.config.ts
 
@@ -51,7 +47,7 @@ export default defineConfig({  // ...  module: {    rules: [      {        test:
 
 #### Configure PostCSS Plugins
 
-Create a `postcss.config.mjs` file in the root of your project and add the<!-- --> `@tailwindcss/postcss` plugin to your PostCSS configuration.
+Create a `postcss.config.mjs` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
 
 postcss.config.mjs
 
@@ -94,7 +90,3 @@ App.vue
 ```
 <template>  <h1 class="text-3xl font-bold underline">    Hello world!  </h1></template>
 ```
-
-<!--$-->
-
-<!--/$-->

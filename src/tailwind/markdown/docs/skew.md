@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transforms
 
 # skew
@@ -131,30 +127,26 @@ skew-y-12
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `skew-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->skew<!-- --> based on a completely custom value:
+Use the `skew-[<value>]` syntax to set the skew based on a completely custom value:
 
 ```
 <img class="skew-[3.142rad] ..." src="/img/mountains.jpg" />
 ```
 
-For CSS variables, you can also use the<!-- --> `skew-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `skew-(<custom-property>)` syntax:
 
 ```
 <img class="skew-(--my-skew) ..." src="/img/mountains.jpg" />
 ```
 
-This is just a shorthand for<!-- --> `skew-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `skew-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix<!-- --> `skewX()` and `skewY()` <!-- -->utilities<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix `skewX()` and `skewY()` utilities with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="skew-3 md:skew-12 ..." src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

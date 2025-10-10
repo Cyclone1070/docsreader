@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with SolidJS
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in a SolidJS project.
 
 #### Create your project
 
-Start by creating a new SolidJS project if you don't have one set up already. The most common approach is to use<!-- --> [the SolidJS Vite template](https://www.solidjs.com/guides/getting-started).
+Start by creating a new SolidJS project if you don't have one set up already. The most common approach is to use [the SolidJS Vite template](https://www.solidjs.com/guides/getting-started).
 
 Terminal
 
@@ -79,7 +75,3 @@ App.jsx
 ```
 export default function App() {  return (    <h1 class="text-3xl font-bold underline">      Hello world!    </h1>  )}
 ```
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Borders
 
 # outline-offset
@@ -39,30 +35,26 @@ Button C
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `outline-offset-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->outline offset<!-- --> based on a completely custom value:
+Use the `outline-offset-[<value>]` syntax to set the outline offset based on a completely custom value:
 
 ```
 <div class="outline-offset-[2vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `outline-offset-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `outline-offset-(<custom-property>)` syntax:
 
 ```
 <div class="outline-offset-(--my-outline-offset) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `outline-offset-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `outline-offset-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `outline-offset` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `outline-offset` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="outline md:outline-offset-2 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

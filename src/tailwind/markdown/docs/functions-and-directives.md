@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Core concepts
 
 # Functions and directives
@@ -201,7 +197,3 @@ CSS
 ```
 
 This function is deprecated, and we recommend [using CSS theme variables](/docs/theme#using-your-theme-variables) instead.
-
-<!--$-->
-
-<!--/$-->

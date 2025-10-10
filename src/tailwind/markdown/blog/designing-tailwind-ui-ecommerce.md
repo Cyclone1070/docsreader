@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 7, 2021
 
 # Designing Tailwind UI Ecommerce
@@ -10,11 +6,7 @@ August 7, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Hey! We've been working on this new Tailwind UI Ecommerce kit for months now and are finally closing in on the finish line so I thought I'd write up a bit about the process and give you an update on where things are at.
 
@@ -145,7 +137,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

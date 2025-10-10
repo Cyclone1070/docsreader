@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # columns
@@ -72,23 +68,23 @@ Learn more about the gap utilities in the [gap documentation](/docs/gap).
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `columns-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->columns<!-- --> based on a completely custom value:
+Use the `columns-[<value>]` syntax to set the columns based on a completely custom value:
 
 ```
 <div class="columns-[30vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `columns-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `columns-(<custom-property>)` syntax:
 
 ```
 <div class="columns-(--my-columns) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `columns-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `columns-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `columns` utility<!-- --> <!-- -->with a breakpoint variant like `sm:` to only apply the utility at <!-- -->small<!-- --> <!-- -->screen sizes and above:
+Prefix a `columns` utility with a breakpoint variant like `sm:` to only apply the utility at small screen sizes and above:
 
 Resize the example to see the expected behavior
 
@@ -102,20 +98,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--container-*` theme variables to customize the <!-- -->fixed-width column<!-- --> <!-- -->utilities in your project:
+Use the `--container-*` theme variables to customize the fixed-width column utilities in your project:
 
 ```
 @theme {  --container-4xs: 14rem; }
 ```
 
-Now the<!-- --> `columns-4xs` <!-- -->utility can be used in your markup:
+Now the `columns-4xs` utility can be used in your markup:
 
 ```
 <div class="columns-4xs">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

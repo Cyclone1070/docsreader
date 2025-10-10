@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Accessibility
 
 # forced-color-adjust
@@ -49,14 +45,10 @@ This can be useful if you want to undo the `forced-color-adjust-none` utility, f
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `forced-color-adjust` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `forced-color-adjust` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="forced-color-adjust-none md:forced-color-adjust-auto ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

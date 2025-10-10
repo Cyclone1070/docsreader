@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # pointer-events
@@ -38,7 +34,3 @@ Use the `pointer-events-auto` utility to revert to the default browser behavior 
 ```
 <div class="pointer-events-none md:pointer-events-auto ...">  <!-- ... --></div>
 ```
-
-<!--$-->
-
-<!--/$-->

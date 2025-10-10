@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 30, 2021
 
 # Heroicons v1.0
@@ -10,11 +6,7 @@ March 30, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Heroicons](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.2e65945b.jpg\&w=3840\&q=75)](https://heroicons.com)
 
@@ -43,7 +35,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

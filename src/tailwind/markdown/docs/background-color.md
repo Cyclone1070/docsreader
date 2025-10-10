@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Backgrounds
 
 # background-color
@@ -306,23 +302,23 @@ Button C
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `bg-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->background color<!-- --> based on a completely custom value:
+Use the `bg-[<value>]` syntax to set the background color based on a completely custom value:
 
 ```
 <div class="bg-[#50d71e] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `bg-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `bg-(<custom-property>)` syntax:
 
 ```
 <div class="bg-(--my-color) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `bg-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `bg-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Applying on hover](#applying-on-hover)
 
-Prefix <!-- -->a<!-- --> `background-color` utility with a variant like<!-- --> `hover:*` to only apply the utility in that state:
+Prefix a `background-color` utility with a variant like `hover:*` to only apply the utility in that state:
 
 Save changes
 
@@ -334,7 +330,7 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `background-color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `background-color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="bg-blue-500 md:bg-green-500 ...">  <!-- ... --></div>
@@ -344,20 +340,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `bg-regal-blue` <!-- -->utility can be used in your markup:
+Now the `bg-regal-blue` utility can be used in your markup:
 
 ```
 <div class="bg-regal-blue">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

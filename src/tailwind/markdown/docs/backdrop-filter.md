@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter
@@ -48,23 +44,23 @@ Use the `backdrop-filter-none` utility to remove all of the backdrop filters app
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-filter-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop filter<!-- --> based on a completely custom value:
+Use the `backdrop-filter-[<value>]` syntax to set the backdrop filter based on a completely custom value:
 
 ```
 <div class="backdrop-filter-[url('filters.svg#filter-id')] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-filter-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-filter-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-filter-(--my-backdrop-filter) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-filter-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-filter-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Applying on hover](#applying-on-hover)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter` utility with a variant like<!-- --> `hover:*` to only apply the utility in that state:
+Prefix a `backdrop-filter` utility with a variant like `hover:*` to only apply the utility in that state:
 
 ```
 <div class="backdrop-blur-sm hover:backdrop-filter-none ...">  <!-- ... --></div>
@@ -74,14 +70,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-blur-sm md:backdrop-filter-none ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

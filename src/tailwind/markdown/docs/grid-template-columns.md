@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-template-columns
@@ -66,30 +62,26 @@ Use the `grid-cols-subgrid` utility to adopt the column tracks defined by the it
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `grid-cols-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->columns<!-- --> based on a completely custom value:
+Use the `grid-cols-[<value>]` syntax to set the columns based on a completely custom value:
 
 ```
 <div class="grid-cols-[200px_minmax(900px,_1fr)_100px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `grid-cols-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `grid-cols-(<custom-property>)` syntax:
 
 ```
 <div class="grid-cols-(--my-grid-cols) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `grid-cols-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `grid-cols-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `grid-template-columns` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `grid-template-columns` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid grid-cols-1 md:grid-cols-6 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

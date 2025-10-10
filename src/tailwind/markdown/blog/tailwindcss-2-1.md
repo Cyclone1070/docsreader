@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 April 6, 2021
 
 # Tailwind CSS v2.1
@@ -10,11 +6,7 @@ April 6, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 The first new feature update since Tailwind CSS v2.0 is here and loaded with lots of cool stuff! We've merged the new JIT engine to core, added first-class support for composable CSS filters, added blending mode utilities, and a bunch more.
 
@@ -114,7 +106,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

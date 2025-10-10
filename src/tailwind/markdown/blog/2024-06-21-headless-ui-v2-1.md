@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 June 22, 2024
 
 # Headless UI v2.1: Simplified transition API and improved multi-dialog support
@@ -10,21 +6,13 @@ June 22, 2024
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freinink.dd880af3.jpg\&w=96\&q=75)
 
 Jonathan Reinink
 
-[@](https://twitter.com/reinink)
-
-<!-- -->
-
-[reinink](https://twitter.com/reinink)
+[@reinink](https://twitter.com/reinink)
 
 ![Headless UI v2.1](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.647cc6f3.jpg\&w=3840\&q=75)
 
@@ -35,8 +23,6 @@ We just released Headless UI v2.1 for React, which dramatically simplifies our t
 ## [Simplified transition API](#simplified-transition-api)
 
 We've made transitions way easier in v2.1 by adding a new `transition` prop to all of the built-in components you might want to transition, and adding data attributes for each transition stage so you can add transition styles by just throwing some classes on the target element:
-
-<!-- -->
 
 ```
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";function Example() {  return (    <Menu>      <MenuButton>My account</MenuButton>      <MenuItems        transition        className={`          transition ease-out          data-[closed]:scale-95 data-[closed]:opacity-0          data-[enter]:duration-200 data-[leave]:duration-300        `}      >        {/* Menu items… */}      </MenuItems>    </Menu>  );}
@@ -50,8 +36,6 @@ There are four data attributes you can use to target the different stages of you
 - `data-transition`: Styles to apply while the element is entering or leaving, useful for sharing values between both stages.
 
 You can even stack these attributes to use different `closed` styles for entering and leaving. For example this dialog slides in from the left, but slides out to the right:
-
-<!-- -->
 
 ```
 import { Dialog } from "@headlessui/react";import { useState } from "react";function Example() {  let [isOpen, setIsOpen] = useState(false);  return (    <>      <button onClick={() => setIsOpen(true)}>Open dialog</button>      <Dialog        open={isOpen}        onClose={() => setIsOpen(false)}        transition        className={`          transition duration-300 ease-out          data-[closed]:opacity-0          data-[closed]:data-[enter]:-translate-x-8          data-[closed]:data-[leave]:translate-x-8        `}      >        {/* Dialog content… */}      </Dialog>    </>  );}
@@ -98,7 +82,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

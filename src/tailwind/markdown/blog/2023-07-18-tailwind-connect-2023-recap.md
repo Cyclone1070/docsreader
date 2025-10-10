@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 20, 2023
 
 # Tailwind Connect 2023: Recap of our first in-person event
@@ -10,11 +6,7 @@ July 20, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Last month, over 200 people got together in my hometown of Cambridge, Ontario to hang out, talk shop, and get a peek behind the curtain at some of the new stuff we've been working on.
 
@@ -135,7 +127,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

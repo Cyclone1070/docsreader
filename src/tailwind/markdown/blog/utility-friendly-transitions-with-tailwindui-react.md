@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 28, 2020
 
 # Utility-Friendly Transitions with @tailwindui/react
@@ -10,11 +6,7 @@ August 28, 2020
 
 Robin Malfait
 
-[@](https://twitter.com/malfaitrobin)
-
-<!-- -->
-
-[malfaitrobin](https://twitter.com/malfaitrobin)
+[@malfaitrobin](https://twitter.com/malfaitrobin)
 
 Back in February we released [Tailwind UI](https://tailwindui.com), a directory of HTML component examples designed for you to copy and paste into your Tailwind projects as a starting point for your own designs.
 
@@ -57,7 +49,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

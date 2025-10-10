@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transitions & Animation
 
 # animation
@@ -66,23 +62,23 @@ For situations where the user has specified that they prefer reduced motion, you
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `animate-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->animation<!-- --> based on a completely custom value:
+Use the `animate-[<value>]` syntax to set the animation based on a completely custom value:
 
 ```
 <div class="animate-[wiggle_1s_ease-in-out_infinite] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `animate-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `animate-(<custom-property>)` syntax:
 
 ```
 <div class="animate-(--my-animation) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `animate-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `animate-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `animation` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `animation` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="animate-none md:animate-spin ...">  <!-- ... --></div>
@@ -92,20 +88,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--animate-*` theme variables to customize the <!-- -->animation<!-- --> <!-- -->utilities in your project:
+Use the `--animate-*` theme variables to customize the animation utilities in your project:
 
 ```
 @theme {  --animate-wiggle: wiggle 1s ease-in-out infinite;  @keyframes wiggle {    0%,    100% {      transform: rotate(-3deg);    }    50% {      transform: rotate(3deg);    }  }}
 ```
 
-Now the<!-- --> `animate-wiggle` <!-- -->utility can be used in your markup:
+Now the `animate-wiggle` utility can be used in your markup:
 
 ```
 <div class="animate-wiggle">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

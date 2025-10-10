@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # filter: drop-shadow()
@@ -328,23 +324,23 @@ Use the `drop-shadow-none` utility to remove an existing drop shadow from an ele
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `drop-shadow-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->drop shadow<!-- --> based on a completely custom value:
+Use the `drop-shadow-[<value>]` syntax to set the drop shadow based on a completely custom value:
 
 ```
 <svg class="drop-shadow-[0_35px_35px_rgba(0,0,0,0.25)] ...">  <!-- ... --></svg>
 ```
 
-For CSS variables, you can also use the<!-- --> `drop-shadow-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `drop-shadow-(<custom-property>)` syntax:
 
 ```
 <svg class="drop-shadow-(--my-drop-shadow) ...">  <!-- ... --></svg>
 ```
 
-This is just a shorthand for<!-- --> `drop-shadow-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `drop-shadow-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `filter: drop-shadow()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `filter: drop-shadow()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <svg class="drop-shadow-md md:drop-shadow-xl ...">  <!-- ... --></svg>
@@ -356,36 +352,32 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Customizing drop shadows](#customizing-drop-shadows)
 
-Use the `--drop-shadow-*` theme variables to customize the <!-- -->drop shadow<!-- --> <!-- -->utilities in your project:
+Use the `--drop-shadow-*` theme variables to customize the drop shadow utilities in your project:
 
 ```
 @theme {  --drop-shadow-3xl: 0 35px 35px rgba(0, 0, 0, 0.25); }
 ```
 
-Now the<!-- --> `drop-shadow-3xl` <!-- -->utility can be used in your markup:
+Now the `drop-shadow-3xl` utility can be used in your markup:
 
 ```
 <svg class="drop-shadow-3xl">  <!-- ... --></svg>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).
 
 ### [Customizing shadow colors](#customizing-shadow-colors)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `drop-shadow-regal-blue` <!-- -->utility can be used in your markup:
+Now the `drop-shadow-regal-blue` utility can be used in your markup:
 
 ```
 <svg class="drop-shadow-regal-blue">  <!-- ... --></svg>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

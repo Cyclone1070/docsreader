@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # place-content
@@ -137,14 +133,10 @@ Use `place-content-stretch` to stretch grid items along their grid areas on the 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `place-content` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `place-content` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid place-content-start md:place-content-center ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

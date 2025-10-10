@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 June 24, 2020
 
 # Introducing linting for Tailwind CSS IntelliSense
@@ -10,11 +6,7 @@ June 24, 2020
 
 Brad Cornes
 
-[@](https://twitter.com/bradlc)
-
-<!-- -->
-
-[bradlc](https://twitter.com/bradlc)
+[@bradlc](https://twitter.com/bradlc)
 
 Today we’re releasing a new version of the [Tailwind CSS IntelliSense extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) that adds Tailwind-specific linting to both your CSS and your markup.
 
@@ -57,7 +49,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

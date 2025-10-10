@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 29, 2023
 
 # Tailwind CSS v3.3: Extended color palette, ESM/TS support, logical properties, and more
@@ -10,11 +6,7 @@ March 29, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Tailwind CSS v3.3](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.bd99fd56.jpg\&w=3840\&q=75)
 
@@ -203,8 +195,6 @@ Nulla dolor velit adipisicing duis excepteur esse in duis nostrud occaecat molli
 
 So when you upgrade to v3.3, you can safely remove the line-clamp plugin if you were using it:
 
-<!-- -->
-
 tailwind.config.js
 
 ```
@@ -222,8 +212,6 @@ Check out the new [line-clamp documentation](https://v3.tailwindcss.com/docs/lin
 One thing we've found over years and years of designing beautiful stuff with Tailwind is that we literally *never* set a line-height without also setting the font-size at the same time.
 
 So inspired by our color opacity modifier syntax, we decided to make it possible to save a few characters by setting them together with a single utility:
-
-<!-- -->
 
 index.html
 
@@ -338,7 +326,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

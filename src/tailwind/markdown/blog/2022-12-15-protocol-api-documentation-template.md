@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 16, 2022
 
 # Protocol: A beautiful starting point for your next API documentation site
@@ -10,11 +6,7 @@ December 16, 2022
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Learn about the Protocol template](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fhome.64504590.png\&w=3840\&q=75)](https://tailwindui.com/templates/protocol)
 
@@ -127,7 +119,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter: sepia()
@@ -39,30 +35,26 @@ backdrop-sepia
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-sepia-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop sepia<!-- --> based on a completely custom value:
+Use the `backdrop-sepia-[<value>]` syntax to set the backdrop sepia based on a completely custom value:
 
 ```
 <div class="backdrop-sepia-[.25] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-sepia-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-sepia-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-sepia-(--my-backdrop-sepia) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-sepia-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-sepia-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter: sepia()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter: sepia()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-sepia md:backdrop-sepia-0 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Nuxt
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in a Nuxt project.
 
 #### Create your project
 
-Start by creating a new Nuxt project if you don’t have one set up already. The most common approach is to use<!-- --> [Create Nuxt](https://nuxt.com/docs/4.x/getting-started/installation#new-project).
+Start by creating a new Nuxt project if you don’t have one set up already. The most common approach is to use [Create Nuxt](https://nuxt.com/docs/4.x/getting-started/installation#new-project).
 
 Terminal
 
@@ -60,7 +56,7 @@ main.css
 
 #### Add the CSS file globally
 
-Add your newly-created `./app/assets/css/main.css` to the `css` array in your<!-- --> `nuxt.config.ts` file.
+Add your newly-created `./app/assets/css/main.css` to the `css` array in your `nuxt.config.ts` file.
 
 nuxt.config.ts
 
@@ -91,7 +87,3 @@ app.vue
 ```
 <template>  <h1 class="text-3xl font-bold underline">    Hello world!  </h1></template>
 ```
-
-<!--$-->
-
-<!--/$-->

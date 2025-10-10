@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # filter: invert()
@@ -39,30 +35,26 @@ invert
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `invert-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->color inversion<!-- --> based on a completely custom value:
+Use the `invert-[<value>]` syntax to set the color inversion based on a completely custom value:
 
 ```
 <img class="invert-[.25] ..." src="/img/mountains.jpg" />
 ```
 
-For CSS variables, you can also use the<!-- --> `invert-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `invert-(<custom-property>)` syntax:
 
 ```
 <img class="invert-(--my-inversion) ..." src="/img/mountains.jpg" />
 ```
 
-This is just a shorthand for<!-- --> `invert-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `invert-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `filter: invert()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `filter: invert()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="invert md:invert-0 ..." src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

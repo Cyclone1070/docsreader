@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Tables
 
 # border-spacing
@@ -38,23 +34,23 @@ Use `border-spacing-<number>` utilities like `border-spacing-2` and `border-spac
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `border-spacing-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->border spacing<!-- --> based on a completely custom value:
+Use the `border-spacing-[<value>]` syntax to set the border spacing based on a completely custom value:
 
 ```
 <table class="border-spacing-[7px] ...">  <!-- ... --></table>
 ```
 
-For CSS variables, you can also use the<!-- --> `border-spacing-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `border-spacing-(<custom-property>)` syntax:
 
 ```
 <table class="border-spacing-(--my-border-spacing) ...">  <!-- ... --></table>
 ```
 
-This is just a shorthand for<!-- --> `border-spacing-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `border-spacing-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `border-spacing` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `border-spacing` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <table class="border-spacing-2 md:border-spacing-4 ...">  <!-- ... --></table>
@@ -64,14 +60,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `border-spacing-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `border-spacing-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

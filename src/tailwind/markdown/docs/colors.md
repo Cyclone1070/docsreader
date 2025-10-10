@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Core concepts
 
 # Colors
@@ -116,7 +112,7 @@ The entire color palette is available across all color related utilities, includ
 
 Use color utilities like `bg-white`, `border-pink-300`, and `text-gray-950` to set the different color properties of elements in your design:
 
-Tom Watson mentioned you in<!-- --> Logo redesign
+Tom Watson mentioned you in Logo redesign
 
 9:37am
 
@@ -275,7 +271,3 @@ CSS
 ```
 
 This can be useful if you want to reuse any of these scales but under a different name, like redefining `--color-gray-*` to use the `--color-slate-*` scale.
-
-<!--$-->
-
-<!--/$-->

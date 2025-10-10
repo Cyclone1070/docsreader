@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter: opacity()
@@ -38,30 +34,26 @@ backdrop-opacity-95
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-opacity-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop filter opacity<!-- --> based on a completely custom value:
+Use the `backdrop-opacity-[<value>]` syntax to set the backdrop filter opacity based on a completely custom value:
 
 ```
 <div class="backdrop-opacity-[.15] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-opacity-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-opacity-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-opacity-(--my-backdrop-filter-opacity) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-opacity-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-opacity-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter: opacity()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter: opacity()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-opacity-100 md:backdrop-opacity-60 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

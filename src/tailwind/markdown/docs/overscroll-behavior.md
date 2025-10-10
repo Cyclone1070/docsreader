@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # overscroll-behavior
@@ -72,14 +68,10 @@ Maybe we can live without libraries, people like you and me. Maybe. Sure, we're 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `overscroll-behavior` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `overscroll-behavior` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="overscroll-auto md:overscroll-contain ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

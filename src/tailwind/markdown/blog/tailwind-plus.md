@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 5, 2025
 
 # Tailwind UI is now Tailwind Plus
@@ -10,11 +6,7 @@ March 5, 2025
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Tailwind Plus](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.000d618e.jpg\&w=3840\&q=75)](https://tailwindcss.com/plus)
 
@@ -53,7 +45,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 May 8, 2024
 
 # Headless UI v2.0 for React
@@ -10,21 +6,13 @@ May 8, 2024
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Freinink.dd880af3.jpg\&w=96\&q=75)
 
 Jonathan Reinink
 
-[@](https://twitter.com/reinink)
-
-<!-- -->
-
-[reinink](https://twitter.com/reinink)
+[@reinink](https://twitter.com/reinink)
 
 ![Headless UI v2.0](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.a8310012.jpg\&w=3840\&q=75)
 
@@ -210,7 +198,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

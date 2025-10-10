@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter: brightness()
@@ -34,30 +30,26 @@ backdrop-brightness-150
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-brightness-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop brightness<!-- --> based on a completely custom value:
+Use the `backdrop-brightness-[<value>]` syntax to set the backdrop brightness based on a completely custom value:
 
 ```
 <div class="backdrop-brightness-[1.75] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-brightness-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-brightness-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-brightness-(--my-backdrop-brightness) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-brightness-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-brightness-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter: brightness()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter: brightness()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-brightness-110 md:backdrop-brightness-150 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

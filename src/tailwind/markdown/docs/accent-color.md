@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # accent-color
@@ -294,23 +290,23 @@ Setting the accent color opacity has limited browser-support and only works in F
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `accent-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->accent color<!-- --> based on a completely custom value:
+Use the `accent-[<value>]` syntax to set the accent color based on a completely custom value:
 
 ```
 <input class="accent-[#50d71e] ..." type="checkbox" />
 ```
 
-For CSS variables, you can also use the<!-- --> `accent-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `accent-(<custom-property>)` syntax:
 
 ```
 <input class="accent-(--my-accent-color) ..." type="checkbox" />
 ```
 
-This is just a shorthand for<!-- --> `accent-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `accent-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Applying on hover](#applying-on-hover)
 
-Prefix <!-- -->an<!-- --> `accent-color` utility with a variant like<!-- --> `hover:*` to only apply the utility in that state:
+Prefix an `accent-color` utility with a variant like `hover:*` to only apply the utility in that state:
 
 Agree to terms
 
@@ -322,7 +318,7 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `accent-color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `accent-color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <input class="accent-black md:accent-pink-500 ..." type="checkbox" />
@@ -332,20 +328,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `accent-regal-blue` <!-- -->utility can be used in your markup:
+Now the `accent-regal-blue` utility can be used in your markup:
 
 ```
 <input class="accent-regal-blue" type="checkbox" />
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 25, 2020
 
 # Introducing Heroicons.com
@@ -10,11 +6,7 @@ August 25, 2020
 
 Steve Schoger
 
-[@](https://twitter.com/steveschoger)
-
-<!-- -->
-
-[steveschoger](https://twitter.com/steveschoger)
+[@steveschoger](https://twitter.com/steveschoger)
 
 [![heroicons.com](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.8a379352.png\&w=3840\&q=75)](https://heroicons.com)
 
@@ -56,7 +48,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

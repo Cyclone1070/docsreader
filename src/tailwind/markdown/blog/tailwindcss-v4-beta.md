@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 November 22, 2024
 
 # Tailwind CSS v4.0 Beta 1
@@ -10,11 +6,7 @@ November 22, 2024
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Tailwind CSS v4.0-beta](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.d69e3d8c.jpg\&w=3840\&q=75)
 
@@ -38,7 +30,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

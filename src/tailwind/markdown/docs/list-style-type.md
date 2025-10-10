@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # list-style-type
@@ -46,30 +42,26 @@ list-none
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `list-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->marker<!-- --> based on a completely custom value:
+Use the `list-[<value>]` syntax to set the marker based on a completely custom value:
 
 ```
 <ol class="list-[upper-roman] ...">  <!-- ... --></ol>
 ```
 
-For CSS variables, you can also use the<!-- --> `list-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `list-(<custom-property>)` syntax:
 
 ```
 <ol class="list-(--my-marker) ...">  <!-- ... --></ol>
 ```
 
-This is just a shorthand for<!-- --> `list-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `list-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `list-style-type` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `list-style-type` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <ul class="list-none md:list-disc ...">  <!-- ... --></ul>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

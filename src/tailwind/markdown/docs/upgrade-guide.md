@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Getting started
 
 # Upgrade guide
@@ -182,8 +178,6 @@ CSS
 You might see changes in your project if you were ever using these utilities with inline elements, or if you were adding other margins to child elements to tweak their spacing.
 
 If this change causes any issues in your project, we recommend migrating to a flex or grid layout and using `gap` instead:
-
-<!-- -->
 
 HTML
 
@@ -496,7 +490,3 @@ You can find more documentation on [using Tailwind with CSS modules](/docs/compa
 Tailwind CSS v4.0 is not designed to be used with CSS preprocessors like Sass, Less, or Stylus. Think of Tailwind CSS itself as your preprocessor — you shouldn't use Tailwind with Sass for the same reason you wouldn't use Sass with Stylus. Because of this it is not possible to use Sass, Less, or Stylus for your stylesheets or `<style>` blocks in Vue, Svelte, Astro, etc.
 
 Learn more in the [compatibility documentation](/docs/compatibility#sass-less-and-stylus).
-
-<!--$-->
-
-<!--/$-->

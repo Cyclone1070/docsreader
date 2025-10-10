@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 May 28, 2022
 
 # Headless UI v1.6, Tailwind UI team management, Tailwind Play improvements, and more
@@ -10,11 +6,7 @@ May 28, 2022
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 It's been a while since I've written about what we've been working on so I have a lot to share! Too much honestly — my main motivator for even getting this update out is that we've got even more stuff coming next week, and I feel like I'm not allowed to share that stuff until I share all of the stuff we've already shipped.
 
@@ -77,8 +69,6 @@ The crux of it is that we've changed how "click outside to close" works. We used
 The problem with this approach is that if you had a long dialog that required scrolling, your overlay would sit *on top* of your scrollbar, and trying to click the scrollbar would close the dialog. Not what you want!
 
 So to fix this in a non-breaking way, we've added a new `Dialog.Panel` component you can use instead, and now we close the dialog any time you click outside of that component, rather than closing it specifically when the overlay is clicked:
-
-<!-- -->
 
 ```
 <Dialog  open={isOpen}  onClose={closeModal}  className="fixed inset-0 flex items-center justify-center ...">   <Dialog.Overlay className="fixed inset-0 bg-black/25" />   <div className="fixed inset-0 bg-black/25" />   <div className="bg-white shadow-xl rounded-2xl ...">   <Dialog.Panel className="bg-white shadow-xl rounded-2xl ...">    <Dialog.Title>Payment successful</Dialog.Title>    {/* ... */}  </div>  </Dialog.Panel></Dialog>
@@ -203,7 +193,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

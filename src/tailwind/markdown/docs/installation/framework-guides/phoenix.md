@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Phoenix
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in a Phoenix project.
 
 #### Create your project
 
-Start by creating a new Phoenix project if you don't have one set up already. You can follow their<!-- --> [installation guide](https://hexdocs.pm/phoenix/installation.html) to get up and running.
+Start by creating a new Phoenix project if you don't have one set up already. You can follow their [installation guide](https://hexdocs.pm/phoenix/installation.html) to get up and running.
 
 Terminal
 
@@ -127,7 +123,3 @@ index.html.heex
 ```
 <h1 class="text-3xl font-bold underline">  Hello world!</h1>
 ```
-
-<!--$-->
-
-<!--/$-->

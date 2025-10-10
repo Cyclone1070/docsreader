@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # z-index
@@ -55,30 +51,26 @@ To use a negative z-index value, prefix the class name with a dash to convert it
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `z-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->stack order<!-- --> based on a completely custom value:
+Use the `z-[<value>]` syntax to set the stack order based on a completely custom value:
 
 ```
 <div class="z-[calc(var(--index)+1)] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `z-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `z-(<custom-property>)` syntax:
 
 ```
 <div class="z-(--my-z) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `z-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `z-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `z-index` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `z-index` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="z-0 md:z-50 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

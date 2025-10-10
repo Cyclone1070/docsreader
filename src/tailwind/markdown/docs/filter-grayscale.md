@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # filter: grayscale()
@@ -43,30 +39,26 @@ grayscale
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `grayscale-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->grayscale<!-- --> based on a completely custom value:
+Use the `grayscale-[<value>]` syntax to set the grayscale based on a completely custom value:
 
 ```
 <img class="grayscale-[0.5] ..." src="/img/mountains.jpg" />
 ```
 
-For CSS variables, you can also use the<!-- --> `grayscale-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `grayscale-(<custom-property>)` syntax:
 
 ```
 <img class="grayscale-(--my-grayscale) ..." src="/img/mountains.jpg" />
 ```
 
-This is just a shorthand for<!-- --> `grayscale-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `grayscale-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `filter: grayscale()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `filter: grayscale()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="grayscale md:grayscale-0 ..." src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

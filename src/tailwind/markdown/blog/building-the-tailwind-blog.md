@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 1, 2020
 
 # Building the Tailwind Blog with Next.js
@@ -10,11 +6,7 @@ July 1, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 One of the things we believe as a team is that everything we make should be [sealed with a blog post](https://public.3.basecamp.com/p/toAcDMxu8Fvq2yMfd2azTuaV). Forcing ourselves to write up a short announcement post for every project we work on acts as a built-in quality check, making sure that we never call a project "done" until we feel comfortable telling the world it's out there.
 
@@ -146,7 +138,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

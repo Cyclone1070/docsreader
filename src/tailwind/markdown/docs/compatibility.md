@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Getting started
 
 # Compatibility
@@ -151,7 +147,3 @@ Button.vue
 ```
 <template>  <button><slot /></button></template><style scoped>  button {    background-color: var(--color-blue-500);  }</style>
 ```
-
-<!--$-->
-
-<!--/$-->

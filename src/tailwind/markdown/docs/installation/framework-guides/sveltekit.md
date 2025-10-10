@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with SvelteKit
@@ -91,7 +87,3 @@ Start using Tailwind’s utility classes to style your content, making sure to i
 ```
 <h1 class="text-3xl font-bold underline">  Hello world!</h1><style lang="postcss">  @reference "tailwindcss";  :global(html) {    background-color: theme(--color-gray-100);  }</style>
 ```
-
-<!--$-->
-
-<!--/$-->

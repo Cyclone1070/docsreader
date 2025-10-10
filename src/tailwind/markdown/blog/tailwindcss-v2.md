@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 November 19, 2020
 
 # Tailwind CSS v2.0
@@ -10,11 +6,7 @@ November 19, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Almost exactly 18 months ago we released Tailwind CSS v1.0, which signalled a commitment to stability while continuing to push the boundaries with exciting new features in every minor release.
 
@@ -349,7 +341,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

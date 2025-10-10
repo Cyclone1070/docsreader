@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # overflow-wrap
@@ -20,7 +16,7 @@ Utilities for controlling line breaks within words in an overflowing element.
 
 Use the `wrap-break-word` utility to allow line breaks between letters in a word if needed:
 
-The longest word in any of the major English language dictionaries is<!-- --> pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
 
 ```
 <p class="wrap-break-word">The longest word in any of the major...</p>
@@ -56,7 +52,7 @@ This is useful for wrapping text inside of `flex` containers, where you would us
 
 Use the `wrap-normal` utility to only allow line breaks at natural wrapping points, like spaces, hyphens, and punctuation:
 
-The longest word in any of the major English language dictionaries is<!-- --> pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
+The longest word in any of the major English language dictionaries is pneumonoultramicroscopicsilicovolcanoconiosis, a word that refers to a lung disease contracted from the inhalation of very fine silica particles, specifically from a volcano; medically, it is the same as silicosis.
 
 ```
 <p class="wrap-normal">The longest word in any of the major...</p>
@@ -64,14 +60,10 @@ The longest word in any of the major English language dictionaries is<!-- --> pn
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `overflow-wrap` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `overflow-wrap` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="wrap-normal md:wrap-break-word ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-column
@@ -76,30 +72,26 @@ These can also be combined with the `col-span-<number>` utilities to span a spec
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use utilities like<!-- --> `col-[<value>]`,`col-span-[<value>]`,`col-start-[<value>]`,<!-- --> and `col-end-[<value>]` <!-- -->to set the <!-- -->grid column size and location<!-- --> based on a completely custom value:
+Use utilities like `col-[<value>]`,`col-span-[<value>]`,`col-start-[<value>]`, and `col-end-[<value>]` to set the grid column size and location based on a completely custom value:
 
 ```
 <div class="col-[16_/_span_16] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `col-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `col-(<custom-property>)` syntax:
 
 ```
 <div class="col-(--my-columns) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `col-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `col-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix<!-- --> `grid-column`,`grid-column-start`,<!-- --> and `grid-column-end` <!-- -->utilities<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix `grid-column`,`grid-column-start`, and `grid-column-end` utilities with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="col-span-2 md:col-span-6 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

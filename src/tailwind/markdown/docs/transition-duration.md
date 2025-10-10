@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transitions & Animation
 
 # transition-duration
@@ -41,30 +37,26 @@ Button C
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `duration-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->transition duration<!-- --> based on a completely custom value:
+Use the `duration-[<value>]` syntax to set the transition duration based on a completely custom value:
 
 ```
 <button class="duration-[1s,15s] ...">  <!-- ... --></button>
 ```
 
-For CSS variables, you can also use the<!-- --> `duration-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `duration-(<custom-property>)` syntax:
 
 ```
 <button class="duration-(--my-duration) ...">  <!-- ... --></button>
 ```
 
-This is just a shorthand for<!-- --> `duration-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `duration-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `transition-duration` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `transition-duration` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <button class="duration-0 md:duration-150 ...">  <!-- ... --></button>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

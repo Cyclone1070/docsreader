@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-auto-rows
@@ -29,30 +25,26 @@ Use utilities like `auto-rows-min` and `auto-rows-max` to control the size of im
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `auto-rows-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->size of implicitly-created grid rows<!-- --> based on a completely custom value:
+Use the `auto-rows-[<value>]` syntax to set the size of implicitly-created grid rows based on a completely custom value:
 
 ```
 <div class="auto-rows-[minmax(0,2fr)] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `auto-rows-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `auto-rows-(<custom-property>)` syntax:
 
 ```
 <div class="auto-rows-(--my-auto-rows) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `auto-rows-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `auto-rows-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `grid-auto-rows` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `grid-auto-rows` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid grid-flow-row auto-rows-max md:auto-rows-min ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

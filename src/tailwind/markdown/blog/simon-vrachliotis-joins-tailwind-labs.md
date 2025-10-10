@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 20, 2020
 
 # Simon Vrachliotis Joins Tailwind Labs
@@ -10,11 +6,7 @@ July 20, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Today we are super excited to share that [Simon Vrachliotis](https://twitter.com/simonswiss) has joined the development team at Tailwind Labs! (We just finalized that new business name by the way, pretty cool right?)
 
@@ -39,7 +31,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

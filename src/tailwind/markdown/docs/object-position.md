@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # object-position
@@ -72,30 +68,26 @@ object-bottom-right
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `object-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->object position<!-- --> based on a completely custom value:
+Use the `object-[<value>]` syntax to set the object position based on a completely custom value:
 
 ```
 <img class="object-[25%_75%] ..." src="/img/mountains.jpg" />
 ```
 
-For CSS variables, you can also use the<!-- --> `object-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `object-(<custom-property>)` syntax:
 
 ```
 <img class="object-(--my-object) ..." src="/img/mountains.jpg" />
 ```
 
-This is just a shorthand for<!-- --> `object-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `object-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `object-position` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `object-position` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <img class="object-center md:object-top ..." src="/img/mountains.jpg" />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

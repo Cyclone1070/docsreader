@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 October 7, 2020
 
 # Headless UI: Unstyled, Accessible UI Components
@@ -10,11 +6,7 @@ October 7, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Headless UI Logo](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fheadless-ui-card.6c478fa0.png\&w=3840\&q=75)
 
@@ -112,7 +104,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

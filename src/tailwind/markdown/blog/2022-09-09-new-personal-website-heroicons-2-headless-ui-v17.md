@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 September 10, 2022
 
 # We built you a new personal website + Heroicons v2.0, Headless UI v1.7, and more
@@ -10,11 +6,7 @@ September 10, 2022
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 It's been a busy week wrapping up a bunch of projects we've been working on, but everything is finally out the door so it feels like a good time for another update.
 
@@ -147,7 +139,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

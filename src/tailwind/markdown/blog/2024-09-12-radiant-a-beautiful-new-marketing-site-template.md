@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 September 12, 2024
 
 # Radiant: A beautiful new marketing site template
@@ -10,11 +6,7 @@ September 12, 2024
 
 Dan Hollick
 
-[@](https://twitter.com/DanHollick)
-
-<!-- -->
-
-[DanHollick](https://twitter.com/DanHollick)
+[@DanHollick](https://twitter.com/DanHollick)
 
 [![Learn about the Radiant template](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftemplate.4912d398.png\&w=3840\&q=75)](https://tailwindui.com/templates/radiant)
 
@@ -118,8 +110,6 @@ One cool thing about headless CMSes like Sanity is you get your content back in 
 
 Working with a CMS also means all of your assets like images are hosted for you, and you can control the size, quality, and format of the image on the fly.
 
-<!-- -->
-
 ```
 <div className="text-sm/5 max-sm:text-gray-700 sm:font-medium">  {dayjs(post.publishedAt).format('dddd, MMMM D, YYYY')}</div>{post.author && (  <div className="mt-2.5 flex items-center gap-3">    {post.author.image && (      <img        className="aspect-square size-6 rounded-full object-cover"        src={image(post.author.image).width(64).height(64).url()}        alt=""      />    )}    <div className="text-sm/5 text-gray-700">      {post.author.name}    </div>  </div>)}
 ```
@@ -141,7 +131,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

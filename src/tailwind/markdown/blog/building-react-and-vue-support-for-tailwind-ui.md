@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 April 13, 2021
 
 # Building React + Vue support for Tailwind UI
@@ -10,11 +6,7 @@ April 13, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Hey! We're getting *really* close to releasing React + Vue support for Tailwind UI, so I thought it would be interesting to share some of the behind-the-scenes efforts that have gone into even making it possible.
 
@@ -248,7 +240,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

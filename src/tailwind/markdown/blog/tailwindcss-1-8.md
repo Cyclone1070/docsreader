@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 September 5, 2020
 
 # Tailwind CSS v1.8.0
@@ -10,11 +6,7 @@ September 5, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Tailwind CSS v1.8 is now available with a handful of new utilities, a couple new features, and an exciting new experiment!
 
@@ -44,7 +36,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

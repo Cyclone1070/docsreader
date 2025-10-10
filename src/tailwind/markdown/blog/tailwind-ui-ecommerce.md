@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 12, 2021
 
 # Introducing Tailwind UI Ecommerce
@@ -10,11 +6,7 @@ August 12, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Tailwind UI Ecommerce available now](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.b0c584a3.jpg\&w=3840\&q=75)](https://tailwindui.com)
 
@@ -56,7 +48,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Effects
 
 # mask-size
@@ -44,30 +40,26 @@ Use the `mask-auto` utility to display the mask image at its default size:
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `mask-size-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->mask image size<!-- --> based on a completely custom value:
+Use the `mask-size-[<value>]` syntax to set the mask image size based on a completely custom value:
 
 ```
 <div class="mask-size-[auto_100px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `mask-size-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `mask-size-(<custom-property>)` syntax:
 
 ```
 <div class="mask-size-(--my-mask-size) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `mask-size-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `mask-size-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `mask-size` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `mask-size` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="mask-auto md:mask-contain ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

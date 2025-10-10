@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # will-change
@@ -33,20 +29,16 @@ The `will-change` property is intended to be used as a last resort when dealing 
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `will-change-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the `will-change` property<!-- --> based on a completely custom value:
+Use the `will-change-[<value>]` syntax to set the `will-change` property based on a completely custom value:
 
 ```
 <div class="will-change-[top,left] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `will-change-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `will-change-(<custom-property>)` syntax:
 
 ```
 <div class="will-change-(--my-properties) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `will-change-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
-
-<!--$-->
-
-<!--/$-->
+This is just a shorthand for `will-change-[var(<custom-property>)]` that adds the `var()` function for you automatically.

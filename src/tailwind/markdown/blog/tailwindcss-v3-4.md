@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 20, 2023
 
 # Tailwind CSS v3.4: Dynamic viewport units, :has() support, balanced headlines, subgrid, and more
@@ -10,11 +6,7 @@ December 20, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Tailwind CSS v3.4](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.a1cd9cff.jpg\&w=3840\&q=75)
 
@@ -56,7 +48,7 @@ Scroll up and down in the viewport to hide/show the browser UI
 
 tailwindcss.com
 
-h-<!-- -->dvh
+h-dvh
 
 ```
 <div class="h-dvh">  <!-- ... --></div>
@@ -323,7 +315,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

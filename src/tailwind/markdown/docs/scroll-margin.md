@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # scroll-margin
@@ -117,23 +113,23 @@ For more control, you can also use the [LTR and RTL modifiers](/docs/hover-focus
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use utilities like<!-- --> `scroll-ml-[<value>]` and `scroll-me-[<value>]` <!-- -->to set the <!-- -->scroll margin<!-- --> based on a completely custom value:
+Use utilities like `scroll-ml-[<value>]` and `scroll-me-[<value>]` to set the scroll margin based on a completely custom value:
 
 ```
 <div class="scroll-ml-[24rem] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `scroll-ml-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `scroll-ml-(<custom-property>)` syntax:
 
 ```
 <div class="scroll-ml-(--my-scroll-margin) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `scroll-ml-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `scroll-ml-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `scroll-margin` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `scroll-margin` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="scroll-m-8 md:scroll-m-0 ...">  <!-- ... --></div>
@@ -143,14 +139,10 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-The<!-- --> `scroll-m-<number>`,`scroll-mx-<number>`,`scroll-my-<number>`,`scroll-ms-<number>`,`scroll-me-<number>`,`scroll-mt-<number>`,`scroll-mr-<number>`,`scroll-mb-<number>`,<!-- --> and `scroll-ml-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
+The `scroll-m-<number>`,`scroll-mx-<number>`,`scroll-my-<number>`,`scroll-ms-<number>`,`scroll-me-<number>`,`scroll-mt-<number>`,`scroll-mr-<number>`,`scroll-mb-<number>`, and `scroll-ml-<number>` utilities are driven by the `--spacing` theme variable, which can be customized in your own theme:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
 Learn more about customizing the spacing scale in the [theme variable documentation](/docs/theme).
-
-<!--$-->
-
-<!--/$-->

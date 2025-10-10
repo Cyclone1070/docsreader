@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # field-sizing
@@ -41,14 +37,10 @@ Latex Salesman, Vanderlay Industries
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `field-sizing` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `field-sizing` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <input class="field-sizing-content md:field-sizing-fixed ..." />
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

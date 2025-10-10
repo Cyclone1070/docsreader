@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # flex
@@ -78,30 +74,26 @@ Use `flex-none` to prevent a flex item from growing or shrinking:
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `flex-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->flex shorthand property<!-- --> based on a completely custom value:
+Use the `flex-[<value>]` syntax to set the flex shorthand property based on a completely custom value:
 
 ```
 <div class="flex-[3_1_auto] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `flex-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `flex-(<custom-property>)` syntax:
 
 ```
 <div class="flex-(--my-flex) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `flex-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `flex-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `flex` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `flex` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="flex-none md:flex-1 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

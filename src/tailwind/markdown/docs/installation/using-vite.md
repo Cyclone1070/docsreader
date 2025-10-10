@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 ### Installing Tailwind CSS as a Vite plugin
 
 Installing Tailwind CSS as a Vite plugin is the most seamless way to integrate it with frameworks like Laravel, SvelteKit, React Router, Nuxt, and SolidJS.
@@ -10,7 +6,7 @@ Installing Tailwind CSS as a Vite plugin is the most seamless way to integrate i
 
 #### Create your project
 
-Start by creating a new Vite project if you don’t have one set up already. The most common approach is to use<!-- --> [Create Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project).
+Start by creating a new Vite project if you don’t have one set up already. The most common approach is to use [Create Vite](https://vite.dev/guide/#scaffolding-your-first-vite-project).
 
 Terminal
 
@@ -58,7 +54,7 @@ CSS
 
 #### Start your build process
 
-Run your build process with `npm run dev` or whatever command is configured in your<!-- --> `package.json` file.
+Run your build process with `npm run dev` or whatever command is configured in your `package.json` file.
 
 Terminal
 
@@ -81,7 +77,3 @@ HTML
 **Are you stuck?** Setting up Tailwind with Vite can be a bit different across different build tools. Check our framework guides to see if we have more specific instructions for your particular setup.
 
 [Explore our framework guides](/docs/installation/framework-guides)
-
-<!--$-->
-
-<!--/$-->

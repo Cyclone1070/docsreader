@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Backgrounds
 
 # background-position
@@ -72,30 +68,26 @@ bg-bottom-right
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `bg-position-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->background position<!-- --> based on a completely custom value:
+Use the `bg-position-[<value>]` syntax to set the background position based on a completely custom value:
 
 ```
 <div class="bg-position-[center_top_1rem] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `bg-position-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `bg-position-(<custom-property>)` syntax:
 
 ```
 <div class="bg-position-(--my-bg-position) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `bg-position-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `bg-position-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `background-position` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `background-position` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="bg-center md:bg-top ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

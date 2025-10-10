@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Getting started
 
 # Editor setup
@@ -37,8 +33,6 @@ We maintain an official [Prettier plugin](https://github.com/tailwindlabs/pretti
 
 It works seamlessly with custom Tailwind configurations, and because it’s just a Prettier plugin, it works anywhere Prettier works—including every popular editor and IDE, and of course on the command line.
 
-<!-- -->
-
 HTML
 
 ```
@@ -58,7 +52,3 @@ JetBrains IDEs like WebStorm, PhpStorm, and others include support for intellige
 Zed includes built-in support for Tailwind CSS autocomplete, linting, and hover previews for a variety of languages. It also supports Prettier, so our official [Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) works seamlessly in Zed when installed.
 
 [Learn more about Tailwind CSS support in Zed →](https://zed.dev/docs/languages/tailwindcss)
-
-<!--$-->
-
-<!--/$-->

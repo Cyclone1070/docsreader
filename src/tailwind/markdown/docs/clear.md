@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Layout
 
 # clear
@@ -81,14 +77,10 @@ Maybe we can live without libraries, people like you and me. Maybe. Sure, we're 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `clear` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `clear` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="clear-left md:clear-none ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

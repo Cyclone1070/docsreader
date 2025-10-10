@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 16, 2020
 
 # Tailwind CSS v1.5.0
@@ -10,11 +6,7 @@ July 16, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 I was hoping to save v1.5.0 for something *really* exciting but we needed a new feature to support the new [`@tailwindcss/typography`](https://github.com/tailwindcss/typography) plugin so h\*ck it, we're dropping some new stuff on you early.
 
@@ -105,7 +97,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

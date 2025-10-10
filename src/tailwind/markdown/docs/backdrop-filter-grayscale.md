@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter: grayscale()
@@ -39,30 +35,26 @@ backdrop-grayscale
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-grayscale-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop grayscale<!-- --> based on a completely custom value:
+Use the `backdrop-grayscale-[<value>]` syntax to set the backdrop grayscale based on a completely custom value:
 
 ```
 <div class="backdrop-grayscale-[0.5] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-grayscale-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-grayscale-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-grayscale-(--my-backdrop-grayscale) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-grayscale-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-grayscale-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter: grayscale()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter: grayscale()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-grayscale md:backdrop-grayscale-0 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

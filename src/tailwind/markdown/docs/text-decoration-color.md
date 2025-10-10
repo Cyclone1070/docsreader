@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # text-decoration-color
@@ -268,7 +264,7 @@ Show more
 
 Use utilities like `decoration-sky-500` and `decoration-pink-500` to change the [text decoration](/docs/text-decoration-line) color of an element:
 
-I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at<!-- --> [My Company, Inc](#). Outside of work, I like to<!-- --> [watch pod-racing](#) <!-- -->and have<!-- --> [light-saber](#) <!-- -->fights.
+I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at [My Company, Inc](#). Outside of work, I like to [watch pod-racing](#) and have [light-saber](#) fights.
 
 ```
 <p>  I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings  at <a class="underline decoration-sky-500">My Company, Inc</a>. Outside  of work, I like to <a class="underline decoration-pink-500">watch pod-racing</a>  and have <a class="underline decoration-indigo-500">light-saber</a> fights.</p>
@@ -278,7 +274,7 @@ I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at<!-
 
 Use the color opacity modifier to control the text decoration color opacity of an element:
 
-I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at<!-- --> [My Company, Inc](#). Outside of work, I like to<!-- --> [watch pod-racing](#) <!-- -->and have<!-- --> [light-saber](#) <!-- -->fights.
+I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at [My Company, Inc](#). Outside of work, I like to [watch pod-racing](#) and have [light-saber](#) fights.
 
 ```
 <p>  I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings  at <a class="underline decoration-sky-500/30">My Company, Inc</a>. Outside  of work, I like to <a class="underline decoration-pink-500/30">watch pod-racing</a>  and have <a class="underline decoration-indigo-500/30">light-saber</a> fights.</p>
@@ -286,35 +282,27 @@ I’m Derek, an astro-engineer based in Tattooine. I like to build X-Wings at<!-
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `decoration-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->text decoration color<!-- --> based on a completely custom value:
+Use the `decoration-[<value>]` syntax to set the text decoration color based on a completely custom value:
 
 ```
 <p class="decoration-[#50d71e] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `decoration-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `decoration-(<custom-property>)` syntax:
 
 ```
 <p class="decoration-(--my-color) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `decoration-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `decoration-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Applying on hover](#applying-on-hover)
 
-Prefix <!-- -->a<!-- --> `text-decoration-color` utility with a variant like<!-- --> `hover:*` to only apply the utility in that state:
+Prefix a `text-decoration-color` utility with a variant like `hover:*` to only apply the utility in that state:
 
 Hover over the text to see the expected behavior
 
-The
-
-<!-- -->
-
-[quick brown fox](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog)
-
-<!-- -->
-
-jumps over the lazy dog.
+The [quick brown fox](https://en.wikipedia.org/wiki/The_quick_brown_fox_jumps_over_the_lazy_dog) jumps over the lazy dog.
 
 ```
 <p>The <a href="..." class="underline hover:decoration-pink-500 ...">quick brown fox</a> jumps over the lazy dog.</p>
@@ -324,7 +312,7 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `text-decoration-color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `text-decoration-color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="underline decoration-sky-600 md:decoration-blue-400 ...">  Lorem ipsum dolor sit amet...</p>
@@ -334,20 +322,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `decoration-regal-blue` <!-- -->utility can be used in your markup:
+Now the `decoration-regal-blue` utility can be used in your markup:
 
 ```
 <p class="decoration-regal-blue">  Lorem ipsum dolor sit amet...</p>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

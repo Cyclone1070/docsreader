@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Meteor
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in a Meteor project.
 
 #### Create your project
 
-Start by creating a new Meteor project if you don't have one set up already. The most common approach is to use<!-- --> [the Meteor CLI](https://docs.meteor.com/about/install.html).
+Start by creating a new Meteor project if you don't have one set up already. The most common approach is to use [the Meteor CLI](https://docs.meteor.com/about/install.html).
 
 Terminal
 
@@ -36,7 +32,7 @@ npm install tailwindcss @tailwindcss/postcss postcss postcss-load-config
 
 #### Configure PostCSS Plugins
 
-Create a `postcss.config.mjs` file in the root of your project and add the<!-- --> `@tailwindcss/postcss` plugin to your PostCSS configuration.
+Create a `postcss.config.mjs` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
 
 postcss.config.mjs
 
@@ -79,7 +75,3 @@ App.jsx
 ```
 export const App = () => (  <h1 className="text-3xl font-bold underline">    Hello world!  </h1>)
 ```
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # flex-basis
@@ -78,23 +74,23 @@ Use `basis-<fraction>` utilities like `basis-1/2` and `basis-2/3` to set the ini
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `basis-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->basis<!-- --> based on a completely custom value:
+Use the `basis-[<value>]` syntax to set the basis based on a completely custom value:
 
 ```
 <div class="basis-[30vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `basis-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `basis-(<custom-property>)` syntax:
 
 ```
 <div class="basis-(--my-basis) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `basis-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `basis-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `flex-basis` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `flex-basis` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="flex flex-row">  <div class="basis-1/4 md:basis-1/3">01</div>  <div class="basis-1/4 md:basis-1/3">02</div>  <div class="basis-1/2 md:basis-1/3">03</div></div>
@@ -104,26 +100,22 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--container-*` theme variables to customize the <!-- -->fixed-width basis<!-- --> <!-- -->utilities in your project:
+Use the `--container-*` theme variables to customize the fixed-width basis utilities in your project:
 
 ```
 @theme {  --container-4xs: 14rem; }
 ```
 
-Now the<!-- --> `basis-4xs` <!-- -->utility can be used in your markup:
+Now the `basis-4xs` utility can be used in your markup:
 
 ```
 <div class="basis-4xs">  <!-- ... --></div>
 ```
 
-The<!-- --> `basis-<number>` <!-- -->utilities are driven by the `--spacing` theme variable, which you can also customize:
+The `basis-<number>` utilities are driven by the `--spacing` theme variable, which you can also customize:
 
 ```
 @theme {  --spacing: 1px; }
 ```
 
-Learn more about customizing the spacing scale in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing the spacing scale in the [theme documentation](/docs/theme#customizing-your-theme).

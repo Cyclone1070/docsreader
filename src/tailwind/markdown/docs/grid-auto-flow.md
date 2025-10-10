@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-auto-flow
@@ -38,14 +34,10 @@ Use utilities like `grid-flow-col` and `grid-flow-row-dense` to control how the 
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `grid-auto-flow` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `grid-auto-flow` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid grid-flow-col md:grid-flow-row ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

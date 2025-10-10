@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 10, 2021
 
 # Tailwind CSS v3.0
@@ -10,15 +6,11 @@ December 10, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Tailwind CSS v3.0 is here — bringing incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features.
 
-For a tour of some of the coolest new features, check out the <!-- -->["What's new in Tailwind CSS v3.0"](https://www.youtube.com/watch?v=mSC6GwizOag) video on our YouTube channel.
+For a tour of some of the coolest new features, check out the ["What's new in Tailwind CSS v3.0"](https://www.youtube.com/watch?v=mSC6GwizOag) video on our YouTube channel.
 
 Tailwind CSS v3.0 has got to be our most exciting release ever, including improvements like:
 
@@ -199,7 +191,7 @@ Learn more in the [aspect ratio](https://v3.tailwindcss.com/docs/aspect-ratio) d
 
 Now you can change underline colors, thickness, and more:
 
-I’m Derek, an astro-engineer based in Tatooine. I like to build X-Wings at<!-- --> [My Company, Inc](#). Outside of work, I like to<!-- --> [watch pod-racing](#) <!-- -->and have<!-- --> [light-saber](#) <!-- -->fights.
+I’m Derek, an astro-engineer based in Tatooine. I like to build X-Wings at [My Company, Inc](#). Outside of work, I like to [watch pod-racing](#) and have [light-saber](#) fights.
 
 ```
 <p>  I’m Derek, an astro-engineer based in Tatooine. I like to build X-Wings at  <a href="#" class="underline decoration-sky-500 decoration-2"> My Company, Inc </a>. Outside of work, I like to{" "}  <a href="#" class="underline decoration-pink-500 decoration-dotted decoration-2"> watch pod-racing </a> and have  <a href="#" class="underline decoration-indigo-500 decoration-wavy decoration-2"> light-saber </a>{" "} fights.</p>
@@ -265,8 +257,6 @@ This is what inline styles want to be when they grow up. Learn more in the [arbi
 
 There's no way to make a sensible CSS-based CDN build for Tailwind CSS v3.0 so we had to do something different — we built a JavaScript library.
 
-<!-- -->
-
 ```
 <!DOCTYPE html><html lang="en">  <head>    <meta charset="utf-8" />    <meta name="viewport" content="width=device-width, initial-scale=1.0" />    <title>Example</title>    <script src="https://cdn.tailwindcss.com/"></script>  </head>  <body>    <!-- -->  </body></html>
 ```
@@ -286,7 +276,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

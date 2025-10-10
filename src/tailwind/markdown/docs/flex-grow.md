@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # flex-grow
@@ -61,30 +57,26 @@ Use `grow-0` to prevent a flex item from growing:
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `grow-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->flex grow factor<!-- --> based on a completely custom value:
+Use the `grow-[<value>]` syntax to set the flex grow factor based on a completely custom value:
 
 ```
 <div class="grow-[25vw] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `grow-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `grow-(<custom-property>)` syntax:
 
 ```
 <div class="grow-(--my-grow) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `grow-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `grow-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `flex-grow` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `flex-grow` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grow md:grow-0 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

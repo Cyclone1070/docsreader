@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 14, 2020
 
 # Introducing Tailwind CSS Typography
@@ -10,11 +6,7 @@ July 14, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
 
@@ -45,7 +37,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

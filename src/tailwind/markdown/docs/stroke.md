@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 SVG
 
 # stroke
@@ -289,23 +285,23 @@ Download file
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `stroke-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->stroke color<!-- --> based on a completely custom value:
+Use the `stroke-[<value>]` syntax to set the stroke color based on a completely custom value:
 
 ```
 <svg class="stroke-[#243c5a] ...">  <!-- ... --></svg>
 ```
 
-For CSS variables, you can also use the<!-- --> `stroke-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `stroke-(<custom-property>)` syntax:
 
 ```
 <svg class="stroke-(--my-stroke-color) ...">  <!-- ... --></svg>
 ```
 
-This is just a shorthand for<!-- --> `stroke-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `stroke-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `stroke` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `stroke` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <svg class="stroke-cyan-500 md:stroke-cyan-700 ...">  <!-- ... --></svg>
@@ -315,20 +311,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `stroke-regal-blue` <!-- -->utility can be used in your markup:
+Now the `stroke-regal-blue` utility can be used in your markup:
 
 ```
 <svg class="stroke-regal-blue">  <!-- ... --></svg>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

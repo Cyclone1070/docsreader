@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 19, 2023
 
 # Heroicons Micro: What are these, icons for ants?
@@ -10,11 +6,7 @@ December 19, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Heroicons Micro](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.64021a33.jpg\&w=3840\&q=75)](https://heroicons.com)
 
@@ -43,7 +35,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

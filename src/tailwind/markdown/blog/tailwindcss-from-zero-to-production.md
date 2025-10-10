@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 February 17, 2021
 
 # "Tailwind CSS: From Zero to Production" on YouTube
@@ -10,11 +6,7 @@ February 17, 2021
 
 Simon Vrachliotis
 
-[@](https://twitter.com/simonswiss)
-
-<!-- -->
-
-[simonswiss](https://twitter.com/simonswiss)
+[@simonswiss](https://twitter.com/simonswiss)
 
 Today we're excited to release [Tailwind CSS: From Zero to Production](https://www.youtube.com/watch?v=elgqxmdVms8\&amp;list=PL5f_mz_zU5eXWYDXHUDOLBE0scnuJofO0\&amp;index=1), a new screencast series that teaches you everything you need to know to get up and running with Tailwind CSS v2.0 from scratch.
 
@@ -38,7 +30,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

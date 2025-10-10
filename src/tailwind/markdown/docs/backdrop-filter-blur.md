@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Filters
 
 # backdrop-filter: blur()
@@ -45,23 +41,23 @@ backdrop-blur-md
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `backdrop-blur-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->backdrop blur<!-- --> based on a completely custom value:
+Use the `backdrop-blur-[<value>]` syntax to set the backdrop blur based on a completely custom value:
 
 ```
 <div class="backdrop-blur-[2px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `backdrop-blur-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `backdrop-blur-(<custom-property>)` syntax:
 
 ```
 <div class="backdrop-blur-(--my-backdrop-blur) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `backdrop-blur-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `backdrop-blur-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `backdrop-filter: blur()` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `backdrop-filter: blur()` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="backdrop-blur-none md:backdrop-blur-lg ...">  <!-- ... --></div>
@@ -71,20 +67,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--blur-*` theme variables to customize the <!-- -->backdrop blur<!-- --> <!-- -->utilities in your project:
+Use the `--blur-*` theme variables to customize the backdrop blur utilities in your project:
 
 ```
 @theme {  --blur-2xs: 2px; }
 ```
 
-Now the<!-- --> `backdrop-blur-2xs` <!-- -->utility can be used in your markup:
+Now the `backdrop-blur-2xs` utility can be used in your markup:
 
 ```
 <div class="backdrop-blur-2xs">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

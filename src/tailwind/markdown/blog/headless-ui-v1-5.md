@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 February 24, 2022
 
 # Headless UI v1.5: The One With Comboboxes
@@ -10,21 +6,13 @@ February 24, 2022
 
 Jonathan Reinink
 
-[@](https://twitter.com/reinink)
-
-<!-- -->
-
-[reinink](https://twitter.com/reinink)
+[@reinink](https://twitter.com/reinink)
 
 ![](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadamwathan.f69b0b90.jpg\&w=96\&q=75)
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Headless UI v1.5](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.ec1e13c6.jpg\&w=3840\&q=75)](https://headlessui.dev)
 
@@ -72,8 +60,6 @@ Riding on the excitement of the new command palettes, we also just published a n
 
 It covers tons of interesting Tailwind tricks for getting the design and animations just right, and teaches you a ton about how to use the new combobox component and wire it into your app.
 
-<!-- -->
-
 ## [Try it out](#try-it-out)
 
 If you already have Headless UI installed in your project, be sure to upgrade to v1.5 to get the new `Combobox` component. This is a minor update so there are no breaking changes.
@@ -89,7 +75,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

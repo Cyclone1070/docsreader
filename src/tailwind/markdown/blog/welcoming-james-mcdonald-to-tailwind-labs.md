@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 9, 2021
 
 # Welcoming James McDonald to Tailwind Labs
@@ -10,11 +6,7 @@ March 9, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Many years ago I got a message from [Steve](https://twitter.com/steveschoger) that said something like:
 
@@ -45,7 +37,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

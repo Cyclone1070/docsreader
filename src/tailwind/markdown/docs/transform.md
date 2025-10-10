@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Transforms
 
 # transform
@@ -38,20 +34,16 @@ Use the `transform-none` utility to remove all of the transforms on an element a
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `transform-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->transform<!-- --> based on a completely custom value:
+Use the `transform-[<value>]` syntax to set the transform based on a completely custom value:
 
 ```
 <div class="transform-[matrix(1,2,3,4,5,6)] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `transform-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `transform-(<custom-property>)` syntax:
 
 ```
 <div class="transform-(--my-transform) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `transform-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
-
-<!--$-->
-
-<!--/$-->
+This is just a shorthand for `transform-[var(<custom-property>)]` that adds the `var()` function for you automatically.

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 May 25, 2024
 
 # Catalyst: Application layouts, navigation menus, description lists, and more
@@ -10,11 +6,7 @@ May 25, 2024
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Catalyst application layout preview](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcatalyst-header.5da8820a.jpg\&w=3840\&q=75)
 
@@ -141,7 +133,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

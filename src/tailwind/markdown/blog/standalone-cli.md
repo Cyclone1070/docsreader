@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 December 17, 2021
 
 # Standalone CLI: Use Tailwind CSS without Node.js
@@ -10,11 +6,7 @@ December 17, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Tailwind CSS is written in JavaScript and distributed as an npm package, which means you've always had to have Node.js and npm installed to use it.
 
@@ -67,7 +59,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

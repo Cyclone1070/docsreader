@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 September 24, 2020
 
 # "What's new in Tailwind CSS?" on YouTube
@@ -10,11 +6,7 @@ September 24, 2020
 
 Simon Vrachliotis
 
-[@](https://twitter.com/simonswiss)
-
-<!-- -->
-
-[simonswiss](https://twitter.com/simonswiss)
+[@simonswiss](https://twitter.com/simonswiss)
 
 A lot of cool stuff has been added to Tailwind since the last time we published any screencasts, so we thought it would be a great idea to record a little series that covers all of the new additions.
 
@@ -43,7 +35,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

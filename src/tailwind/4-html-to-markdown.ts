@@ -22,6 +22,12 @@ const TAILWIND_DIR = path.resolve(PROJECT_ROOT, 'docs/tailwindcss.com');
 const CLEAN_HTML_DIR = path.join(TAILWIND_DIR, 'cleanHtml');
 const OUTPUT_DIR = path.resolve(PROJECT_ROOT, 'src/tailwind/markdown');
 
+// Root-level directories to skip completely (not subdirectories!)
+const SKIP_ROOT_DIRS = ['installation', 'course', 'build-uis-that-dont-suck'];
+
+// Root-level files to skip (except index.html)
+const SKIP_ROOT_FILES = ['404.html', 'blog.html', 'brand.html', 'showcase.html', 'sponsor.html', 'course.html', 'build-uis-that-dont-suck.html'];
+
 interface ConversionStats {
   filesProcessed: number;
   errors: number;
@@ -34,6 +40,25 @@ const stats: ConversionStats = {
 
 async function convertHtmlToMarkdown(htmlPath: string): Promise<void> {
   try {
+    // Get relative path for filtering
+    const relativePath = path.relative(CLEAN_HTML_DIR, htmlPath);
+    
+    // Skip root-level directories only (not subdirectories like docs/installation)
+    const pathParts = relativePath.split(path.sep);
+    const firstDir = pathParts[0]; // Get the first directory in the path
+    
+    // Only skip if the FIRST directory is in our skip list (e.g., "installation/..." but not "docs/installation/...")
+    if (firstDir && pathParts.length > 1 && SKIP_ROOT_DIRS.includes(firstDir)) {
+      console.log(`⊘ Skipped (in excluded root directory): ${relativePath}`);
+      return;
+    }
+    
+    // Skip unwanted root-level files
+    if (!relativePath.includes(path.sep) && SKIP_ROOT_FILES.includes(path.basename(htmlPath))) {
+      console.log(`⊘ Skipped (root-level file): ${relativePath}`);
+      return;
+    }
+    
     const html = await fs.readFile(htmlPath, 'utf-8');
     
     // Use unified to convert HTML to Markdown
@@ -51,8 +76,7 @@ async function convertHtmlToMarkdown(htmlPath: string): Promise<void> {
 
     const markdown = String(file);
 
-    // Determine output path
-    const relativePath = path.relative(CLEAN_HTML_DIR, htmlPath);
+    // Determine output path (relativePath already defined above)
     const mdPath = path.join(OUTPUT_DIR, relativePath.replace(/\.html$/, '.md'));
 
     // Create directory if it doesn't exist

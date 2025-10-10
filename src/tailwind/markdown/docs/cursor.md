@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # cursor
@@ -67,30 +63,26 @@ SubmitSaving...Confirm
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `cursor-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->cursor<!-- --> based on a completely custom value:
+Use the `cursor-[<value>]` syntax to set the cursor based on a completely custom value:
 
 ```
 <button class="cursor-[url(hand.cur),_pointer] ...">  <!-- ... --></button>
 ```
 
-For CSS variables, you can also use the<!-- --> `cursor-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `cursor-(<custom-property>)` syntax:
 
 ```
 <button class="cursor-(--my-cursor) ...">  <!-- ... --></button>
 ```
 
-This is just a shorthand for<!-- --> `cursor-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `cursor-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `cursor` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `cursor` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <button class="cursor-not-allowed md:cursor-auto ...">  <!-- ... --></button>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

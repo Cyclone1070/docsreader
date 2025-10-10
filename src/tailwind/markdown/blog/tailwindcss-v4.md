@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 January 23, 2025
 
 # Tailwind CSS v4.0
@@ -10,11 +6,7 @@ January 23, 2025
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![Tailwind CSS v4.0](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcard.22502194.jpg\&w=3840\&q=75)
 
@@ -405,7 +397,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

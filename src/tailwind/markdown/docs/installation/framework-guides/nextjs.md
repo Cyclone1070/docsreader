@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Installation
 
 # Install Tailwind CSS with Next.js
@@ -12,7 +8,7 @@ Setting up Tailwind CSS in a Next.js project.
 
 #### Create your project
 
-Start by creating a new Next.js project if you don’t have one set up already. The most common approach is to use<!-- --> [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
+Start by creating a new Next.js project if you don’t have one set up already. The most common approach is to use [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
 Terminal
 
@@ -36,7 +32,7 @@ npm install tailwindcss @tailwindcss/postcss postcss
 
 #### Configure PostCSS Plugins
 
-Create a `postcss.config.mjs` file in the root of your project and add the<!-- --> `@tailwindcss/postcss` plugin to your PostCSS configuration.
+Create a `postcss.config.mjs` file in the root of your project and add the `@tailwindcss/postcss` plugin to your PostCSS configuration.
 
 postcss.config.mjs
 
@@ -79,7 +75,3 @@ page.tsx
 ```
 export default function Home() {  return (    <h1 className="text-3xl font-bold underline">      Hello world!    </h1>  )}
 ```
-
-<!--$-->
-
-<!--/$-->

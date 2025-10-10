@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # justify-self
@@ -154,14 +150,10 @@ Use the `justify-self-stretch` utility to stretch a grid item to fill the grid a
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `justify-self` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `justify-self` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="justify-self-start md:justify-self-end ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

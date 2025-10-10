@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 August 7, 2023
 
 # Meet Studio: Our beautiful new agency site template
@@ -10,11 +6,7 @@ August 7, 2023
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 We just released [Studio](https://tailwindui.com/templates/studio) — a beautiful new agency website template we've been working on for the last couple of months for Tailwind UI.
 
@@ -98,7 +90,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

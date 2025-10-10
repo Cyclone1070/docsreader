@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # text-align
@@ -61,14 +57,10 @@ So I started to walk into the water. I won't lie to you boys, I was terrified. B
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `text-align` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `text-align` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <p class="text-left md:text-center ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

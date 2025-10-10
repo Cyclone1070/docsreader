@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Interactivity
 
 # appearance
@@ -51,14 +47,10 @@ This is useful for reverting to the standard browser controls in certain accessi
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `appearance` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `appearance` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <select class="appearance-auto md:appearance-none ...">  <!-- ... --></select>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

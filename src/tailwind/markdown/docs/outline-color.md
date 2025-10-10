@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Borders
 
 # outline-color
@@ -306,23 +302,23 @@ Button C
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `outline-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->outline color<!-- --> based on a completely custom value:
+Use the `outline-[<value>]` syntax to set the outline color based on a completely custom value:
 
 ```
 <div class="outline-[#243c5a] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `outline-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `outline-(<custom-property>)` syntax:
 
 ```
 <div class="outline-(--my-color) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `outline-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `outline-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->an<!-- --> `outline-color` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix an `outline-color` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="outline md:outline-blue-400 ...">  <!-- ... --></div>
@@ -332,20 +328,16 @@ Learn more about using variants in the [variants documentation](/docs/hover-focu
 
 ## [Customizing your theme](#customizing-your-theme)
 
-Use the `--color-*` theme variables to customize the <!-- -->color<!-- --> <!-- -->utilities in your project:
+Use the `--color-*` theme variables to customize the color utilities in your project:
 
 ```
 @theme {  --color-regal-blue: #243c5a; }
 ```
 
-Now the<!-- --> `outline-regal-blue` <!-- -->utility can be used in your markup:
+Now the `outline-regal-blue` utility can be used in your markup:
 
 ```
 <div class="outline-regal-blue">  <!-- ... --></div>
 ```
 
-Learn more about customizing your theme in the<!-- --> [theme documentation](/docs/theme#customizing-your-theme).
-
-<!--$-->
-
-<!--/$-->
+Learn more about customizing your theme in the [theme documentation](/docs/theme#customizing-your-theme).

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 29, 2021
 
 # Headless UI v1.4: The One With Tabs
@@ -10,21 +6,13 @@ July 29, 2021
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 ![](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Frobinmalfait.e0195e4e.jpg\&w=96\&q=75)
 
 Robin Malfait
 
-[@](https://twitter.com/malfaitrobin)
-
-<!-- -->
-
-[malfaitrobin](https://twitter.com/malfaitrobin)
+[@malfaitrobin](https://twitter.com/malfaitrobin)
 
 [![Headless UI v1.4](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.bc1b0007.jpg\&w=3840\&q=75)](https://headlessui.dev)
 
@@ -105,7 +93,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

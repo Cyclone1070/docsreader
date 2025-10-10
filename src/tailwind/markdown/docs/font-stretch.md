@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Typography
 
 # font-stretch
@@ -77,30 +73,26 @@ The quick brown fox jumps over the lazy dog.
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `font-stretch-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->font width<!-- --> based on a completely custom value:
+Use the `font-stretch-[<value>]` syntax to set the font width based on a completely custom value:
 
 ```
 <p class="font-stretch-[66.66%] ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-For CSS variables, you can also use the<!-- --> `font-stretch-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `font-stretch-(<custom-property>)` syntax:
 
 ```
 <p class="font-stretch-(--my-font-width) ...">  Lorem ipsum dolor sit amet...</p>
 ```
 
-This is just a shorthand for<!-- --> `font-stretch-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `font-stretch-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `font-stretch` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `font-stretch` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="font-stretch-normal md:font-stretch-expanded ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->

@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 January 25, 2022
 
 # Automatic Class Sorting with Prettier
@@ -10,29 +6,19 @@ January 25, 2022
 
 Jonathan Reinink
 
-[@](https://twitter.com/reinink)
-
-<!-- -->
-
-[reinink](https://twitter.com/reinink)
+[@reinink](https://twitter.com/reinink)
 
 ![](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fadamwathan.f69b0b90.jpg\&w=96\&q=75)
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 [![Tailwind CSS v3.4](/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbanner.79c40690.jpg\&w=3840\&q=75)](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
 People have been talking about the best way to sort your utility classes in Tailwind projects for [at least four years](https://github.com/tailwindlabs/discuss/issues/97). Today we're excited to announce that you can finally stop worrying about it with the release of our official [Prettier plugin for Tailwind CSS](https://github.com/tailwindlabs/prettier-plugin-tailwindcss).
 
 This plugin scans your templates for class attributes containing Tailwind CSS classes, and then sorts those classes automatically following our [recommended class order](#how-classes-are-sorted).
-
-<!-- -->
 
 ```
 <!-- Before --><button class="text-white px-4 sm:px-8 py-2 sm:py-3 bg-sky-700 hover:bg-sky-800">...</button><!-- After --><button class="bg-sky-700 px-4 py-2 text-white hover:bg-sky-800 sm:px-8 sm:py-3">...</button>
@@ -68,15 +54,11 @@ This means that any classes in the base layer will be sorted first, followed by 
 
 Utilities themselves are sorted in the same order we sort them in the CSS as well, which means that any classes that override other classes always appear later in the class list:
 
-<!-- -->
-
 ```
 <div class="pt-2 p-4"><div class="p-4 pt-2">    <!-- ... -->  </div></div>
 ```
 
 The actual order of the different utilities is loosely based on the box model, and tries to put high impact classes that affect the layout at the beginning and decorative classes at the end, while also trying to keep related utilities together:
-
-<!-- -->
 
 ```
 <div class="text-gray-700 shadow-md p-3 border-gray-300 ml-4 h-24 flex border-2"><div class="ml-4 flex h-24 border-2 border-gray-300 p-3 text-gray-700 shadow-md">    <!-- ... -->  </div></div>
@@ -84,23 +66,17 @@ The actual order of the different utilities is loosely based on the box model, a
 
 Modifiers like `hover:` and `focus:` are grouped together and sorted after any plain utilities:
 
-<!-- -->
-
 ```
 <div class="hover:opacity-75 opacity-50 hover:scale-150 scale-125"><div class="scale-125 opacity-50 hover:scale-150 hover:opacity-75">    <!-- ... -->  </div></div>
 ```
 
 Responsive modifiers like `md:` and `lg:` are grouped together at the end in the same order they're configured in your theme — which is smallest to largest by default:
 
-<!-- -->
-
 ```
 <div class="lg:grid-cols-4 grid sm:grid-cols-3 grid-cols-2"><div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">    <!-- ... -->  </div></div>
 ```
 
 Any custom classes that don't come from Tailwind plugins (like classes for targeting a third-party library) are always sorted to the front, so it's easy to see when an element is using them:
-
-<!-- -->
 
 ```
 <div class="p-3 shadow-xl select2-dropdown"><div class="select2-dropdown p-3 shadow-xl">    <!-- ... -->  </div></div>
@@ -123,7 +99,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

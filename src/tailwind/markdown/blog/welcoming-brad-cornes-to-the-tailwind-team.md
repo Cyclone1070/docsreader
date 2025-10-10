@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 July 19, 2020
 
 # Welcoming Brad Cornes to the Team
@@ -10,11 +6,7 @@ July 19, 2020
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 Back in June, [Brad Cornes](https://twitter.com/bradlc) joined our company as our very first team member. We didn't have a blog to announce it back then, but better late than never right?
 
@@ -39,7 +31,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

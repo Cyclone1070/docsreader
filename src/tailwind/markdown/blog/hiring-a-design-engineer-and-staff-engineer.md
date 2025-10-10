@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 March 20, 2024
 
 # We're hiring a Design Engineer + Staff Engineer
@@ -10,11 +6,7 @@ March 20, 2024
 
 Adam Wathan
 
-[@](https://twitter.com/adamwathan)
-
-<!-- -->
-
-[adamwathan](https://twitter.com/adamwathan)
+[@adamwathan](https://twitter.com/adamwathan)
 
 We're hiring a [Design Engineer](https://v3.tailwindcss.com/careers/design-engineer) and [Staff Software Engineer](https://v3.tailwindcss.com/careers/staff-software-engineer) to work on some ambitious new projects with us.
 
@@ -98,7 +90,3 @@ Sign up for our newsletter.
 ---------------------------
 
 Subscribe
-
-<!--$-->
-
-<!--/$-->

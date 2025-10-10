@@ -1,7 +1,3 @@
-<!--$-->
-
-<!--/$-->
-
 Flexbox & Grid
 
 # grid-template-rows
@@ -74,30 +70,26 @@ Use the `grid-rows-subgrid` utility to adopt the row tracks defined by the item'
 
 ### [Using a custom value](#using-a-custom-value)
 
-Use the<!-- --> `grid-rows-[<value>]` <!-- -->syntax<!-- --> <!-- -->to set the <!-- -->rows<!-- --> based on a completely custom value:
+Use the `grid-rows-[<value>]` syntax to set the rows based on a completely custom value:
 
 ```
 <div class="grid-rows-[200px_minmax(900px,1fr)_100px] ...">  <!-- ... --></div>
 ```
 
-For CSS variables, you can also use the<!-- --> `grid-rows-(<custom-property>)` <!-- -->syntax:
+For CSS variables, you can also use the `grid-rows-(<custom-property>)` syntax:
 
 ```
 <div class="grid-rows-(--my-grid-rows) ...">  <!-- ... --></div>
 ```
 
-This is just a shorthand for<!-- --> `grid-rows-[var(<custom-property>)]` <!-- -->that adds the `var()` function for you automatically.
+This is just a shorthand for `grid-rows-[var(<custom-property>)]` that adds the `var()` function for you automatically.
 
 ### [Responsive design](#responsive-design)
 
-Prefix <!-- -->a<!-- --> `grid-template-rows` utility<!-- --> <!-- -->with a breakpoint variant like `md:` to only apply the utility at <!-- -->medium<!-- --> <!-- -->screen sizes and above:
+Prefix a `grid-template-rows` utility with a breakpoint variant like `md:` to only apply the utility at medium screen sizes and above:
 
 ```
 <div class="grid grid-rows-2 md:grid-rows-6 ...">  <!-- ... --></div>
 ```
 
 Learn more about using variants in the [variants documentation](/docs/hover-focus-and-other-states).
-
-<!--$-->
-
-<!--/$-->
